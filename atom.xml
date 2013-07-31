@@ -4,7 +4,7 @@
   <title><![CDATA[OE Knowledge Repository]]></title>
   <link href="http://theleglessllama.github.io/atom.xml" rel="self"/>
   <link href="http://theleglessllama.github.io/"/>
-  <updated>2013-07-31T11:43:28+08:00</updated>
+  <updated>2013-07-31T22:16:04+08:00</updated>
   <id>http://theleglessllama.github.io/</id>
   <author>
     <name><![CDATA[The Legless Llama LLP.]]></name>
@@ -22,17 +22,32 @@
 
 <p>Really want to learn Greek? Let&rsquo;s get started then. This is a &ldquo;Dummy&rsquo;s Guide&rdquo;, by the way. If you have a degree/major/minor in Computer Science, or are going to get one, it may be easier for you to follow the documentation provided by Octopress themselves in the link above.</p>
 
+<!--more-->
+
+
 <h2>Introduction to Octopress</h2>
 
-<p>Octopress is a blogging engine for hackers. It doesn&rsquo;t have a GUI like <a href="http://tumblr.com/">Tumblr</a> or <a href="http://blogspot.com/">Blogspot</a> with buttons for you to click and a nice space for you to upload photos and type your post. Everything&rsquo;s done from the command line, and posts are written a text file. Let&rsquo;s break that down bit by bit.</p>
+<p>Octopress is a blogging engine for hackers. It doesn&rsquo;t have a GUI like <a href="http://tumblr.com/">Tumblr</a> or <a href="http://blogspot.com/">Blogspot</a> with buttons for you to click and a nice space for you to upload photos and type your post. Everything&rsquo;s done from the command line, and posts are written in a text file. Let&rsquo;s break that down bit by bit.</p>
 
-<p>Octopress is built off a page management system called Jekyll. The reason why we don&rsquo;t set up Jekyll directly, is because Jekyll is one sonovabitch to get working, so we use Octopress.</p>
+<p>Octopress is built off a page management system called Jekyll. The reason why we don&rsquo;t set up Jekyll directly is not because we can&rsquo;t but is because Jekyll is one sonovabitch to get working, so we use Octopress.</p>
 
 <p>Octopress runs off Git and <a href="http://github.com/">Github</a>. Git is version control software. It looks at all your files, compares it to the &ldquo;stock&rdquo; version on a server and shows you the difference between the two, asking what changes you&rsquo;d like to keep and what you&rsquo;d like to throw away. Github is a website that stores all the Git data and makes life easier for people who find using Git from a command line too daunting.</p>
 
+<p>It&rsquo;s important that you understand this before we go any further.</p>
+
 <h2>Step 1: Get Permission</h2>
 
-<p>You&rsquo;ll need to be added as a collaborator in the repository in order to post. Create a Github account if you don&rsquo;t already have one, and drop a note to Kenneth to add you in.</p>
+<p>You&rsquo;ll need to be added as a collaborator in the repository in order to post. Create a Github account if you don&rsquo;t already have one, and drop a note to Kenneth or Linan to add you in.</p>
+
+<p>Once again, I&rsquo;ll say that if the following decision chain matches your current frame of mind:</p>
+
+<ol>
+<li>You&rsquo;re not good with Tech</li>
+<li>You&rsquo;re not feeling particularly adventurous and don&rsquo;t feel the immediate need to learn about these things</li>
+<li>You just want to make a one-off post
+You&rsquo;ll be likely better off passing us your article and letting us do the heavy-lifting for you. No worries there.</li>
+</ol>
+
 
 <h2>Step 2: Cloning Octopress</h2>
 
@@ -40,16 +55,29 @@
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
+<span class='line-number'>3</span>
 </pre></td><td class='code'><pre><code class='bash'><span class='line'>git clone git://github.com/theleglessllama.github.io.git OEKR
 </span><span class='line'><span class="nb">cd </span>OEKR
+</span><span class='line'>bundle install
 </span></code></pre></td></tr></table></div></figure>
 
 
-<p>in a directory of your choice. If you&rsquo;re not, visit our <a href="http://github.com/theleglessllama.github.io">Github Repository</a> and click &ldquo;Clone to Desktop&rdquo;. A dialog box will pop up asking you where you&rsquo;d like to save the files. Both methods are identical.</p>
+<p>in a directory of your choice.</p>
+
+<p>If you&rsquo;re not, visit our <a href="http://github.com/theleglessllama.github.io">Github Repository</a> and click &ldquo;Clone to Desktop&rdquo;. A dialog box will pop up asking you where you&rsquo;d like to save the files. Both methods are identical.</p>
+
+<p>If you&rsquo;ve already cloned Octopress before and just want to add a new post now, be sure to run:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>git pull
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>from the Octopress directory. This updates your local copy with the latest copy from the server, if there&rsquo;s been any changes.</p>
 
 <h2>Step 3: Creating a New Post</h2>
 
-<p>Hereforth you may shy away from the command line no longer. Open Terminal or <a href="http://www.iterm2.com/">iTerm</a> (we don&rsquo;t really care about Windows, but if it pleases you, open that bloatware called MS-DOS Prompt) and type:</p>
+<p>From here on you may shy away from the command line no longer. Open Terminal or <a href="http://www.iterm2.com/">iTerm</a> (we don&rsquo;t really care about Windows, but if it pleases you, open that bloatware called MS-DOS Prompt) and type:</p>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='bash'><span class='line'>rake new_post
@@ -58,11 +86,13 @@
 
 <p>This will return a prompt asking for the title of your post. Fill that up accordingly, hit enter, and your post will be created.</p>
 
-<p>Posts in Octopress are created as text files written in <a href="http://daringfireball.net/projects/markdown/">Markdown</a> (i.e. they have a file extension of either &ldquo;.md&rdquo; or &ldquo;.markdown&rdquo;). Markdown is a simple markup language that allows you to specify things like lists, headers, quotes and the likes. You should learn it.</p>
+<p>Posts in Octopress are created as text files written in <a href="http://daringfireball.net/projects/markdown/">Markdown</a> (i.e. they have a file extension of either &ldquo;.md&rdquo; or &ldquo;.markdown&rdquo;).</p>
+
+<p>Markdown is a simple markup language that allows you to specify things like lists, headers, quotes and the likes. You can and should learn it at the link above. It was written by the very guy who wrote the language, and it&rsquo;s really quite simple.</p>
 
 <h2>Step 4: Editing Your Post</h2>
 
-<p>The astute reader will realize that in the previous step, all we did was create the title of the post, and the post itself, but not the content of the post. Unfortunately brain-scanning technology hasn&rsquo;t yet been invented. We&rsquo;re told that Gary Lee is interested in working on that, but seeing as how he won&rsquo;t get his PhD until seven years later, and his bond won&rsquo;t be finished until six years on top of that, nope, it&rsquo;s not coming anytime soon.</p>
+<p><em>The astute reader will realize that in the previous step, all we did was create the title of the post, and the post itself, but not the content of the post. Unfortunately brain-scanning technology hasn&rsquo;t yet been invented. We&rsquo;re told that Gary Lee is interested in working on that, but seeing as how he won&rsquo;t get his PhD until seven years later, and his bond won&rsquo;t be finished until six years on top of that, nope, it&rsquo;s not coming anytime soon.</em></p>
 
 <p>The newly created post will be found in <code>source/_posts</code>, and named according to Jekyll&rsquo;s naming conventions. Basically it looks like this:</p>
 
@@ -71,7 +101,9 @@
 </span></code></pre></td></tr></table></div></figure>
 
 
-<p>Nothing fanciful, but it does the job. Open the file, and you&rsquo;ll be greeted by some preamble that looks like this:</p>
+<p>where <code>post-title</code> is a hyphen-delimited version of whatever you specified earlier in the title field. Nothing fanciful, but it does the job.</p>
+
+<p>Open the file, and you&rsquo;ll be greeted by a preamble that looks like this:</p>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -92,9 +124,121 @@
 </span></code></pre></td></tr></table></div></figure>
 
 
-<p>It&rsquo;s really self-explanatory. Change the title, add your categories (in the format [category A, category B], if you have more than one), then write your post below the triple hyphens.</p>
+<p>It&rsquo;s really self-explanatory. Let&rsquo;s break that down.</p>
+
+<p>Leave <code>layout</code>, <code>date</code> and <code>external-url</code> unchanged. No hard feelings, but if you know what those do, you won&rsquo;t really be needing this guide.</p>
+
+<p><code>title</code> is whatever you want your title to be. It must be encapsulated in double quotes. Feel free to get creative, but keep it short.</p>
+
+<p><code>comments</code> is a boolean (meaning it can be set to true or false) that enables or disables, well, comments. We won&rsquo;t insult your intelligence telling you what to do with this one.</p>
+
+<p><code>categories</code> is a little more interesting. This allows you to tag your posts so there&rsquo;s some sense of order to them. You can write something like:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='yaml'><span class='line'><span class="l-Scalar-Plain">categories</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">Shit Kenneth Says</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>across posts, and it&rsquo;ll get grouped neatly for you in a link in the sidebar. If you want to add multiple categories:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='yaml'><span class='line'><span class="l-Scalar-Plain">categories</span><span class="p-Indicator">:</span> <span class="p-Indicator">[</span><span class="nv">Shit Kenneth Says</span><span class="p-Indicator">,</span> <span class="nv">Shit Linan Says</span><span class="p-Indicator">]</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>or</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='yaml'><span class='line'><span class="l-Scalar-Plain">categories</span><span class="p-Indicator">:</span>
+</span><span class='line'><span class="p-Indicator">-</span> <span class="l-Scalar-Plain">Shit Kenneth Says</span>
+</span><span class='line'><span class="p-Indicator">-</span> <span class="l-Scalar-Plain">Shit Linan Says</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>will do the job for you. Savvy?</p>
+
+<p>Write your post after the <code>---</code> that signifies the end of the preamble. This can be as long as you&rsquo;d like it to be. Just don&rsquo;t write us the Iliad, or the Odyssey, or 50 Shades of Gray.</p>
+
+<h2>Step 5: Preview Your Post</h2>
+
+<p><em>By now you&rsquo;re thinking that this whole posting thing is like taking off your suspenders, pants and undergarments just so you can fart. Hold on a little longer, and I&rsquo;ll show you why it&rsquo;s worth the trouble.</em></p>
+
+<p>After you&rsquo;ve written your post you&rsquo;ll likely want to see how it looks like. We&rsquo;re vain people, we understand.</p>
+
+<p>Go back to the command line and run:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>rake generate
+</span><span class='line'>rake preview
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>The terminal window will spit out a bunch of text that seems to be telling you that files are changed (wow!) and that it&rsquo;s going to preview your post for you (double wow!).</p>
+
+<p>After you&rsquo;re done with that, go back to your browser and navigate to <a href="http://localhost:3000/">http://localhost:3000/</a>, where you&rsquo;ll see a local version of the blog waiting for you in all it&rsquo;s glory.</p>
+
+<p><em>If you look at Jethro or Kenneth&rsquo;s computers, you&rsquo;ll find that we </em>navigate to an address like <a href="http://octopress.dev">http://octopress.dev</a> instead of the funny localhost and four digit number thing. That&rsquo;s because we&rsquo;re awesome. No really. But if you want to learn to be awesome, here&rsquo;s <a href="">another article</a> on that for you._</p>
+
+<p>Give your post a good look over, and if you&rsquo;re happy with what you see, we&rsquo;ll now move into deploying the post to the actual site.</p>
+
+<p>If you&rsquo;d like to make any changes, go ahead and update your content in the <code>.markdown</code> post file. This time, however, because <code>rake preview</code> is already running, you don&rsquo;t need to re-run it. Changes will automagically be detected and applied live in the browser. I know, I know.</p>
+
+<h2>Step 6: Deploying</h2>
+
+<p><em>We&rsquo;d like to personally assure you that this is the most straightforward step in the entire damn tutorial.</em></p>
+
+<p>Go back to the command line, turn off <code>rake preview</code> if it&rsquo;s running (That&rsquo;s <code>Ctrl+C</code> on Windows or <code>CMD+C</code> on OS X if you don&rsquo;t know how). Then type:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>rake deploy
+</span><span class='line'>git add .
+</span><span class='line'>git commit -m <span class="s2">&quot;New Post&quot;</span>
+</span><span class='line'>git push origin <span class="nb">source</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Go for a coffee while the command line window spits out stuff that doesn&rsquo;t make sense to you.</p>
+
+<p>Come back, visit <a href="http://theleglessllama.github.io/">http://theleglessllama.github.io/</a> and give yourself a pat on the back. You&rsquo;re done.</p>
+
+<p>In case you&rsquo;re wondering what we did in that line of text above (boy, your teacher is going to be so proud of you), here&rsquo;s what actually happened.</p>
+
+<p>We first told Octopress to generate a production version of the post you created. This checks it for any errors, tidies up everything, and makes sure the links, images, and stuff like that all work properly.</p>
+
+<p>Next, it takes the new post you&rsquo;ve created and adds it to our live server. This process could take a bit of time depending on how fast your connection is.</p>
+
+<p>Once that&rsquo;s done, the next three lines tell your computer to update the source files on the back-end of the server with the raw data of the post that you created. This is done so that other people who pull from the repository can make edits to your post if they&rsquo;d like to.</p>
+
+<h2>Why The Hassle?</h2>
+
+<p>At the back of your head there&rsquo;s this nagging concern that this is possibly the most overkill way to create a blogpost ever. If you don&rsquo;t think that&rsquo;s the case (for some reason), here&rsquo;s a quick workflow to prove our point:</p>
+
+<ol>
+<li>Create Post</li>
+<li>Edit Preamble</li>
+<li>Write Post</li>
+<li>Preview</li>
+<li>Edit Post</li>
+<li>Generate Post</li>
+<li>Deploy Post</li>
+</ol>
+
+
+<p>This process allows us to have incredibly granular control over the posting process. With the exception of (7), everything else doesn&rsquo;t require the Internet. You could be in the middle of the Nevada Desert happily writing a post &ndash; or many posts &ndash; and only push everything back onto the server once you felt like it (or you returned to civilization).</p>
+
+<p>In addition, multiple people can all be writing posts at the same time on their own computers, and we wouldn&rsquo;t get confused at all. We&rsquo;d know who wrote exactly what, who changed what, and who&rsquo;s posting what. At any time if we&rsquo;re not comfortable with something, we can quickly roll-back to a previous version, and it&rsquo;ll all be seamless.</p>
+
+<h2>Further Reading</h2>
 
 <p>If you&rsquo;re still having difficulty, check out the <a href="http://octopress.org/docs/blogging/">documentation from Octopress themselves</a>.</p>
+
+<p>We&rsquo;d like to think that we described it in a manner that&rsquo;s hopefully a bit more friendly for beginners, but well, we didn&rsquo;t write the book &ndash; they did. So there.</p>
 ]]></content>
   </entry>
   
