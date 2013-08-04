@@ -4,20 +4,20 @@
   <title><![CDATA[OE Knowledge Repository]]></title>
   <link href="http://theleglessllama.github.io/atom.xml" rel="self"/>
   <link href="http://theleglessllama.github.io/"/>
-  <updated>2013-07-31T22:16:04+08:00</updated>
+  <updated>2013-08-04T20:51:49+08:00</updated>
   <id>http://theleglessllama.github.io/</id>
   <author>
     <name><![CDATA[The Legless Llama LLP.]]></name>
-    
+    <email><![CDATA[hello@openlectures.org]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
     <title type="html"><![CDATA[Creating a New Post]]></title>
-    <link href="http://theleglessllama.github.io/blog/2013/07/29/initial-post/"/>
+    <link href="http://theleglessllama.github.io/blog/creating-a-new-post/"/>
     <updated>2013-07-29T11:37:00+08:00</updated>
-    <id>http://theleglessllama.github.io/blog/2013/07/29/initial-post</id>
+    <id>http://theleglessllama.github.io/blog/creating-a-new-post</id>
     <content type="html"><![CDATA[<p>We&rsquo;re running <a href="http://octopress.org/">Octopress</a> on <a href="http://pages.github.com/">Github Pages</a>. If the previous sentence, or the links referred to in that sentence looked like Greek to you and you really only want to make one post, we highly recommend you approach someone from AAD, or Linan, or Kenneth, to help you publish your post. This method&rsquo;s been scientifically proven to cause less hair loss.</p>
 
 <p>Really want to learn Greek? Let&rsquo;s get started then. This is a &ldquo;Dummy&rsquo;s Guide&rdquo;, by the way. If you have a degree/major/minor in Computer Science, or are going to get one, it may be easier for you to follow the documentation provided by Octopress themselves in the link above.</p>
