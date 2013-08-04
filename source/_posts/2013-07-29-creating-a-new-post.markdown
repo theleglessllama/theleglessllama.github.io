@@ -9,6 +9,7 @@ categories: [Tech Support]
 We're running [Octopress](http://octopress.org/) on [Github Pages](http://pages.github.com/). If the previous sentence, or the links referred to in that sentence looked like Greek to you and you really only want to make one post, we highly recommend you approach someone from AAD, or Linan, or Kenneth, to help you publish your post. This method's been scientifically proven to cause less hair loss.
 
 Really want to learn Greek? Let's get started then. This is a "Dummy's Guide", by the way. If you have a degree/major/minor in Computer Science, or are going to get one, it may be easier for you to follow the documentation provided by Octopress themselves in the link above.
+<!--more-->
 
 ## Introduction to Octopress
 Octopress is a blogging engine for hackers. It doesn't have a GUI like [Tumblr](http://tumblr.com/) or [Blogspot](http://blogspot.com/) with buttons for you to click and a nice space for you to upload photos and type your post. Everything's done from the command line, and posts are written in a text file. Let's break that down bit by bit. 
@@ -23,6 +24,7 @@ It's important that you understand this before we go any further.
 You'll need to be added as a collaborator in the repository in order to post. Create a Github account if you don't already have one, and drop a note to Kenneth or Linan to add you in.
 
 Once again, I'll say that if the following decision chain matches your current frame of mind:
+
 1. You're not good with Tech
 2. You're not feeling particularly adventurous and don't feel the immediate need to learn about these things
 3. You just want to make a one-off post
@@ -30,17 +32,24 @@ You'll be likely better off passing us your article and letting us do the heavy-
 
 ## Step 2: Cloning Octopress
 We'll start by making a copy of Octopress. If you're a command-line addict, run:
-```bash
+``` bash
 git clone git://github.com/theleglessllama.github.io.git OEKR
 cd OEKR
+bundle install
 ```
 in a directory of your choice. 
 
 If you're not, visit our [Github Repository](http://github.com/theleglessllama.github.io) and click "Clone to Desktop". A dialog box will pop up asking you where you'd like to save the files. Both methods are identical.
 
+If you've already cloned Octopress before and just want to add a new post now, be sure to run:
+``` bash
+git pull
+```
+from the Octopress directory. This updates your local copy with the latest copy from the server, if there's been any changes.
+
 ## Step 3: Creating a New Post
 From here on you may shy away from the command line no longer. Open Terminal or [iTerm](http://www.iterm2.com/) (we don't really care about Windows, but if it pleases you, open that bloatware called MS-DOS Prompt) and type:
-```bash
+``` bash
 rake new_post
 ```
 This will return a prompt asking for the title of your post. Fill that up accordingly, hit enter, and your post will be created. 
@@ -58,9 +67,8 @@ YYYY-MM-DD-post-title.markdown
 ```
 where ```post-title``` is a hyphen-delimited version of whatever you specified earlier in the title field. Nothing fanciful, but it does the job. 
 
-### Post Preamble
 Open the file, and you'll be greeted by a preamble that looks like this:
-```yaml
+``` yaml
 ---
 layout: post
 title: "Your Title"
@@ -74,21 +82,26 @@ It's really self-explanatory. Let's break that down.
 
 Leave ```layout```, ```date``` and ```external-url``` unchanged. No hard feelings, but if you know what those do, you won't really be needing this guide. 
 
-```title``` is whatever you want your title to be. It must be encapsulated in double quotes. Feel free to get creative, but keep it short.
+``title`` is whatever you want your title to be. It must be encapsulated in double quotes. Feel free to get creative, but keep it short.
 
-```comments``` is a boolean (meaning it can be set to true or false) that enables or disables, well, comments. We won't insult your intelligence telling you what to do with this one.
+``comments`` is a boolean (meaning it can be set to true or false) that enables or disables, well, comments. We won't insult your intelligence telling you what to do with this one.
 
-```categories``` is a little more interesting. This allows you to tag your posts so there's some sense of order to them. You can write something like:
-```yaml
-categories: "Shit Kenneth Says"
+``categories`` is a little more interesting. This allows you to tag your posts so there's some sense of order to them. You can write something like:
+``` yaml
+categories: Shit Kenneth Says
 ```
 across posts, and it'll get grouped neatly for you in a link in the sidebar. If you want to add multiple categories:
-```yaml
+``` yaml
 categories: [Shit Kenneth Says, Shit Linan Says]
+```
+or
+``` yaml
+categories:
+- Shit Kenneth Says
+- Shit Linan Says
 ```
 will do the job for you. Savvy?
 
-### Post Body
 Write your post after the ```---``` that signifies the end of the preamble. This can be as long as you'd like it to be. Just don't write us the Iliad, or the Odyssey, or 50 Shades of Gray.
 
 ## Step 5: Preview Your Post
@@ -97,7 +110,8 @@ _By now you're thinking that this whole posting thing is like taking off your su
 After you've written your post you'll likely want to see how it looks like. We're vain people, we understand. 
 
 Go back to the command line and run:
-```bash
+``` bash
+rake generate
 rake preview
 ```
 The terminal window will spit out a bunch of text that seems to be telling you that files are changed (wow!) and that it's going to preview your post for you (double wow!). 
@@ -114,8 +128,7 @@ If you'd like to make any changes, go ahead and update your content in the ```.m
 _We'd like to personally assure you that this is the most straightforward step in the entire damn tutorial._
 
 Go back to the command line, turn off ```rake preview``` if it's running (That's ```Ctrl+C``` on Windows or ```CMD+C``` on OS X if you don't know how). Then type:
-```bash
-rake generate
+``` bash
 rake deploy
 git add .
 git commit -m "New Post"
@@ -135,6 +148,7 @@ Once that's done, the next three lines tell your computer to update the source f
 
 ## Why The Hassle?
 At the back of your head there's this nagging concern that this is possibly the most overkill way to create a blogpost ever. If you don't think that's the case (for some reason), here's a quick workflow to prove our point:
+
 1. Create Post
 2. Edit Preamble
 3. Write Post
@@ -142,6 +156,7 @@ At the back of your head there's this nagging concern that this is possibly the 
 5. Edit Post
 6. Generate Post
 7. Deploy Post
+
 This process allows us to have incredibly granular control over the posting process. With the exception of (7), everything else doesn't require the Internet. You could be in the middle of the Nevada Desert happily writing a post - or many posts - and only push everything back onto the server once you felt like it (or you returned to civilization). 
 
 In addition, multiple people can all be writing posts at the same time on their own computers, and we wouldn't get confused at all. We'd know who wrote exactly what, who changed what, and who's posting what. At any time if we're not comfortable with something, we can quickly roll-back to a previous version, and it'll all be seamless.
