@@ -15,5 +15,7 @@
 	</div>
 {% else %}
 	<h1 class="title" itemprop="name">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
+  <em>Read in {{ page.content | reading_time }}</em>
+  <div class="date">{{ page.date | timeago }}</div>
 	<div class="entry-content" itemprop="articleBody">{{ content }}</div>
 {% endif %}
