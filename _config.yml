@@ -3,8 +3,8 @@
 # ----------------------- #
 
 url: http://theleglessllama.github.io
-title: OE Knowledge Repository
-subtitle: Shit Falls From The Heavens
+title: The Cookie Jar
+subtitle:
 author: The Legless Llama LLP.
 simple_search: http://google.com/search
 description:
@@ -44,7 +44,7 @@ pygments: false # default python pygments have been replaced by pygments.rb
 paginate: 10          # Posts per page on the blog index
 pagination_dir: blog  # Directory base for pagination URLs eg. /blog/page/2/
 recent_posts: 5       # Posts in the sidebar Recent Posts section
-excerpt_link: "Read More &rarr;"  # "Continue reading" link text at the bottom of excerpted articles
+excerpt_link: "Read More"  # "Continue reading" link text at the bottom of excerpted articles
 
 titlecase: true       # Converts page and post titles to titlecase
 
@@ -63,7 +63,7 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # ----------------------- #
 
 # Github repositories
-github_user: openlectures
+github_user: theleglessllama
 github_repo_count: 5
 github_show_profile_link: true
 github_skip_forks: true
@@ -90,11 +90,11 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
+disqus_short_name: thecookiejar
 disqus_show_comment_count: false
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: UA-42985678-1
 
 # Facebook Like
 facebook_like: true
