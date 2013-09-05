@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Tech Support | The Cookie Jar]]></title>
   <link href="http://theleglessllama.github.io/blog/categories/tech-support/atom.xml" rel="self"/>
   <link href="http://theleglessllama.github.io/"/>
-  <updated>2013-08-06T20:59:31+08:00</updated>
+  <updated>2013-09-05T18:05:56-04:00</updated>
   <id>http://theleglessllama.github.io/</id>
   <author>
     <name><![CDATA[The Legless Llama LLP.]]></name>
@@ -14,9 +14,18 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Post Production]]></title>
+    <link href="http://theleglessllama.github.io/blog/post-production/"/>
+    <updated>2013-08-11T20:40:00-04:00</updated>
+    <id>http://theleglessllama.github.io/blog/post-production</id>
+    <content type="html"><![CDATA[<p>Many people believe that the modern-age implement we call a camera is capable of miraculous feats.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Creating a New Post]]></title>
     <link href="http://theleglessllama.github.io/blog/creating-a-new-post/"/>
-    <updated>2013-07-29T11:37:00+08:00</updated>
+    <updated>2013-07-29T11:37:00-04:00</updated>
     <id>http://theleglessllama.github.io/blog/creating-a-new-post</id>
     <content type="html"><![CDATA[<p>We&rsquo;re running <a href="http://octopress.org/">Octopress</a> on <a href="http://pages.github.com/">Github Pages</a>. If the previous sentence, or the links referred to in that sentence looked like Greek to you and you really only want to make one post, we highly recommend you approach someone from AAD, or Linan, or Kenneth, to help you publish your post. This method&rsquo;s been scientifically proven to cause less hair loss.</p>
 

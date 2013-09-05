@@ -4,7 +4,7 @@
   <title><![CDATA[The Cookie Jar]]></title>
   <link href="http://theleglessllama.github.io/atom.xml" rel="self"/>
   <link href="http://theleglessllama.github.io/"/>
-  <updated>2013-08-06T20:59:31+08:00</updated>
+  <updated>2013-09-05T18:05:56-04:00</updated>
   <id>http://theleglessllama.github.io/</id>
   <author>
     <name><![CDATA[The Legless Llama LLP.]]></name>
@@ -14,9 +14,119 @@
 
   
   <entry>
+    <title type="html"><![CDATA[openquestions Style Guide]]></title>
+    <link href="http://theleglessllama.github.io/blog/openquestions-style-guide/"/>
+    <updated>2013-09-05T17:57:00-04:00</updated>
+    <id>http://theleglessllama.github.io/blog/openquestions-style-guide</id>
+    <content type="html"><![CDATA[<h2>How To Answer</h2>
+
+<p>Thank the person for asking us. After all, no one is asking them to use our service. It also helps us make them feel welcome! Remember, we&rsquo;re trying to build a community base.</p>
+
+<p>Put your answer in brief in your first paragraph or first few lines. That way, people who&rsquo;re lazy to click &lsquo;Continue Reading&rsquo; can still get the gist of what&rsquo;s being written without delving into a potential wall of text.</p>
+
+<p>Illustrate step by step how you arrive at the answer. Remember to signpost your answer – always link what you&rsquo;re saying to the previous step as well as its location in the thought process so people can follow your train of thought!</p>
+
+<p>Be Friendly! Place yourself in the reader&rsquo;s shoes. Use &ldquo;I&rdquo;, &ldquo;You&rdquo;, and &ldquo;We&rdquo; rather than the passive voice. Also check your tone for unintentional sarcasm &ndash; as a precaution.</p>
+
+<p>Use original content where you can. If you&rsquo;re referring to a source, summarize it rather than just directing the person to the link &ndash; which most of us know creates some sort of nightmare.</p>
+
+<p>If an OL lecture is available that provides the answer, or instruction in that direction, use and prioritize that &ndash; remember to link to it!</p>
+
+<p>If a question skews towards asking for an outright solution, provide less content and more hints. Guide the reader&rsquo;s train of thought and challenge them to think rather than providing them with the exact answer, though we still want them to get some sense of it.</p>
+
+<p>Try to gauge and answer at the level of the reader. If you&rsquo;re going in-depth, provide a simple answer first, then clearly tell the reader that you&rsquo;re getting down and dirty.</p>
+
+<p>Never insert non-essential information that may not aid the reader&rsquo;s understanding of said concept. Knowing that a cat is furrier than other cats doesn&rsquo;t necessarily tell the reader that a cat is a cute pet.</p>
+
+<p>Recall that in OL lectures, we checkpoint the lectures so that it becomes understandable. Same thing here – remember to checkpoint your answers, giving a brief so that readers know what you&rsquo;re writing in a particular paragraph.</p>
+
+<h2>Internal Triaging</h2>
+
+<p>Questions should be triaged internally for the standard of the questions asked in this manner:</p>
+
+<ol>
+<li>Serious curriculum/academic work</li>
+<li>Questions that ask for pure information</li>
+<li>Crazy questions (ultra-high difficulty, think Olympiad level)</li>
+<li>General inquiries</li>
+<li>Troll questions (lowest priority)</li>
+</ol>
+
+
+<p>This allows us to determine the urgency of the question, as well as the level of response required Use the following spectrum to decide how much of an answer should be given. The more the question skews toward asking for solutions, the less content and more hints should be given.</p>
+
+<h2>Quality Control</h2>
+
+<p>Remember to have these things in mind when you answer questions:</p>
+
+<ul>
+<li><strong>Is it correct?</strong> We need to ensure that the answer is factually accurate! Make sure you know what you are doing when you are answering the question. Wikipedia and Google can be good resources for you to double check your information.</li>
+<li><strong>Is the level suitable?</strong> People come here to look for a quick fix, do not spam them with excessive information. The guideline is A levels, however, other concepts that are slightly above A levels can be brought in if it aids the understanding. Things that are beyond A levels should be clearly labelled.</li>
+<li><strong>Follow the guidelines for equations!</strong> Right now we are still writing equations in Facebook so before we work out a more elegant way of presenting them, follow the guidelines below.</li>
+</ul>
+
+
+<h2>Formatting</h2>
+
+<ul>
+<li><strong>Basic English.</strong> If a question is poorly phrased when sent in, polish it up for the sake of clarity, and make it look presentable before posting it on the site. You don&rsquo;t see aunt agony/submission columns on established sites posting up questions with broken English.</li>
+<li><strong>No Walls of Text.</strong> We&rsquo;re sure you wouldn&rsquo;t want to read a never-ending string of text! Keep it simple and in point form. It works the same way as in the videos &ndash; we want bite-sized info!
+Proper, simple, understandable should be the maxim.</li>
+<li><strong>Hash-tagging should be done appropriately.</strong> To aid the users in finding our answers, hash tag as such: #OQMath or #OQ<insert subject here>, where first letter of the subject should be capitalized.</li>
+</ul>
+
+
+<h2>Equations</h2>
+
+<p>As a rule of thumb, avoid LaTeX syntax until we get the LaTeX interpreter up. While it does make everything crystal clear, not everyone is familiar with LaTeX. So for now, we do everything linearly:</p>
+
+<ul>
+<li><strong>Basic operations</strong>, i.e. addition, subtraction, multiplication and division, stick with the common symbols. For multiplication, use &ldquo;x&rdquo; only when there is NO variable x in the question. If there is, switch to the usage of brackets for multiplication (e.g. For 3 times 4x write (3)(4x) instead of 3x4x)</li>
+<li><strong>Exponential terms</strong>. &ldquo;^&rdquo; represents power, so a ^ b would be a to the power of b. Keep track of what is in the power term. If the exponential has more than one term use brackets, e.g. a ^ (b+c).</li>
+<li><strong>Logarithms</strong>. Any log taken to base 10, express it as lg and when it is base e, express it as ln. Simple. Now for a different base, e.g. log of b taken to base a, write log b (base a). Also, use brackets when you log more than one term.</li>
+<li><strong>Fractions</strong>. Usually, they can be represented by the simple divide sign, e.g. a/b. Do take note of what&rsquo;s in the numerator and denominator when typing complicated fractions. For example, (1-x)/y is different from 1 &ndash; x/y – so remember to use brackets when the numerator and/or the denominator has more than one term.</li>
+<li><strong>Differentials</strong>. The simple dy/dx approach&hellip; should work. For specifying the differential at points, write it in this form: dy/dx(x=a) = 10</li>
+<li><strong>Integration</strong>. Similarly, the simple &ldquo;int&rdquo; will represent the integration sign. Now to specify boundaries, put the limits in brackets. For example, int(x)[2,3] would mean integrating from 2-3.</li>
+<li><strong>Spaces</strong>. Try not the type whole equations out without any spaces, do add the where appropriate &ndash; e.g. cos(kx) = 1 &ndash; 2sin<sup>2</sup>(kx/2)</li>
+</ul>
+
+
+<h2>Posting</h2>
+
+<ul>
+<li>Ideally, posts should be verified by at least 1 more person before being approved for publication. However, if your answer has remained unverified for more than 3 days, approach someone directly to verify it for you.</li>
+<li>Posts should be posted within 7 days of submission.</li>
+<li>Posts should be checked for:
+
+<ul>
+<li>Accuracy</li>
+<li>Clarity and Coherence</li>
+<li>Formatting &amp; Language</li>
+</ul>
+</li>
+<li>Publish status: Yes (Y), No (N), and Pending (P) are self-explanatory. When you&rsquo;re done answering a question, remember to assign them in the document so everyone&rsquo;s kept in the loop.</li>
+<li>Schedule posts every half hour to an hour, depending on the amount of questions we have to post for the day.</li>
+<li>Peak hour(s) are usually from around 6pm-10pm. One post may be scheduled in mid-afternoon if suitable.</li>
+<li>Check for posts already scheduled before scheduling more in the Activity Log on Facebook, or we may have overlapping posts!</li>
+<li>If the answer is inaccurate/incomplete after posting, edit the post accordingly, and comment with on the post with the page with &lsquo;post amended&rsquo; or something of sorts.</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Post Production]]></title>
+    <link href="http://theleglessllama.github.io/blog/post-production/"/>
+    <updated>2013-08-11T20:40:00-04:00</updated>
+    <id>http://theleglessllama.github.io/blog/post-production</id>
+    <content type="html"><![CDATA[<p>Many people believe that the modern-age implement we call a camera is capable of miraculous feats.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Creating a New Post]]></title>
     <link href="http://theleglessllama.github.io/blog/creating-a-new-post/"/>
-    <updated>2013-07-29T11:37:00+08:00</updated>
+    <updated>2013-07-29T11:37:00-04:00</updated>
     <id>http://theleglessllama.github.io/blog/creating-a-new-post</id>
     <content type="html"><![CDATA[<p>We&rsquo;re running <a href="http://octopress.org/">Octopress</a> on <a href="http://pages.github.com/">Github Pages</a>. If the previous sentence, or the links referred to in that sentence looked like Greek to you and you really only want to make one post, we highly recommend you approach someone from AAD, or Linan, or Kenneth, to help you publish your post. This method&rsquo;s been scientifically proven to cause less hair loss.</p>
 

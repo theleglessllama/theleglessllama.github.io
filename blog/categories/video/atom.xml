@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Video | The Cookie Jar]]></title>
+  <link href="http://theleglessllama.github.io/blog/categories/video/atom.xml" rel="self"/>
+  <link href="http://theleglessllama.github.io/"/>
+  <updated>2013-09-05T18:05:56-04:00</updated>
+  <id>http://theleglessllama.github.io/</id>
+  <author>
+    <name><![CDATA[The Legless Llama LLP.]]></name>
+    <email><![CDATA[hello@openlectures.org]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Post Production]]></title>
+    <link href="http://theleglessllama.github.io/blog/post-production/"/>
+    <updated>2013-08-11T20:40:00-04:00</updated>
+    <id>http://theleglessllama.github.io/blog/post-production</id>
+    <content type="html"><![CDATA[<p>Many people believe that the modern-age implement we call a camera is capable of miraculous feats.</p>
+]]></content>
+  </entry>
+  
+</feed>
