@@ -98,3 +98,9 @@ google_analytics_tracking_id: UA-42985678-1
 
 # Facebook Like
 facebook_like: true
+
+# Pandoc
+markdown: pandoc
+pandoc:
+    skip: false
+    flags: '--smart --mathjax'
