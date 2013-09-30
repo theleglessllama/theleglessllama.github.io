@@ -14,12 +14,9 @@ group :development do
   gem 'rb-fsevent', '~> 0.9'
   gem 'stringex', '~> 1.4.0'
   gem 'liquid', '~> 2.3.0'
-<<<<<<< HEAD
   gem 'jekyll-timeago'
   gem 'gsl'
-=======
   gem 'directory_watcher', '1.4.1'
->>>>>>> 4cc76820331b2b327c03d27216e79bc55a58c505
 end
 
 gem 'sinatra', '~> 1.4.2'
