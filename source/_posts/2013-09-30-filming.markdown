@@ -1,0 +1,57 @@
+---
+layout: post
+title: "Filming"
+date: 2013-09-30 00:38
+comments: true
+categories: [Filming, Guides]
+---
+
+## Camera Software Setup
+
+- Load [Marvel-Cine Picture Style](http://marvelsfilm.wordpress.com/marvels-cine-canon/) into the camera.
+- (Optional) Capture using EOS Utility
+	- Camera Settings/Remote Shooting > Live View
+	- Focus > Quick Mode > Expand: AF Selection
+	- Align the nose of the lecturer to the upper-right intersection point of the grid
+
+## Lighting
+
+- Three point lighting (or 4 point if you have enough space)
+- Two in front of lecturer, two diffused to illuminate the background. 
+	- The two in front should have 3 and 2 bulbs each.
+	- The one behind should be lower power, diffused, to even out shadows on the green screen
+
+## Sound
+
+Assuming that you're using **Sennheiser XSW 12 Presentation Set**,
+
+- Set sound level on the transmitte to -20dB or -30dB, depending on voice of the lecturer
+- Make sure that the clip-on lapel mic is on the outside, not the inside of the lecturer's clothing
+- Point the microphone at the direction of the lecturer's mouth
+- Minmize the distance between the lecturer's mouth and the lapel mic
+- Make sure that no piece of clothing or hair is in contact with the lapel mic. That creates fuzzy hisses. 
+
+## For 5D MkIII
+
+
+## For Rebel T4i
+
+- Select the [Marvel-Cine Picture Style](http://marvelsfilm.wordpress.com/marvels-cine-canon/) **picture style** you have just loaded into the camera
+- Set (Assuming you're using the 40mm f2.8 Pancake Lens)
+	- ISO: 400
+	- Shutter Speed: 40
+	- Aperture: 5.6
+- Set white balance to "White Fluorescent Light"
+- Set recording format to 1080p, 30FPS
+- Ensure that external microphone is plugged in, do a sound test to ensure that sound level hovers around the yellow level
+
+## Positioning the Lecturer
+
+- Position lecturer at the upper right third
+- Tilt lecturer 30 degrees towards the lecturer's right such that he's asymmetric and facing the animations. 
+- Ensure the Lecturer is cut off at around the diaphragm, and that he has sufficient space to move his hands
+
+## Additional Tips
+
+- Have bottles of water (or the lecturer's favorite drink) ready
+- Have non-choking snacks (so no biscuits)
