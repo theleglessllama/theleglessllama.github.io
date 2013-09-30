@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Filming | The Cookie Jar]]></title>
+  <link href="http://theleglessllama.github.io/blog/categories/filming/atom.xml" rel="self"/>
+  <link href="http://theleglessllama.github.io/"/>
+  <updated>2013-09-30T16:57:28-04:00</updated>
+  <id>http://theleglessllama.github.io/</id>
+  <author>
+    <name><![CDATA[The Legless Llama LLP.]]></name>
+    <email><![CDATA[hello@openlectures.org]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Filming]]></title>
+    <link href="http://theleglessllama.github.io/blog/filming/"/>
+    <updated>2013-09-30T00:38:00-04:00</updated>
+    <id>http://theleglessllama.github.io/blog/filming</id>
+    <content type="html"><![CDATA[<h2 id="camera-software-setup">Camera Software Setup</h2>
+<ul>
+<li>Load <a href="http://marvelsfilm.wordpress.com/marvels-cine-canon/">Marvel-Cine Picture Style</a> into the camera.</li>
+<li>(Optional) Capture using EOS Utility
+<ul>
+<li>Camera Settings/Remote Shooting &gt; Live View</li>
+<li>Focus &gt; Quick Mode &gt; Expand: AF Selection</li>
+<li>Align the nose of the lecturer to the upper-right intersection point of the grid</li>
+</ul></li>
+</ul>
+<h2 id="lighting">Lighting</h2>
+<ul>
+<li>Three point lighting (or 4 point if you have enough space)</li>
+<li>Two in front of lecturer, two diffused to illuminate the background.
+<ul>
+<li>The two in front should have 3 and 2 bulbs each.</li>
+<li>The one behind should be lower power, diffused, to even out shadows on the green screen</li>
+</ul></li>
+</ul>
+<h2 id="sound">Sound</h2>
+<p>Assuming that you’re using <strong>Sennheiser XSW 12 Presentation Set</strong>,</p>
+<ul>
+<li>Set sound level on the transmitte to -20dB or -30dB, depending on voice of the lecturer</li>
+<li>Make sure that the clip-on lapel mic is on the outside, not the inside of the lecturer’s clothing</li>
+<li>Point the microphone at the direction of the lecturer’s mouth</li>
+<li>Minmize the distance between the lecturer’s mouth and the lapel mic</li>
+<li>Make sure that no piece of clothing or hair is in contact with the lapel mic. That creates fuzzy hisses.</li>
+</ul>
+<h2 id="for-5d-mkiii">For 5D MkIII</h2>
+<h2 id="for-rebel-t4i">For Rebel T4i</h2>
+<ul>
+<li>Select the <a href="http://marvelsfilm.wordpress.com/marvels-cine-canon/">Marvel-Cine Picture Style</a> <strong>picture style</strong> you have just loaded into the camera</li>
+<li>Set (Assuming you’re using the 40mm f2.8 Pancake Lens)
+<ul>
+<li>ISO: 400</li>
+<li>Shutter Speed: 40</li>
+<li>Aperture: 5.6</li>
+</ul></li>
+<li>Set white balance to “White Fluorescent Light”</li>
+<li>Set recording format to 1080p, 30FPS</li>
+<li>Ensure that external microphone is plugged in, do a sound test to ensure that sound level hovers around the yellow level</li>
+</ul>
+<h2 id="positioning-the-lecturer">Positioning the Lecturer</h2>
+<ul>
+<li>Position lecturer at the upper right third</li>
+<li>Tilt lecturer 30 degrees towards the lecturer’s right such that he’s asymmetric and facing the animations.</li>
+<li>Ensure the Lecturer is cut off at around the diaphragm, and that he has sufficient space to move his hands</li>
+</ul>
+<h2 id="additional-tips">Additional Tips</h2>
+<ul>
+<li>Have bottles of water (or the lecturer’s favorite drink) ready</li>
+<li>Have non-choking snacks (so no biscuits)</li>
+</ul>]]></content>
+  </entry>
+  
+</feed>
