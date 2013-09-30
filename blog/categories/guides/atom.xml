@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Guides | The Cookie Jar]]></title>
+  <link href="http://theleglessllama.github.io/blog/categories/guides/atom.xml" rel="self"/>
+  <link href="http://theleglessllama.github.io/"/>
+  <updated>2013-09-29T23:08:52-04:00</updated>
+  <id>http://theleglessllama.github.io/</id>
+  <author>
+    <name><![CDATA[The Legless Llama LLP.]]></name>
+    <email><![CDATA[hello@openlectures.org]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Script Editing Checklist]]></title>
+    <link href="http://theleglessllama.github.io/blog/script-editing-checklist/"/>
+    <updated>2013-09-29T23:01:00-04:00</updated>
+    <id>http://theleglessllama.github.io/blog/script-editing-checklist</id>
+    <content type="html"><![CDATA[<h2 id="examples">Examples</h2>
+<ul>
+<li>Funny and real life examples
+<ul>
+<li>Encourage the reader to take part in the example by putting them in a position to participate</li>
+<li>e.g. “let’s say you’re walking down the street and you slip and fall”.</li>
+</ul></li>
+<li>Return to the concept after the example
+<ul>
+<li>Link examples back to the concept always, and try to “trivialize” the concept by making it sound simple</li>
+<li>e.g. “so what we just did was calculate <this> using the Pythagoras formula”</li>
+<li>e.g. “now we’ll take that and try to do it with trigonometry. We’ll be using sin, cos, and tangent”</li>
+<li>e.g. “so what we just did was apply sin, cos and tangent to a triangle”.</li>
+</ul></li>
+</ul>
+<h2 id="talk-not-lecture-to-the-viewer">Talk, not lecture to the viewer</h2>
+<ul>
+<li>Clear signposting
+<ul>
+<li>Tell the reader before you start talking about something.</li>
+<li>e.g. announcing, “now let’s look at <this>”</li>
+</ul></li>
+<li>Use action words
+<ul>
+<li>Invite the reader to participate</li>
+<li>e.g. “let’s calculate <this> using the Pythagoras formula”</li>
+<li>Never ever use passive voice</li>
+<li>e.g. Don’t say “it is possible to calculate”</li>
+<li>e.g. “we can calculate” or “let’s calculate”</li>
+</ul></li>
+<li>Don’t use nominalization unless it’s absolutely necessary
+<ul>
+<li>Makes you sound like a boring fuck</li>
+<li>e.g. “The explanation of this theory can be made in this manner” vs. “You can explain it this way.”</li>
+<li>Then make it even simpler</li>
+<li>e.g. “This is why.”</li>
+</ul></li>
+</ul>
+<h2 id="make-fun-of-stuff">Make fun of stuff</h2>
+<ul>
+<li>Statement + Because + Sarcastic Statement
+<ul>
+<li>Difficult names: “Chebyshev Polynomials, because clearly ‘polynomials’ weren’t already difficult enough to pronounce”.</li>
+<li>“We’re going to calculate how long it would take a box to fall to the ground if it were pushed out of the plane, because we’re totally to need to know that tomorrow”.</li>
+</ul></li>
+<li>Make fun of yourself
+<ul>
+<li>Because that’s the one person whom you can be sure not to offend.</li>
+<li>e.g. “Someone who’s lazy like me will prefer this method”</li>
+</ul></li>
+<li>Make fun of examiners
+<ul>
+<li>Because that’s everyone’s common enemy</li>
+<li>e.g. “The examiner will ask you how many miles you ran. Now that’s not really his business, but they always ask you stupid things. So just answer him.”</li>
+</ul></li>
+</ul>
+<h2 id="a-script-not-lecture-notes">A script, not lecture notes</h2>
+<ul>
+<li>Add a pre.g.ant pause after every question
+<ul>
+<li>“What’s the algorithm for the Runge-Kutta method for differential equations?” <em>pause for 2 seconds</em> “Fall to your knees and pray baby, pray.”</li>
+<li>“Who’s the sexiest man on earth?” <em>pause for 2 seconds</em> “Why, Linan, of course.”</li>
+</ul></li>
+<li>Don’t sound like a textbook
+<ul>
+<li>So don’t use textbook language</li>
+<li>e.g. “Note that this theorem is…” vs “Be careful! This theorem is…”</li>
+<li>e.g. “Given these assumptions, we can proceed with our derivation.” vs “We know that these are our assumptions. So let’s proceed!”</li>
+</ul></li>
+</ul>
+<h2 id="vary-your-sentence-length">Vary your sentence length</h2>
+<ul>
+<li>If every sentence was as long as this one, reading it would be a total pain in the ass - imagine: you’d have to make it through the entire thing on one single breath, and after that you’d still have to process it. Now take that previous sentence and use your marvelous imagination to predict how it would look like if you were reading out a hundred of them in a row and someone were listening to it all the way - you’re going to sound like a balmy old professor who has not been listened to for the past three decades of his life.</li>
+<li>See that above? Give it a read through and you’ll find that it’s bad. Really bad. It’s not so much about the actual content as it is about the length and monotonicity of the sentences. The simplest way to fix it is to keep sentences short if possible, and make them long only when you need them! Easy peasy!</li>
+</ul>
+<h2 id="vary-punctuation">Vary punctuation</h2>
+<ul>
+<li>A lecturer sees “!” very differently from “.”, and will read them accordingly.</li>
+<li>e.g. “This is the end of the lecture.” vs. “This is the end of the lecture!”</li>
+</ul>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[openquestions Style Guide]]></title>
+    <link href="http://theleglessllama.github.io/blog/openquestions-style-guide/"/>
+    <updated>2013-09-05T17:57:00-04:00</updated>
+    <id>http://theleglessllama.github.io/blog/openquestions-style-guide</id>
+    <content type="html"><![CDATA[<h2 id="how-to-answer">How To Answer</h2>
+<p>Thank the person for asking us. After all, no one is asking them to use our service. It also helps us make them feel welcome! Remember, we’re trying to build a community base.</p>
+<p>Put your answer in brief in your first paragraph or first few lines. That way, people who’re lazy to click ‘Continue Reading’ can still get the gist of what’s being written without delving into a potential wall of text.</p>
+<p>Illustrate step by step how you arrive at the answer. Remember to signpost your answer – always link what you’re saying to the previous step as well as its location in the thought process so people can follow your train of thought!</p>
+<p>Be Friendly! Place yourself in the reader’s shoes. Use “I”, “You”, and “We” rather than the passive voice. Also check your tone for unintentional sarcasm - as a precaution.</p>
+<p>Use original content where you can. If you’re referring to a source, summarize it rather than just directing the person to the link - which most of us know creates some sort of nightmare.</p>
+<p>If an OL lecture is available that provides the answer, or instruction in that direction, use and prioritize that - remember to link to it!</p>
+<p>If a question skews towards asking for an outright solution, provide less content and more hints. Guide the reader’s train of thought and challenge them to think rather than providing them with the exact answer, though we still want them to get some sense of it.</p>
+<p>Try to gauge and answer at the level of the reader. If you’re going in-depth, provide a simple answer first, then clearly tell the reader that you’re getting down and dirty.</p>
+<p>Never insert non-essential information that may not aid the reader’s understanding of said concept. Knowing that a cat is furrier than other cats doesn’t necessarily tell the reader that a cat is a cute pet.</p>
+<p>Recall that in OL lectures, we checkpoint the lectures so that it becomes understandable. Same thing here – remember to checkpoint your answers, giving a brief so that readers know what you’re writing in a particular paragraph.</p>
+<h2 id="internal-triaging">Internal Triaging</h2>
+<p>Questions should be triaged internally for the standard of the questions asked in this manner:</p>
+<ol type="1">
+<li>Serious curriculum/academic work</li>
+<li>Questions that ask for pure information</li>
+<li>Crazy questions (ultra-high difficulty, think Olympiad level)</li>
+<li>General inquiries</li>
+<li>Troll questions (lowest priority)</li>
+</ol>
+<p>This allows us to determine the urgency of the question, as well as the level of response required Use the following spectrum to decide how much of an answer should be given. The more the question skews toward asking for solutions, the less content and more hints should be given.</p>
+<h2 id="quality-control">Quality Control</h2>
+<p>Remember to have these things in mind when you answer questions:</p>
+<ul>
+<li><strong>Is it correct?</strong> We need to ensure that the answer is factually accurate! Make sure you know what you are doing when you are answering the question. Wikipedia and Google can be good resources for you to double check your information.</li>
+<li><strong>Is the level suitable?</strong> People come here to look for a quick fix, do not spam them with excessive information. The guideline is A levels, however, other concepts that are slightly above A levels can be brought in if it aids the understanding. Things that are beyond A levels should be clearly labelled.</li>
+<li><strong>Follow the guidelines for equations!</strong> Right now we are still writing equations in Facebook so before we work out a more elegant way of presenting them, follow the guidelines below.</li>
+</ul>
+<h2 id="formatting">Formatting</h2>
+<ul>
+<li><strong>Basic English.</strong> If a question is poorly phrased when sent in, polish it up for the sake of clarity, and make it look presentable before posting it on the site. You don’t see aunt agony/submission columns on established sites posting up questions with broken English.</li>
+<li><strong>No Walls of Text.</strong> We’re sure you wouldn’t want to read a never-ending string of text! Keep it simple and in point form. It works the same way as in the videos - we want bite-sized info! Proper, simple, understandable should be the maxim.</li>
+<li><strong>Hash-tagging should be done appropriately.</strong> To aid the users in finding our answers, hash tag as such: #OQMath or #OQ<insert subject here>, where first letter of the subject should be capitalized.</li>
+</ul>
+<h2 id="equations">Equations</h2>
+<p>As a rule of thumb, avoid LaTeX syntax until we get the LaTeX interpreter up. While it does make everything crystal clear, not everyone is familiar with LaTeX. So for now, we do everything linearly:</p>
+<ul>
+<li><strong>Basic operations</strong>, i.e. addition, subtraction, multiplication and division, stick with the common symbols. For multiplication, use “x” only when there is NO variable x in the question. If there is, switch to the usage of brackets for multiplication (e.g. For 3 times 4x write (3)(4x) instead of 3x4x)</li>
+<li><strong>Exponential terms</strong>. “^” represents power, so a ^ b would be a to the power of b. Keep track of what is in the power term. If the exponential has more than one term use brackets, e.g. a ^ (b+c).</li>
+<li><strong>Logarithms</strong>. Any log taken to base 10, express it as lg and when it is base e, express it as ln. Simple. Now for a different base, e.g. log of b taken to base a, write log b (base a). Also, use brackets when you log more than one term.</li>
+<li><strong>Fractions</strong>. Usually, they can be represented by the simple divide sign, e.g. a/b. Do take note of what’s in the numerator and denominator when typing complicated fractions. For example, (1-x)/y is different from 1 - x/y – so remember to use brackets when the numerator and/or the denominator has more than one term.</li>
+<li><strong>Differentials</strong>. The simple dy/dx approach… should work. For specifying the differential at points, write it in this form: dy/dx(x=a) = 10</li>
+<li><strong>Integration</strong>. Similarly, the simple “int” will represent the integration sign. Now to specify boundaries, put the limits in brackets. For example, int(x)[2,3] would mean integrating from 2-3.</li>
+<li><strong>Spaces</strong>. Try not the type whole equations out without any spaces, do add the where appropriate - e.g. cos(kx) = 1 - 2sin^2(kx/2)</li>
+</ul>
+<h2 id="posting">Posting</h2>
+<ul>
+<li>Ideally, posts should be verified by at least 1 more person before being approved for publication. However, if your answer has remained unverified for more than 3 days, approach someone directly to verify it for you.</li>
+<li>Posts should be posted within 7 days of submission.</li>
+<li>Posts should be checked for:</li>
+<li>Accuracy</li>
+<li>Clarity and Coherence</li>
+<li>Formatting &amp; Language</li>
+<li>Publish status: Yes (Y), No (N), and Pending (P) are self-explanatory. When you’re done answering a question, remember to assign them in the document so everyone’s kept in the loop.</li>
+<li>Schedule posts every half hour to an hour, depending on the amount of questions we have to post for the day.</li>
+<li>Peak hour(s) are usually from around 6pm-10pm. One post may be scheduled in mid-afternoon if suitable.</li>
+<li>Check for posts already scheduled before scheduling more in the Activity Log on Facebook, or we may have overlapping posts!</li>
+<li>If the answer is inaccurate/incomplete after posting, edit the post accordingly, and comment with on the post with the page with ‘post amended’ or something of sorts.</li>
+</ul>]]></content>
+  </entry>
+  
+</feed>
