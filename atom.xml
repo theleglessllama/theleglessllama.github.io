@@ -4,7 +4,7 @@
   <title><![CDATA[The Cookie Jar]]></title>
   <link href="http://theleglessllama.github.io/atom.xml" rel="self"/>
   <link href="http://theleglessllama.github.io/"/>
-  <updated>2013-10-02T15:46:43-04:00</updated>
+  <updated>2013-10-02T15:57:38-04:00</updated>
   <id>http://theleglessllama.github.io/</id>
   <author>
     <name><![CDATA[The Legless Llama LLP.]]></name>
@@ -12,6 +12,351 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Subtitle Outsourcing Terms]]></title>
+    <link href="http://theleglessllama.github.io/blog/subtitle-outsourcing-terms/"/>
+    <updated>2013-10-02T14:15:00-04:00</updated>
+    <id>http://theleglessllama.github.io/blog/subtitle-outsourcing-terms</id>
+    <content type="html"><![CDATA[<h2 id="expected-product">Expected Product</h2>
+<ul>
+<li><p><strong>Assignment Format</strong>: You will be given a <strong>playlist</strong>. This playlist contains videos that you will need to transcribe.</p></li>
+<li><p><strong>Submission Format</strong>: plain text, one plain text file per video</p></li>
+<li><p><strong>Filename</strong>: Number of the video in the playlist, followed by the title of the video. e.g. <em>1 Why Rebut</em> for <a href="http://www.youtube.com/watch?v=y5oW1ofFRgs">http://www.youtube.com/watch?v=y5oW1ofFRgs</a></p></li>
+<li><p><strong>Inaudibles</strong>: Should there be inaudible words in the video, type “&lt;inaudible&gt;” in the text file. The videos are of high quality and inaudible words should not appear. We do not accept transcripts with more than 1 inaudible word.</p></li>
+</ul>
+<h2 id="style-guide">Style Guide</h2>
+<ul>
+<li><p>Single space after periods. e.g. <em>Lorem ipsum sit. Dolor amet.</em> not <em>Lorem ipsum sit. Dolor amet.</em></p></li>
+<li><p>Single space after commas. e.g. <em>Lorem ipsum sit, dolor amet.</em> not <em>Lorem ipsum sit, dolor amet.</em></p></li>
+<li><p>All “I” should be capitalized. First letters of sentences should be capitalized.</p></li>
+<li><p>Capitalization for speeches should be done correctly. e.g. <em>She said, “Hello!”</em> not <em>She said, “hello!”</em>.</p></li>
+<li><p>Punctuation for speeches should be done correctly, specifically the correct use of open quotes and close quotes. e.g. <em>She said, “Hello!”</em> not <em>She said, “Hello!”</em>.</p></li>
+<li><p>Technical terms should be capitalized. e.g. <em>The Demand Curve is a representation…</em> and not <em>The demand curve is a representation…</em></p></li>
+<li><p>Double line break after every sentence. If the sentence is longer than 60 characters (whitespace included), add a double line break to separate the sentence. e.g. If a line is<br /> <em>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</em><br /> it should be type set as<br /> <em>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</em><br /> <em>sed do eiusmod tempor incididunt ut labore et dolore magna</em><br /> <em>aliqua.</em></p></li>
+<li><p>All mathematical symbols should be converted to text. e.g. <em>A times B</em> not <em>A x B</em></p></li>
+</ul>
+<h2 id="sample-transcription">Sample Transcription</h2>
+<p>Filename Format:</p>
+<p>Number of the video in the playlist, followed by the title of the video. e.g. <em>1 Why Rebut</em> for <a href="http://www.youtube.com/watch?v=y5oW1ofFRgs">http://www.youtube.com/watch?v=y5oW1ofFRgs</a></p>
+<p>For example, <code>1 Demand Curve.txt</code></p>
+<p>Text File Contents:</p>
+<div class='bogus-wrapper'>
+<notextile>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+<span class='line-number'>33</span>
+<span class='line-number'>34</span>
+<span class='line-number'>35</span>
+<span class='line-number'>36</span>
+<span class='line-number'>37</span>
+<span class='line-number'>38</span>
+<span class='line-number'>39</span>
+<span class='line-number'>40</span>
+<span class='line-number'>41</span>
+<span class='line-number'>42</span>
+<span class='line-number'>43</span>
+<span class='line-number'>44</span>
+<span class='line-number'>45</span>
+<span class='line-number'>46</span>
+<span class='line-number'>47</span>
+<span class='line-number'>48</span>
+<span class='line-number'>49</span>
+<span class='line-number'>50</span>
+<span class='line-number'>51</span>
+<span class='line-number'>52</span>
+<span class='line-number'>53</span>
+<span class='line-number'>54</span>
+<span class='line-number'>55</span>
+<span class='line-number'>56</span>
+<span class='line-number'>57</span>
+<span class='line-number'>58</span>
+<span class='line-number'>59</span>
+<span class='line-number'>60</span>
+<span class='line-number'>61</span>
+<span class='line-number'>62</span>
+<span class='line-number'>63</span>
+<span class='line-number'>64</span>
+<span class='line-number'>65</span>
+<span class='line-number'>66</span>
+<span class='line-number'>67</span>
+<span class='line-number'>68</span>
+<span class='line-number'>69</span>
+<span class='line-number'>70</span>
+<span class='line-number'>71</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>So now before I bore you with the things like
+</span><span class='line'>
+</span><span class='line'>demand curve, supply curve,
+</span><span class='line'>
+</span><span class='line'>consumer surplus and producer surplus,
+</span><span class='line'>
+</span><span class='line'>let’s go into something simpler.
+</span><span class='line'>
+</span><span class='line'>Everyone knows cookies.
+</span><span class='line'>
+</span><span class='line'>You know cookie I know cookie,
+</span><span class='line'>
+</span><span class='line'>I have a pack of cookies here.
+</span><span class='line'>
+</span><span class='line'>Let’s say that the pack of cookies cost five dollars.
+</span><span class='line'>
+</span><span class='line'>Now if it’s five dollars and you say:
+</span><span class='line'>
+</span><span class='line'>"Hey the cookies are a little bit expensive,
+</span><span class='line'>
+</span><span class='line'>I can’t afford that many cookies.
+</span><span class='line'>
+</span><span class='line'>I’m just going to buy one pack of cookies."
+</span><span class='line'>
+</span><span class='line'>So great. Imagine a graph.
+</span><span class='line'>
+</span><span class='line'>The vertical axis being the price.
+</span><span class='line'>
+</span><span class='line'>The horizontal axis being the quantity.
+</span><span class='line'>
+</span><span class='line'>So what you do is that,
+</span><span class='line'>
+</span><span class='line'>I say at 5 dollars, I buy one pack of cookies.
+</span><span class='line'>
+</span><span class='line'>Now if I drop the price to 4 dollars,
+</span><span class='line'>
+</span><span class='line'>Now 4 dollars I say:
+</span><span class='line'>
+</span><span class='line'>"Hey maybe I can buy a little bit more cookies,
+</span><span class='line'>
+</span><span class='line'>maybe my mom wants it,
+</span><span class='line'>
+</span><span class='line'>maybe I want to eat a little bit more",
+</span><span class='line'>
+</span><span class='line'>so you say I buy two packets.
+</span><span class='line'>
+</span><span class='line'>If I lower the price a little bit more,
+</span><span class='line'>
+</span><span class='line'>and I lower it to 3 dollars, I say:
+</span><span class='line'>
+</span><span class='line'>"3 dollars. Right I’ll buy even more cookies",
+</span><span class='line'>
+</span><span class='line'>so I’ll buy three packets.
+</span><span class='line'>
+</span><span class='line'>I lower it to 2 dollars, you buy 4 packets.
+</span><span class='line'>
+</span><span class='line'>I lower it to 1 dollar, you buy 5 packets.
+</span><span class='line'>
+</span><span class='line'>Now, what you see happening is that on the graph,
+</span><span class='line'>
+</span><span class='line'>you have 5 dots.
+</span><span class='line'>
+</span><span class='line'>And these dots basically show the relationship
+</span><span class='line'>
+</span><span class='line'>between the price and the quantity.
+</span><span class='line'>
+</span><span class='line'>So in the next checkpoint,
+</span><span class='line'>
+</span><span class='line'>you will see how these points
+</span><span class='line'>
+</span><span class='line'>can be joined together to form the demand curve.</span></code></pre></td></tr></table></div></figure>
+</notextile>
+</div>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Subtitles]]></title>
+    <link href="http://theleglessllama.github.io/blog/subtitles/"/>
+    <updated>2013-10-02T14:10:00-04:00</updated>
+    <id>http://theleglessllama.github.io/blog/subtitles</id>
+    <content type="html"><![CDATA[<h2 id="style-guide">Style Guide</h2>
+<ul>
+<li><p>Single space after periods. e.g. <em>Lorem ipsum sit. Dolor amet.</em> not <em>Lorem ipsum sit. Dolor amet.</em></p></li>
+<li><p>Single space after commas. e.g. <em>Lorem ipsum sit, dolor amet.</em> not <em>Lorem ipsum sit, dolor amet.</em></p></li>
+<li><p>All “I” should be capitalized. First letters of sentences should be capitalized.</p></li>
+<li><p>Capitalization for speeches should be done correctly. e.g. <em>She said, “Hello!”</em> not <em>She said, “hello!”</em>.</p></li>
+<li><p>Punctuation for speeches should be done correctly, specifically the correct use of open quotes and close quotes. e.g. <em>She said, “Hello!”</em> not <em>She said, “Hello!”</em>.</p></li>
+<li><p>Technical terms should be capitalized. e.g. <em>The Demand Curve is a representation…</em> and not <em>The demand curve is a representation…</em></p></li>
+<li><p>Double line break after every sentence. If the sentence is longer than 60 characters (whitespace included), add a double line break to separate the sentence. e.g. If a line is<br /> <em>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</em><br /> it should be type set as<br /> <em>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</em><br /> <em>sed do eiusmod tempor incididunt ut labore et dolore magna</em><br /> <em>aliqua.</em></p></li>
+<li><p>All mathematical symbols should be converted to text. e.g. <em>A times B</em> not <em>A x B</em></p></li>
+</ul>
+<h2 id="sample-transcription">Sample Transcription</h2>
+<p>Filename Format:</p>
+<p>Number of the video in the playlist, followed by the title of the video. e.g. <em>1 Why Rebut</em> for !<a href="http://www.youtube.com/watch?v=y5oW1ofFRgs">http://www.youtube.com/watch?v=y5oW1ofFRgs</a></p>
+<p>For example, <code>1 Demand Curve.txt</code></p>
+<p>Text File Contents:</p>
+<div class='bogus-wrapper'>
+<notextile>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+<span class='line-number'>33</span>
+<span class='line-number'>34</span>
+<span class='line-number'>35</span>
+<span class='line-number'>36</span>
+<span class='line-number'>37</span>
+<span class='line-number'>38</span>
+<span class='line-number'>39</span>
+<span class='line-number'>40</span>
+<span class='line-number'>41</span>
+<span class='line-number'>42</span>
+<span class='line-number'>43</span>
+<span class='line-number'>44</span>
+<span class='line-number'>45</span>
+<span class='line-number'>46</span>
+<span class='line-number'>47</span>
+<span class='line-number'>48</span>
+<span class='line-number'>49</span>
+<span class='line-number'>50</span>
+<span class='line-number'>51</span>
+<span class='line-number'>52</span>
+<span class='line-number'>53</span>
+<span class='line-number'>54</span>
+<span class='line-number'>55</span>
+<span class='line-number'>56</span>
+<span class='line-number'>57</span>
+<span class='line-number'>58</span>
+<span class='line-number'>59</span>
+<span class='line-number'>60</span>
+<span class='line-number'>61</span>
+<span class='line-number'>62</span>
+<span class='line-number'>63</span>
+<span class='line-number'>64</span>
+<span class='line-number'>65</span>
+<span class='line-number'>66</span>
+<span class='line-number'>67</span>
+<span class='line-number'>68</span>
+<span class='line-number'>69</span>
+<span class='line-number'>70</span>
+<span class='line-number'>71</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>So now before I bore you with the things like
+</span><span class='line'>
+</span><span class='line'>demand curve, supply curve,
+</span><span class='line'>
+</span><span class='line'>consumer surplus and producer surplus,
+</span><span class='line'>
+</span><span class='line'>let’s go into something simpler.
+</span><span class='line'>
+</span><span class='line'>Everyone knows cookies.
+</span><span class='line'>
+</span><span class='line'>You know cookie I know cookie,
+</span><span class='line'>
+</span><span class='line'>I have a pack of cookies here.
+</span><span class='line'>
+</span><span class='line'>Let’s say that the pack of cookies cost five dollars.
+</span><span class='line'>
+</span><span class='line'>Now if it’s five dollars and you say:
+</span><span class='line'>
+</span><span class='line'>"Hey the cookies are a little bit expensive,
+</span><span class='line'>
+</span><span class='line'>I can’t afford that many cookies.
+</span><span class='line'>
+</span><span class='line'>I’m just going to buy one pack of cookies."
+</span><span class='line'>
+</span><span class='line'>So great. Imagine a graph.
+</span><span class='line'>
+</span><span class='line'>The vertical axis being the price.
+</span><span class='line'>
+</span><span class='line'>The horizontal axis being the quantity.
+</span><span class='line'>
+</span><span class='line'>So what you do is that,
+</span><span class='line'>
+</span><span class='line'>I say at 5 dollars, I buy one pack of cookies.
+</span><span class='line'>
+</span><span class='line'>Now if I drop the price to 4 dollars,
+</span><span class='line'>
+</span><span class='line'>Now 4 dollars I say:
+</span><span class='line'>
+</span><span class='line'>"Hey maybe I can buy a little bit more cookies,
+</span><span class='line'>
+</span><span class='line'>maybe my mom wants it,
+</span><span class='line'>
+</span><span class='line'>maybe I want to eat a little bit more",
+</span><span class='line'>
+</span><span class='line'>so you say I buy two packets.
+</span><span class='line'>
+</span><span class='line'>If I lower the price a little bit more,
+</span><span class='line'>
+</span><span class='line'>and I lower it to 3 dollars, I say:
+</span><span class='line'>
+</span><span class='line'>"3 dollars. Right I’ll buy even more cookies",
+</span><span class='line'>
+</span><span class='line'>so I’ll buy three packets.
+</span><span class='line'>
+</span><span class='line'>I lower it to 2 dollars, you buy 4 packets.
+</span><span class='line'>
+</span><span class='line'>I lower it to 1 dollar, you buy 5 packets.
+</span><span class='line'>
+</span><span class='line'>Now, what you see happening is that on the graph,
+</span><span class='line'>
+</span><span class='line'>you have 5 dots.
+</span><span class='line'>
+</span><span class='line'>And these dots basically show the relationship
+</span><span class='line'>
+</span><span class='line'>between the price and the quantity.
+</span><span class='line'>
+</span><span class='line'>So in the next checkpoint,
+</span><span class='line'>
+</span><span class='line'>you will see how these points
+</span><span class='line'>
+</span><span class='line'>can be joined together to form the demand curve.</span></code></pre></td></tr></table></div></figure>
+</notextile>
+</div>]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Filming]]></title>
@@ -108,6 +453,7 @@
 <li>Filming</li>
 <li>Slide Design</li>
 <li>Post Processing</li>
+<li>Subtitles</li>
 <li>Design</li>
 </ul></li>
 <li>Processes
@@ -127,6 +473,7 @@
 <li>Internship</li>
 <li>Employment</li>
 <li>Recognition</li>
+<li>Outsourcing</li>
 </ul></li>
 </ul>]]></content>
   </entry>
