@@ -29,6 +29,7 @@ All posts should contain the category that it resides in and its master category
 	- Filming
 	- Slide Design
 	- Post Processing
+	- Subtitles
 	- Design
 - Processes
 	- Recruitment
@@ -42,3 +43,4 @@ All posts should contain the category that it resides in and its master category
 	- Internship
 	- Employment
 	- Recognition
+	- Outsourcing
