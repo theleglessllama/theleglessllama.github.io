@@ -4,7 +4,7 @@
   <title><![CDATA[The Cookie Jar]]></title>
   <link href="http://theleglessllama.github.io/atom.xml" rel="self"/>
   <link href="http://theleglessllama.github.io/"/>
-  <updated>2013-10-03T09:31:53-04:00</updated>
+  <updated>2013-10-05T00:16:53-04:00</updated>
   <id>http://theleglessllama.github.io/</id>
   <author>
     <name><![CDATA[The Legless Llama LLP.]]></name>
@@ -12,6 +12,14 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Talent and Genius]]></title>
+    <link href="http://theleglessllama.github.io/blog/talent-and-genius/"/>
+    <updated>2013-10-05T00:13:00-04:00</updated>
+    <id>http://theleglessllama.github.io/blog/talent-and-genius</id>
+    <content type="html"><![CDATA[<p><img src="http://toasterdog.com/files/1600-Talent-Quotable.png" alt="Talent hits a target no one else can hit, genius hits a target no one else can see" /> You need both — and hard work to ensure that you keep finding new targets.</p>]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Subtitle Outsourcing Terms]]></title>
