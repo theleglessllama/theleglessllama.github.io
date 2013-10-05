@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Oracle | The Cookie Jar]]></title>
+  <link href="http://oracle.openlectures.org/blog/categories/oracle/atom.xml" rel="self"/>
+  <link href="http://oracle.openlectures.org/"/>
+  <updated>2013-10-05T18:29:59-04:00</updated>
+  <id>http://oracle.openlectures.org/</id>
+  <author>
+    <name><![CDATA[The Legless Llama LLP.]]></name>
+    <email><![CDATA[hello@openlectures.org]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Category Definitions]]></title>
+    <link href="http://oracle.openlectures.org/blog/category-definitions/"/>
+    <updated>2013-09-30T00:28:00-04:00</updated>
+    <id>http://oracle.openlectures.org/blog/category-definitions</id>
+    <content type="html"><![CDATA[<h2 id="categories">Categories</h2>
+<p>Categories pertain to the different departments and operations of openlectures. Categories are defined at the header of a post.</p>
+<pre><code>---
+layout: post
+title: &quot;Category Definitions&quot;
+date: 2013-09-30 00:28
+comments: true
+categories: [Category1, Category2, Category3]
+---</code></pre>
+<p>All posts should contain the category that it resides in and its master category.</p>
+<h2 id="list-of-categories">List of Categories</h2>
+<ul>
+<li>Guides
+<ul>
+<li>Writing</li>
+<li>Filming</li>
+<li>Slide Design</li>
+<li>Post Processing</li>
+<li>Subtitles</li>
+<li>Design</li>
+</ul></li>
+<li>Processes
+<ul>
+<li>Recruitment</li>
+<li>Welfare</li>
+</ul></li>
+<li>Organizational Structure
+<ul>
+<li>Partners</li>
+<li>Singapore</li>
+<li>United States</li>
+</ul></li>
+<li>Contract Templates
+<ul>
+<li>Non Disclosure</li>
+<li>Internship</li>
+<li>Employment</li>
+<li>Recognition</li>
+<li>Outsourcing</li>
+</ul></li>
+</ul>]]></content>
+  </entry>
+  
+</feed>
