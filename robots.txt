@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: /error/
+Disallow: 
 
 Sitemap: http://oracle.openlectures.org/sitemap.xml 
