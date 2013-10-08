@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Contract Templates | The Cookie Jar]]></title>
+  <link href="http://oracle.openlectures.org/blog/categories/contract-templates/atom.xml" rel="self"/>
+  <link href="http://oracle.openlectures.org/"/>
+  <updated>2013-10-07T22:46:53-04:00</updated>
+  <id>http://oracle.openlectures.org/</id>
+  <author>
+    <name><![CDATA[The Legless Llama LLP.]]></name>
+    <email><![CDATA[hello@openlectures.org]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Intern Offer Letter]]></title>
+    <link href="http://oracle.openlectures.org/blog/intern-offer-letter/"/>
+    <updated>2013-10-03T10:35:00-04:00</updated>
+    <id>http://oracle.openlectures.org/blog/intern-offer-letter</id>
+    <content type="html"><![CDATA[<h2 id="uses">Uses</h2>
+<p>This letter</p>
+<ul>
+<li>Extends an offer of internship to a possible intern</li>
+<li>Recognizes the intern as a member of openlectures</li>
+<li>States the terms of internship, including
+<ul>
+<li>Duties</li>
+<li>Compensation</li>
+<li>Confidentiality Statement</li>
+<li>Conflict of Interest Declaration</li>
+</ul></li>
+</ul>
+<h2 id="compilation">Compilation</h2>
+<p>Compile the follow code using XeLaTeX, replacing the relevant variables.</p>
+<h2 id="code">Code</h2>
+<pre><code>\documentclass{scrartcl}
+\usepackage{dominatrix}
+\usepackage[top=2cm,bottom=3cm]{geometry}
+
+\def\DefaultWidthofText{\textwidth}
+
+% Variables
+\newcommand{\mycompany}{openlectures\xspace}
+\newcommand{\me}{Linan Qiu\xspace}
+\newcommand{\myposition}{Founder\xspace}
+\newcommand{\you}{John Doe\xspace}
+\newcommand{\yourposition}{Student Intern\xspace}
+\newcommand{\supervisor}{\textbf{Royce Zhou}, Academic Director\xspace}
+\newcommand{\signdate}{7 June 2013\xspace}
+\newcommand{\startdate}{13 June 2013\xspace}
+\newcommand{\finishdate}{14 June 2013\xspace}
+\newcommand{\duties}{writing and the production of video content. \xspace}
+
+% Title Information
+\title{Internship Offer Letter}
+\author{\mycompany}
+\date{Revised Date: \today}
+\begin{document}
+\maketitle
+Dear \textbf{\you}:\\
+
+It gives me great pleasure to offer you a position at openlectures (the ``company&#39;&#39;). In addition to confirming the offer, this letter will describe the terms and conditions of your internship.\\
+
+TITLE: Your title will be \textbf{\yourposition}. You will report to \supervisor, or as otherwise directed by \mycompany.
+
+DUTIES: You will assist with \duties
+
+EFFECTIVE DATE: Your internship will begin on \textbf{\startdate} and end on \textbf{\finishdate}.
+
+COMPENSATION: The spirit of \mycompany is non-profit. As an intern, you will not be an employee of \mycompany. Therefore, you will not receive a salary, wages, or other compensation. In addition, you will not be eligible for any of the employee benefits that company employees are entitled to, including, but not limited to, health insurance, vacation or sick pay, or paid holidays.
+
+However, \mycompany will aim to break even on cost expenditures which includes but is not limited to filming equipment and other associated costs.
+
+When and if \mycompany has the means to issue dividends, \mycompany will offer to compensate you at the rates attached behind this contract. You may or may not choose decide to accept your dividends. If you do, we wish you all the best and encourage you not to spend it on booze. If you donât, a donation to \mycompany of that exact amount will be made in your name, and \mycompany will honor it as we would all other donations.
+
+INTELLECTUAL PROPERTY: Content that you produce as an intern with \mycompany while with \mycompany belongs to \mycompany. Content that you produce for third parties that are not \mycompany while you&#39;re with \mycompany is yours to use.
+
+CONFIDENTIALITY: During your internship and (if your internship is discontinued for any reason whatsoever) thereafter, you agree to keep strictly confidential all trade secrets and information that \mycompany holds proprietary or confidential. You also agree that as condition of your internship, you will sign, and comply with, a company-standard Intern Proprietary Information and Inventions and Non-Competition Agreement, including the related arbitration agreement. You further agree to follow \mycompany&#39;s strict policy that interns must not disclose, either directly or indirectly, any information, including any of the terms of this letter, regarding compensation to any person, including other interns of \mycompany; provided, however, that you may discuss the terms of this letter with members of your immediate family and any legal, tax or accounting specialists who provide you with individual, legal or tax accounting advice. In addition, upon conclusion of your internship, you must return all company-owned property, equipment, and documents, including electronic mail or other information.
+
+INTERN REPRESENTATION: You represent that:
+\begin{inparaenum}[(1)]
+\item you are not a party to any agreement that would prohibit you from entering into internship with \mycompany;
+\item no trade secret or proprietary information belonging to your previous employers will be disclosed by you at \mycompany, and that no such information, whether in the form of documents, memoranda, software, drawings, etc., will be retained by you or brought with you to \mycompany; and
+\item you have brought to \mycompany&#39;s attention and provided it with a copy of any agreement, order of any court or administrative body or any other similar item that may impact your future internship at \mycompany, including but not limited to any non-disclosure, non-competition, non-solicitation or invention assignment agreements containing future work restrictions.
+\end{inparaenum}
+
+AT-WILL INTERNSHIP: Your internship with \mycompany is ``At-Will&#39;&#39;. As an intern, either \mycompany or you may discontinue the internship relationship at any time for any reason not prohibited by law. Accordingly, there is no guarantee of continuous employment and the terms and/or conditions of employment may be modified at any time. 
+
+TERMINATION: As an intern, either \mycompany or you may discontinue the internship relationship at any time for any reason not prohibited by law. Furthermore, there is no guarantee of continuous employment and the terms and/or conditions of employment may be modified at any time. 
+
+This letter and its enclosures reflect the entire agreement regarding the terms and conditions of your internship. Accordingly, it supersedes and completely replaces any prior oral or written communication on this subject. This letter may not be modified or amended except by a written agreement, signed by \mycompany and you. The offer described above is contingent upon the results of your reference/background check.\\
+
+We look forward to having you join us, and we expect that our relationship will be mutually rewarding. To confirm your acceptance of this offer and position, please sign and return this document by \textbf{\signdate}. If this letter is not received by said date, the offer will be considered retracted.\\
+
+\begin{figure}[ht!]
+\vspace{20ex}
+\hspace*{-1.5ex}\begin{tabular}{ll}
+\makebox[0.49\textwidth]{\hrulefill} &amp; \makebox[0.49\textwidth]{\hrulefill}\\
+\textbf{\you} &amp; \textbf{\me}\\
+&amp; \myposition \\
+&amp; \mycompany \\
+\today &amp; \today
+\end{tabular}
+\end{figure}
+
+\newpage
+
+\textbf{Compensation Rates}
+
+When, if ever, \mycompany chooses to convert to a profit model, \mycompany will use the first \$10,000 to cover the expenses of setting up \mycompany. Following which, \textbf{writers, editors and filmers} will be given the following choices
+
+\begin{enumerate}
+\item Be compensated at the following rates
+
+WRITERS: \$5 per checkpoint used in \mycompany&#39;s final products. A final product is defined to be a video checkpoint uploaded to YouTube and made available on \mycompany&#39;s webpage.
+
+EDITORS: \$3 per checkpoint used in \mycompany&#39;s final products. A final product is defined to be a video checkpoint uploaded to YouTube and made available on \mycompany&#39;s webpage. If editing involved rewriting more than 50\% of the script, the editor shall be paid at the rate of \textbf{writers}.
+
+FILMERS: \$2 per checkpoint used in \mycompany&#39;s final products. This only applies to final takes that are used eventually. B-takes are not included. A final product is defined to be a video checkpoint uploaded to YouTube and made available on \mycompany&#39;s webpage. 
+
+\item Forgo the compensation and take up a \textbf{salaried position} at \mycompany. The rates, and \textbf{equity stake}, if any, will open to discussion.
+\end{enumerate}
+
+Interns are free to discuss the terms of internship. Those terms override these terms stated here.
+
+\newpage
+
+\end{document}</code></pre>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Subtitle Outsourcing Terms]]></title>
+    <link href="http://oracle.openlectures.org/blog/subtitle-outsourcing-terms/"/>
+    <updated>2013-10-02T14:15:00-04:00</updated>
+    <id>http://oracle.openlectures.org/blog/subtitle-outsourcing-terms</id>
+    <content type="html"><![CDATA[<h2 id="expected-product">Expected Product</h2>
+<ul>
+<li><p><strong>Assignment Format</strong>: You will be given a <strong>playlist</strong>. This playlist contains videos that you will need to transcribe.</p></li>
+<li><p><strong>Submission Format</strong>: plain text, one plain text file per video</p></li>
+<li><p><strong>Filename</strong>: Number of the video in the playlist, followed by the title of the video. e.g. <em>1 Why Rebut</em> for <a href="http://www.youtube.com/watch?v=y5oW1ofFRgs">http://www.youtube.com/watch?v=y5oW1ofFRgs</a></p></li>
+<li><p><strong>Inaudibles</strong>: Should there be inaudible words in the video, type “&lt;inaudible&gt;” in the text file. The videos are of high quality and inaudible words should not appear. We do not accept transcripts with more than 1 inaudible word.</p></li>
+</ul>
+<h2 id="style-guide">Style Guide</h2>
+<ul>
+<li><p>Single space after periods. e.g. <em>Lorem ipsum sit. Dolor amet.</em> not <em>Lorem ipsum sit. Dolor amet.</em></p></li>
+<li><p>Single space after commas. e.g. <em>Lorem ipsum sit, dolor amet.</em> not <em>Lorem ipsum sit, dolor amet.</em></p></li>
+<li><p>All “I” should be capitalized. First letters of sentences should be capitalized.</p></li>
+<li><p>Capitalization for speeches should be done correctly. e.g. <em>She said, “Hello!”</em> not <em>She said, “hello!”</em>.</p></li>
+<li><p>Punctuation for speeches should be done correctly, specifically the correct use of open quotes and close quotes. e.g. <em>She said, “Hello!”</em> not <em>She said, “Hello!”</em>.</p></li>
+<li><p>Technical terms should be capitalized. e.g. <em>The Demand Curve is a representation…</em> and not <em>The demand curve is a representation…</em></p></li>
+<li><p>Double line break after every sentence. If the sentence is longer than 60 characters (whitespace included), add a double line break to separate the sentence. e.g. If a line is<br /> <em>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</em><br /> it should be type set as<br /> <em>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</em><br /> <em>sed do eiusmod tempor incididunt ut labore et dolore magna</em><br /> <em>aliqua.</em></p></li>
+<li><p>All mathematical symbols should be converted to text. e.g. <em>A times B</em> not <em>A x B</em></p></li>
+</ul>
+<h2 id="sample-transcription">Sample Transcription</h2>
+<p>Filename Format:</p>
+<p>Number of the video in the playlist, followed by the title of the video. e.g. <em>1 Why Rebut</em> for <a href="http://www.youtube.com/watch?v=y5oW1ofFRgs">http://www.youtube.com/watch?v=y5oW1ofFRgs</a></p>
+<p>For example, <code>1 Demand Curve.txt</code></p>
+<p>Text File Contents:</p>
+<pre><code>So now before I bore you with the things like
+
+demand curve, supply curve,
+
+consumer surplus and producer surplus,
+
+let’s go into something simpler.
+
+Everyone knows cookies.
+
+You know cookie I know cookie,
+
+I have a pack of cookies here.
+
+Let’s say that the pack of cookies cost five dollars.
+
+Now if it’s five dollars and you say:
+
+&quot;Hey the cookies are a little bit expensive,
+
+I can’t afford that many cookies.
+
+I’m just going to buy one pack of cookies.&quot;
+
+So great. Imagine a graph.
+
+The vertical axis being the price.
+
+The horizontal axis being the quantity.
+
+So what you do is that,
+
+I say at 5 dollars, I buy one pack of cookies.
+
+Now if I drop the price to 4 dollars,
+
+Now 4 dollars I say:
+
+&quot;Hey maybe I can buy a little bit more cookies,
+
+maybe my mom wants it,
+
+maybe I want to eat a little bit more&quot;,
+
+so you say I buy two packets.
+
+If I lower the price a little bit more,
+
+and I lower it to 3 dollars, I say:
+
+&quot;3 dollars. Right I’ll buy even more cookies&quot;,
+
+so I’ll buy three packets.
+
+I lower it to 2 dollars, you buy 4 packets.
+
+I lower it to 1 dollar, you buy 5 packets.
+
+Now, what you see happening is that on the graph,
+
+you have 5 dots.
+
+And these dots basically show the relationship
+
+between the price and the quantity.
+
+So in the next checkpoint,
+
+you will see how these points
+
+can be joined together to form the demand curve.</code></pre>]]></content>
+  </entry>
+  
+</feed>

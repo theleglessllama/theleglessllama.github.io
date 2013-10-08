@@ -1,166 +1,32 @@
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <title>The Cookie Jar</title>
-  <meta name="author" content="The Legless Llama LLP.">
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[The Cookie Jar]]></title>
+  <link href="http://oracle.openlectures.org/atom.xml" rel="self"/>
+  <link href="http://oracle.openlectures.org/"/>
+  <updated>2013-10-07T22:46:53-04:00</updated>
+  <id>http://oracle.openlectures.org/</id>
+  <author>
+    <name><![CDATA[The Legless Llama LLP.]]></name>
+    <email><![CDATA[hello@openlectures.org]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
 
   
+  <entry>
+    <title type="html"><![CDATA[Talent and Genius]]></title>
+    <link href="http://oracle.openlectures.org/blog/talent-and-genius/"/>
+    <updated>2013-10-05T00:13:00-04:00</updated>
+    <id>http://oracle.openlectures.org/blog/talent-and-genius</id>
+    <content type="html"><![CDATA[<p><img src="http://toasterdog.com/files/1600-Talent-Quotable.png" alt="Talent hits a target no one else can hit, genius hits a target no one else can see" /> You need both — and hard work to ensure that you keep finding new targets.</p>]]></content>
+  </entry>
   
-
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  
-  <link rel="canonical" href="http://oracle.openlectures.org">
-  <link href="/favicon.png" type="image/png" rel="icon">
-  <link href="/atom.xml" rel="alternate" title="The Cookie Jar" type="application/atom+xml">
-
-  <link href="/javascripts/libs/bootstrap-3.0.0/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-<link href="/javascripts/libs/bootstrap-3.0.0/dist/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
-<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-
-
-  <script src="/javascripts/libs/jquery/jquery-2.0.3.min.js"></script>
-  
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-42985678-1']);
-    _gaq.push(['_trackPageview']);
-
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
-
-
-</head>
-
-  <body   >
-    <div id="wrap">
-      <header role="banner">
-        <nav class="navbar navbar-default" role="navigation">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/">The Cookie Jar</a>
-        </div>
-
-        <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-                <li class="active">
-                    <a href="/">Blog</a>
-                </li>
-                <li >
-                    <a href="/blog/archives">Archives</a>
-                </li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a class="subscribe-rss" href="/atom.xml" title="subscribe via RSS">
-                        <span class="visible-xs">RSS</span>
-                        <img class="hidden-xs" src="/images/rss.png" alt="RSS">
-                    </a>
-                </li>
-                
-            </ul>
-            
-                <form class="search navbar-form navbar-right" action="http://google.com/search" method="GET">
-                    <input type="hidden" name="q" value="site:oracle.openlectures.org">
-                    <div class="form-group">
-                        <input class="form-control" type="text" name="q" placeholder="Search">
-                    </div>
-                </form>
-            
-        </div>
-    </div>
-</nav>
-
-
-      </header>
-      <div id="main" class="container">
-        <div id="content">
-          <div class="row">
-  <div class="page-content col-md-9">
-    <div class="blog-index">
-      
-      
-      
-        <article class="post">
-          
-  <header class="page-header">
-    
-      <p class="meta text-muted text-uppercase">
-        
-
-
-
-
-
-
-
-
-
-
-
-
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-10-05T00:13:00-04:00" pubdate data-updated="true">Oct 5<span>th</span>, 2013</time>
-        
-      </p>
-    
-    
-      <h1 class="entry-title"><a href="/blog/talent-and-genius/">Talent and Genius</a></h1>
-    
-  </header>
-
-
-  <div class="entry-content clearfix"><p><img src="http://toasterdog.com/files/1600-Talent-Quotable.png" alt="Talent hits a target no one else can hit, genius hits a target no one else can see" /> You need both — and hard work to ensure that you keep finding new targets.</p></div>
-  
-  
-
-
-        </article>
-      
-      
-        <article class="post">
-          
-  <header class="page-header">
-    
-      <p class="meta text-muted text-uppercase">
-        
-
-
-
-
-
-
-
-
-
-
-
-
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-10-03T10:35:00-04:00" pubdate data-updated="true">Oct 3<span>rd</span>, 2013</time>
-        
-      </p>
-    
-    
-      <h1 class="entry-title"><a href="/blog/intern-offer-letter/">Intern Offer Letter</a></h1>
-    
-  </header>
-
-
-  <div class="entry-content clearfix"><h2 id="uses">Uses</h2>
+  <entry>
+    <title type="html"><![CDATA[Intern Offer Letter]]></title>
+    <link href="http://oracle.openlectures.org/blog/intern-offer-letter/"/>
+    <updated>2013-10-03T10:35:00-04:00</updated>
+    <id>http://oracle.openlectures.org/blog/intern-offer-letter</id>
+    <content type="html"><![CDATA[<h2 id="uses">Uses</h2>
 <p>This letter</p>
 <ul>
 <li>Extends an offer of internship to a possible intern</li>
@@ -365,43 +231,15 @@
 </span><span class='line'>
 </span><span class='line'>\end{document}</span></code></pre></td></tr></table></div></figure>
 </notextile>
-</div></div>
+</div>]]></content>
+  </entry>
   
-  
-
-
-        </article>
-      
-      
-        <article class="post">
-          
-  <header class="page-header">
-    
-      <p class="meta text-muted text-uppercase">
-        
-
-
-
-
-
-
-
-
-
-
-
-
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-10-02T14:15:00-04:00" pubdate data-updated="true">Oct 2<span>nd</span>, 2013</time>
-        
-      </p>
-    
-    
-      <h1 class="entry-title"><a href="/blog/subtitle-outsourcing-terms/">Subtitle Outsourcing Terms</a></h1>
-    
-  </header>
-
-
-  <div class="entry-content clearfix"><h2 id="expected-product">Expected Product</h2>
+  <entry>
+    <title type="html"><![CDATA[Subtitle Outsourcing Terms]]></title>
+    <link href="http://oracle.openlectures.org/blog/subtitle-outsourcing-terms/"/>
+    <updated>2013-10-02T14:15:00-04:00</updated>
+    <id>http://oracle.openlectures.org/blog/subtitle-outsourcing-terms</id>
+    <content type="html"><![CDATA[<h2 id="expected-product">Expected Product</h2>
 <ul>
 <li><p><strong>Assignment Format</strong>: You will be given a <strong>playlist</strong>. This playlist contains videos that you will need to transcribe.</p></li>
 <li><p><strong>Submission Format</strong>: plain text, one plain text file per video</p></li>
@@ -569,43 +407,15 @@
 </span><span class='line'>
 </span><span class='line'>can be joined together to form the demand curve.</span></code></pre></td></tr></table></div></figure>
 </notextile>
-</div></div>
+</div>]]></content>
+  </entry>
   
-  
-
-
-        </article>
-      
-      
-        <article class="post">
-          
-  <header class="page-header">
-    
-      <p class="meta text-muted text-uppercase">
-        
-
-
-
-
-
-
-
-
-
-
-
-
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-10-02T14:10:00-04:00" pubdate data-updated="true">Oct 2<span>nd</span>, 2013</time>
-        
-      </p>
-    
-    
-      <h1 class="entry-title"><a href="/blog/subtitles/">Subtitles</a></h1>
-    
-  </header>
-
-
-  <div class="entry-content clearfix"><h2 id="style-guide">Style Guide</h2>
+  <entry>
+    <title type="html"><![CDATA[Subtitles]]></title>
+    <link href="http://oracle.openlectures.org/blog/subtitles/"/>
+    <updated>2013-10-02T14:10:00-04:00</updated>
+    <id>http://oracle.openlectures.org/blog/subtitles</id>
+    <content type="html"><![CDATA[<h2 id="style-guide">Style Guide</h2>
 <ul>
 <li><p>Single space after periods. e.g. <em>Lorem ipsum sit. Dolor amet.</em> not <em>Lorem ipsum sit. Dolor amet.</em></p></li>
 <li><p>Single space after commas. e.g. <em>Lorem ipsum sit, dolor amet.</em> not <em>Lorem ipsum sit, dolor amet.</em></p></li>
@@ -766,43 +576,15 @@
 </span><span class='line'>
 </span><span class='line'>can be joined together to form the demand curve.</span></code></pre></td></tr></table></div></figure>
 </notextile>
-</div></div>
+</div>]]></content>
+  </entry>
   
-  
-
-
-        </article>
-      
-      
-        <article class="post">
-          
-  <header class="page-header">
-    
-      <p class="meta text-muted text-uppercase">
-        
-
-
-
-
-
-
-
-
-
-
-
-
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-09-30T00:38:00-04:00" pubdate data-updated="true">Sep 30<span>th</span>, 2013</time>
-        
-      </p>
-    
-    
-      <h1 class="entry-title"><a href="/blog/filming/">Filming</a></h1>
-    
-  </header>
-
-
-  <div class="entry-content clearfix"><h2 id="camera-software-setup">Camera Software Setup</h2>
+  <entry>
+    <title type="html"><![CDATA[Filming]]></title>
+    <link href="http://oracle.openlectures.org/blog/filming/"/>
+    <updated>2013-09-30T00:38:00-04:00</updated>
+    <id>http://oracle.openlectures.org/blog/filming</id>
+    <content type="html"><![CDATA[<h2 id="camera-software-setup">Camera Software Setup</h2>
 <ul>
 <li>Load <a href="http://marvelsfilm.wordpress.com/marvels-cine-canon/">Marvel-Cine Picture Style</a> into the camera.</li>
 <li>(Optional) Capture using EOS Utility
@@ -854,43 +636,15 @@
 <ul>
 <li>Have bottles of water (or the lecturer’s favorite drink) ready</li>
 <li>Have non-choking snacks (so no biscuits)</li>
-</ul></div>
+</ul>]]></content>
+  </entry>
   
-  
-
-
-        </article>
-      
-      
-        <article class="post">
-          
-  <header class="page-header">
-    
-      <p class="meta text-muted text-uppercase">
-        
-
-
-
-
-
-
-
-
-
-
-
-
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-09-30T00:28:00-04:00" pubdate data-updated="true">Sep 30<span>th</span>, 2013</time>
-        
-      </p>
-    
-    
-      <h1 class="entry-title"><a href="/blog/category-definitions/">Category Definitions</a></h1>
-    
-  </header>
-
-
-  <div class="entry-content clearfix"><h2 id="categories">Categories</h2>
+  <entry>
+    <title type="html"><![CDATA[Category Definitions]]></title>
+    <link href="http://oracle.openlectures.org/blog/category-definitions/"/>
+    <updated>2013-09-30T00:28:00-04:00</updated>
+    <id>http://oracle.openlectures.org/blog/category-definitions</id>
+    <content type="html"><![CDATA[<h2 id="categories">Categories</h2>
 <p>Categories pertain to the different departments and operations of openlectures. Categories are defined at the header of a post.</p>
 <div class='bogus-wrapper'>
 <notextile>
@@ -942,43 +696,15 @@
 <li>Recognition</li>
 <li>Outsourcing</li>
 </ul></li>
-</ul></div>
+</ul>]]></content>
+  </entry>
   
-  
-
-
-        </article>
-      
-      
-        <article class="post">
-          
-  <header class="page-header">
-    
-      <p class="meta text-muted text-uppercase">
-        
-
-
-
-
-
-
-
-
-
-
-
-
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-09-29T23:01:00-04:00" pubdate data-updated="true">Sep 29<span>th</span>, 2013</time>
-        
-      </p>
-    
-    
-      <h1 class="entry-title"><a href="/blog/script-editing-checklist/">Script Editing Checklist</a></h1>
-    
-  </header>
-
-
-  <div class="entry-content clearfix"><h2 id="examples">Examples</h2>
+  <entry>
+    <title type="html"><![CDATA[Script Editing Checklist]]></title>
+    <link href="http://oracle.openlectures.org/blog/script-editing-checklist/"/>
+    <updated>2013-09-29T23:01:00-04:00</updated>
+    <id>http://oracle.openlectures.org/blog/script-editing-checklist</id>
+    <content type="html"><![CDATA[<h2 id="examples">Examples</h2>
 <ul>
 <li>Funny and real life examples
 <ul>
@@ -1057,43 +783,15 @@
 <ul>
 <li>A lecturer sees “!” very differently from “.”, and will read them accordingly.</li>
 <li>e.g. “This is the end of the lecture.” vs. “This is the end of the lecture!”</li>
-</ul></div>
+</ul>]]></content>
+  </entry>
   
-  
-
-
-        </article>
-      
-      
-        <article class="post">
-          
-  <header class="page-header">
-    
-      <p class="meta text-muted text-uppercase">
-        
-
-
-
-
-
-
-
-
-
-
-
-
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-09-05T17:57:00-04:00" pubdate data-updated="true">Sep 5<span>th</span>, 2013</time>
-        
-      </p>
-    
-    
-      <h1 class="entry-title"><a href="/blog/openquestions-style-guide/">Openquestions Style Guide</a></h1>
-    
-  </header>
-
-
-  <div class="entry-content clearfix"><h2 id="how-to-answer">How To Answer</h2>
+  <entry>
+    <title type="html"><![CDATA[openquestions Style Guide]]></title>
+    <link href="http://oracle.openlectures.org/blog/openquestions-style-guide/"/>
+    <updated>2013-09-05T17:57:00-04:00</updated>
+    <id>http://oracle.openlectures.org/blog/openquestions-style-guide</id>
+    <content type="html"><![CDATA[<h2 id="how-to-answer">How To Answer</h2>
 <p>Thank the person for asking us. After all, no one is asking them to use our service. It also helps us make them feel welcome! Remember, we’re trying to build a community base.</p>
 <p>Put your answer in brief in your first paragraph or first few lines. That way, people who’re lazy to click ‘Continue Reading’ can still get the gist of what’s being written without delving into a potential wall of text.</p>
 <p>Illustrate step by step how you arrive at the answer. Remember to signpost your answer – always link what you’re saying to the previous step as well as its location in the thought process so people can follow your train of thought!</p>
@@ -1151,43 +849,15 @@
 <li>Peak hour(s) are usually from around 6pm-10pm. One post may be scheduled in mid-afternoon if suitable.</li>
 <li>Check for posts already scheduled before scheduling more in the Activity Log on Facebook, or we may have overlapping posts!</li>
 <li>If the answer is inaccurate/incomplete after posting, edit the post accordingly, and comment with on the post with the page with ‘post amended’ or something of sorts.</li>
-</ul></div>
+</ul>]]></content>
+  </entry>
   
-  
-
-
-        </article>
-      
-      
-        <article class="post">
-          
-  <header class="page-header">
-    
-      <p class="meta text-muted text-uppercase">
-        
-
-
-
-
-
-
-
-
-
-
-
-
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-08-11T20:40:00-04:00" pubdate data-updated="true">Aug 11<span>th</span>, 2013</time>
-        
-      </p>
-    
-    
-      <h1 class="entry-title"><a href="/blog/post-production/">Post Production</a></h1>
-    
-  </header>
-
-
-  <div class="entry-content clearfix"><h2 id="slides">Slides</h2>
+  <entry>
+    <title type="html"><![CDATA[Post Production]]></title>
+    <link href="http://oracle.openlectures.org/blog/post-production/"/>
+    <updated>2013-08-11T20:40:00-04:00</updated>
+    <id>http://oracle.openlectures.org/blog/post-production</id>
+    <content type="html"><![CDATA[<h2 id="slides">Slides</h2>
 <ul>
 <li>Remove all blank slides (if any)</li>
 <li>Remove all separator/title slides (if any)</li>
@@ -1437,240 +1107,208 @@
 </ul></li>
 <li>Upload to Youku (Pending)</li>
 <li>Send for Subtitling (Pending)</li>
-</ul></div>
+</ul>]]></content>
+  </entry>
   
-  
-
-
-        </article>
-      
-      
-        <article class="post">
-          
-  <header class="page-header">
-    
-      <p class="meta text-muted text-uppercase">
-        
-
-
-
-
-
-
-
-
-
-
-
-
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-07-29T11:37:00-04:00" pubdate data-updated="true">Jul 29<span>th</span>, 2013</time>
-        
-      </p>
-    
-    
-      <h1 class="entry-title"><a href="/blog/creating-a-new-post/">Creating a New Post</a></h1>
-    
-  </header>
-
-
-  <div class="entry-content clearfix"><p>We’re running <a href="http://octopress.org/">Octopress</a> on <a href="http://pages.github.com/">Github Pages</a>. If the previous sentence, or the links referred to in that sentence looked like Greek to you and you really only want to make one post, we highly recommend you approach someone from AAD, or Linan, or Kenneth, to help you publish your post. This method’s been scientifically proven to cause less hair loss.</p>
-<p>Really want to learn Greek? Let’s get started then. This is a “Dummy’s Guide”, by the way. If you have a degree/major/minor in Computer Science, or are going to get one, it may be easier for you to follow the documentation provided by Octopress themselves in the link above. </div>
-  
-  
-    <footer>
-      <a class="btn btn-default" rel="full-article" href="/blog/creating-a-new-post/">Read More</a>
-    </footer>
-  
-
-
-        </article>
-      
-    </div>
-
-    <ul class="pager">
-      
-        <li class="previous disabled"><a href="#">&larr;&nbsp;Older</a></li>
-      
-      <li><a href="/blog/archives">Blog Archives</a></li>
-      
-        <li class="next disabled"><a href="#">Newer&nbsp;&rarr;</a></li>
-      
-    </ul>
-  </div>
-
-  
-    <aside class="sidebar col-md-3">
-      
-        <section class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title">Recent Posts</h3>
-  </div>
-  
-  <div id="recent_posts" class="list-group">
-    
-    <a class="list-group-item " href="/blog/talent-and-genius/">Talent and Genius</a>
-    
-    <a class="list-group-item " href="/blog/intern-offer-letter/">Intern Offer Letter</a>
-    
-    <a class="list-group-item " href="/blog/subtitle-outsourcing-terms/">Subtitle Outsourcing Terms</a>
-    
-    <a class="list-group-item " href="/blog/subtitles/">Subtitles</a>
-    
-    <a class="list-group-item " href="/blog/filming/">Filming</a>
-    
-  </div>
-</section>
-<section class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title">Categories</h3>
-  </div>
-  <div class="list-group">
-    
-    
-    <a class="list-group-item " href="/blog/categories/tech-support/index.html">
-        <span class="badge">1</span>
-        Tech Support
-      </a>
-    
-    
-    <a class="list-group-item " href="/blog/categories/guides/index.html">
-        <span class="badge">5</span>
-        Guides
-      </a>
-    
-    
-    <a class="list-group-item " href="/blog/categories/post-processing/index.html">
-        <span class="badge">1</span>
-        Post Processing
-      </a>
-    
-    
-    <a class="list-group-item " href="/blog/categories/oracle/index.html">
-        <span class="badge">1</span>
-        Oracle
-      </a>
-    
-    
-    <a class="list-group-item " href="/blog/categories/using/index.html">
-        <span class="badge">1</span>
-        Using
-      </a>
-    
-    
-    <a class="list-group-item " href="/blog/categories/filming/index.html">
-        <span class="badge">1</span>
-        Filming
-      </a>
-    
-    
-    <a class="list-group-item " href="/blog/categories/guide/index.html">
-        <span class="badge">1</span>
-        Guide
-      </a>
-    
-    
-    <a class="list-group-item " href="/blog/categories/subtitles/index.html">
-        <span class="badge">2</span>
-        Subtitles
-      </a>
-    
-    
-    <a class="list-group-item " href="/blog/categories/contract-templates/index.html">
-        <span class="badge">2</span>
-        Contract Templates
-      </a>
-    
-    
-    <a class="list-group-item " href="/blog/categories/outsourcing/index.html">
-        <span class="badge">1</span>
-        Outsourcing
-      </a>
-    
-    
-    <a class="list-group-item " href="/blog/categories/internship/index.html">
-        <span class="badge">1</span>
-        Internship
-      </a>
-    
-    
-    <a class="list-group-item " href="/blog/categories/recruitment/index.html">
-        <span class="badge">1</span>
-        Recruitment
-      </a>
-    
-    
-    <a class="list-group-item " href="/blog/categories/wise-words/index.html">
-        <span class="badge">1</span>
-        Wise Words
-      </a>
-    
-  </div>
-</section>
-
-      
-    </aside>
-  
+  <entry>
+    <title type="html"><![CDATA[Creating a New Post]]></title>
+    <link href="http://oracle.openlectures.org/blog/creating-a-new-post/"/>
+    <updated>2013-07-29T11:37:00-04:00</updated>
+    <id>http://oracle.openlectures.org/blog/creating-a-new-post</id>
+    <content type="html"><![CDATA[<p>We’re running <a href="http://octopress.org/">Octopress</a> on <a href="http://pages.github.com/">Github Pages</a>. If the previous sentence, or the links referred to in that sentence looked like Greek to you and you really only want to make one post, we highly recommend you approach someone from AAD, or Linan, or Kenneth, to help you publish your post. This method’s been scientifically proven to cause less hair loss.</p>
+<p>Really want to learn Greek? Let’s get started then. This is a “Dummy’s Guide”, by the way. If you have a degree/major/minor in Computer Science, or are going to get one, it may be easier for you to follow the documentation provided by Octopress themselves in the link above. <!--more--></p>
+<h2 id="introduction-to-octopress">Introduction to Octopress</h2>
+<p>Octopress is a blogging engine for hackers. It doesn’t have a GUI like <a href="http://tumblr.com/">Tumblr</a> or <a href="http://blogspot.com/">Blogspot</a> with buttons for you to click and a nice space for you to upload photos and type your post. Everything’s done from the command line, and posts are written in a text file. Let’s break that down bit by bit.</p>
+<p>Octopress is built off a page management system called Jekyll. The reason why we don’t set up Jekyll directly is not because we can’t but is because Jekyll is one sonovabitch to get working, so we use Octopress.</p>
+<p>Octopress runs off Git and <a href="http://github.com/">Github</a>. Git is version control software. It looks at all your files, compares it to the “stock” version on a server and shows you the difference between the two, asking what changes you’d like to keep and what you’d like to throw away. Github is a website that stores all the Git data and makes life easier for people who find using Git from a command line too daunting.</p>
+<p>It’s important that you understand this before we go any further.</p>
+<h2 id="step-1-get-permission">Step 1: Get Permission</h2>
+<p>You’ll need to be added as a collaborator in the repository in order to post. Create a Github account if you don’t already have one, and drop a note to Kenneth or Linan to add you in.</p>
+<p>Once again, I’ll say that if the following decision chain matches your current frame of mind:</p>
+<ol type="1">
+<li>You’re not good with Tech</li>
+<li>You’re not feeling particularly adventurous and don’t feel the immediate need to learn about these things</li>
+<li>You just want to make a one-off post You’ll be likely better off passing us your article and letting us do the heavy-lifting for you. No worries there.</li>
+</ol>
+<h2 id="step-2-cloning-octopress">Step 2: Cloning Octopress</h2>
+We’ll start by making a copy of Octopress. If you’re a command-line addict, run:
+<div class='bogus-wrapper'>
+<notextile>
+<figure class='code'><figcaption>
+<span></span>
+</figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>git clone git://github.com/theleglessllama.github.io.git OEKR
+</span><span class='line'><span class="nb">cd </span>OEKR
+</span><span class='line'>bundle install
+</span></code></pre></td></tr></table></div></figure>
+</notextile>
 </div>
-
-        </div>
-      </div>
-    </div>
-    <footer role="contentinfo"><div class="container">
-    <p class="text-muted credits">
-  Copyright &copy; 2013 - The Legless Llama LLP.<br>
-  <small>
-      <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>,
-      <span class="credit">customized with <a href="https://github.com/kAworu/octostrap3">octostrap3</a></span>.
-  </small>
-</p>
-
+<p>in a directory of your choice.</p>
+<p>If you’re not, visit our <a href="http://github.com/theleglessllama.github.io">Github Repository</a> and click “Clone to Desktop”. A dialog box will pop up asking you where you’d like to save the files. Both methods are identical.</p>
+If you’ve already cloned Octopress before and just want to add a new post now, be sure to run:
+<div class='bogus-wrapper'>
+<notextile>
+<figure class='code'><figcaption>
+<span></span>
+</figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>git pull
+</span></code></pre></td></tr></table></div></figure>
+</notextile>
 </div>
-</footer>
-    <script src="/javascripts/libs/bootstrap-3.0.0/dist/js/bootstrap.min.js"></script>
-<script src="/javascripts/modernizr-2.0.js"></script>
-
-
-<script type="text/javascript">
-      var disqus_shortname = 'thecookiejar';
-      
-        
-        var disqus_script = 'count.js';
-      
-    (function () {
-      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      dsq.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + disqus_shortname + '.disqus.com/' + disqus_script;
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    }());
-</script>
-
-
-
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) {return;}
-  js = d.createElement(s); js.id = id; js.async = true;
-  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-
-
-
-
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = '//platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
-
-
-
-
-
-  </body>
-</html>
+<p>from the Octopress directory. This updates your local copy with the latest copy from the server, if there’s been any changes.</p>
+<h2 id="step-3-creating-a-new-post">Step 3: Creating a New Post</h2>
+From here on you may shy away from the command line no longer. Open Terminal or <a href="http://www.iterm2.com/">iTerm</a> (we don’t really care about Windows, but if it pleases you, open that bloatware called MS-DOS Prompt) and type:
+<div class='bogus-wrapper'>
+<notextile>
+<figure class='code'><figcaption>
+<span></span>
+</figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>rake new_post
+</span></code></pre></td></tr></table></div></figure>
+</notextile>
+</div>
+<p>This will return a prompt asking for the title of your post. Fill that up accordingly, hit enter, and your post will be created.</p>
+<p>Posts in Octopress are created as text files written in <a href="http://daringfireball.net/projects/markdown/">Markdown</a> (i.e. they have a file extension of either “.md” or “.markdown”).</p>
+<p>Markdown is a simple markup language that allows you to specify things like lists, headers, quotes and the likes. You can and should learn it at the link above. It was written by the very guy who wrote the language, and it’s really quite simple.</p>
+<h2 id="step-4-editing-your-post">Step 4: Editing Your Post</h2>
+<p><em>The astute reader will realize that in the previous step, all we did was create the title of the post, and the post itself, but not the content of the post. Unfortunately brain-scanning technology hasn’t yet been invented. We’re told that Gary Lee is interested in working on that, but seeing as how he won’t get his PhD until seven years later, and his bond won’t be finished until six years on top of that, nope, it’s not coming anytime soon.</em></p>
+The newly created post will be found in <code>source/_posts</code>, and named according to Jekyll’s naming conventions. Basically it looks like this:
+<div class='bogus-wrapper'>
+<notextile>
+<figure class='code'><figcaption>
+<span></span>
+</figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>YYYY-MM-DD-post-title.markdown
+</span></code></pre></td></tr></table></div></figure>
+</notextile>
+</div>
+<p>where <code>post-title</code> is a hyphen-delimited version of whatever you specified earlier in the title field. Nothing fanciful, but it does the job.</p>
+Open the file, and you’ll be greeted by a preamble that looks like this:
+<div class='bogus-wrapper'>
+<notextile>
+<figure class='code'><figcaption>
+<span></span>
+</figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+</pre></td><td class='code'><pre><code class='yaml'><span class='line'><span class="nn">---</span>
+</span><span class='line'><span class="l-Scalar-Plain">layout</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">post</span>
+</span><span class='line'><span class="l-Scalar-Plain">title</span><span class="p-Indicator">:</span> <span class="s">&quot;Your</span><span class="nv"> </span><span class="s">Title&quot;</span>
+</span><span class='line'><span class="l-Scalar-Plain">date</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">2011-07-03 5:59</span>
+</span><span class='line'><span class="l-Scalar-Plain">comments</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">true</span>
+</span><span class='line'><span class="l-Scalar-Plain">external-url</span><span class="p-Indicator">:</span>
+</span><span class='line'><span class="l-Scalar-Plain">categories</span><span class="p-Indicator">:</span>
+</span><span class='line'><span class="nn">---</span>
+</span></code></pre></td></tr></table></div></figure>
+</notextile>
+</div>
+<p>It’s really self-explanatory. Let’s break that down.</p>
+<p>Leave <code>layout</code>, <code>date</code> and <code>external-url</code> unchanged. No hard feelings, but if you know what those do, you won’t really be needing this guide.</p>
+<p><code>title</code> is whatever you want your title to be. It must be encapsulated in double quotes. Feel free to get creative, but keep it short.</p>
+<p><code>comments</code> is a boolean (meaning it can be set to true or false) that enables or disables, well, comments. We won’t insult your intelligence telling you what to do with this one.</p>
+<code>categories</code> is a little more interesting. This allows you to tag your posts so there’s some sense of order to them. You can write something like:
+<div class='bogus-wrapper'>
+<notextile>
+<figure class='code'><figcaption>
+<span></span>
+</figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='yaml'><span class='line'><span class="l-Scalar-Plain">categories</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">Shit Kenneth Says</span>
+</span></code></pre></td></tr></table></div></figure>
+</notextile>
+</div>
+across posts, and it’ll get grouped neatly for you in a link in the sidebar. If you want to add multiple categories:
+<div class='bogus-wrapper'>
+<notextile>
+<figure class='code'><figcaption>
+<span></span>
+</figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='yaml'><span class='line'><span class="l-Scalar-Plain">categories</span><span class="p-Indicator">:</span> <span class="p-Indicator">[</span><span class="nv">Shit Kenneth Says</span><span class="p-Indicator">,</span> <span class="nv">Shit Linan Says</span><span class="p-Indicator">]</span>
+</span></code></pre></td></tr></table></div></figure>
+</notextile>
+</div>
+or
+<div class='bogus-wrapper'>
+<notextile>
+<figure class='code'><figcaption>
+<span></span>
+</figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='yaml'><span class='line'><span class="l-Scalar-Plain">categories</span><span class="p-Indicator">:</span>
+</span><span class='line'><span class="p-Indicator">-</span> <span class="l-Scalar-Plain">Shit Kenneth Says</span>
+</span><span class='line'><span class="p-Indicator">-</span> <span class="l-Scalar-Plain">Shit Linan Says</span>
+</span></code></pre></td></tr></table></div></figure>
+</notextile>
+</div>
+<p>will do the job for you. Savvy?</p>
+<p>Write your post after the <code>---</code> that signifies the end of the preamble. This can be as long as you’d like it to be. Just don’t write us the Iliad, or the Odyssey, or 50 Shades of Gray.</p>
+<h2 id="step-5-preview-your-post">Step 5: Preview Your Post</h2>
+<p><em>By now you’re thinking that this whole posting thing is like taking off your suspenders, pants and undergarments just so you can fart. Hold on a little longer, and I’ll show you why it’s worth the trouble.</em></p>
+<p>After you’ve written your post you’ll likely want to see how it looks like. We’re vain people, we understand.</p>
+Go back to the command line and run:
+<div class='bogus-wrapper'>
+<notextile>
+<figure class='code'><figcaption>
+<span></span>
+</figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>rake generate
+</span><span class='line'>rake preview
+</span></code></pre></td></tr></table></div></figure>
+</notextile>
+</div>
+<p>The terminal window will spit out a bunch of text that seems to be telling you that files are changed (wow!) and that it’s going to preview your post for you (double wow!).</p>
+<p>After you’re done with that, go back to your browser and navigate to <a href="http://localhost:3000/">http://localhost:3000/</a>, where you’ll see a local version of the blog waiting for you in all it’s glory.</p>
+<p>_If you look at Jethro or Kenneth’s computers, you’ll find that we <em>navigate to an address like http://octopress.dev instead of the funny localhost and four digit number thing. That’s because we’re awesome. No really. But if you want to learn to be awesome, here’s <a href="">another article</a> on that for you.</em></p>
+<p>Give your post a good look over, and if you’re happy with what you see, we’ll now move into deploying the post to the actual site.</p>
+<p>If you’d like to make any changes, go ahead and update your content in the <code>.markdown</code> post file. This time, however, because <code>rake preview</code> is already running, you don’t need to re-run it. Changes will automagically be detected and applied live in the browser. I know, I know.</p>
+<h2 id="step-6-deploying">Step 6: Deploying</h2>
+<p><em>We’d like to personally assure you that this is the most straightforward step in the entire damn tutorial.</em></p>
+Go back to the command line, turn off <code>rake preview</code> if it’s running (That’s <code>Ctrl+C</code> on Windows or <code>CMD+C</code> on OS X if you don’t know how). Then type:
+<div class='bogus-wrapper'>
+<notextile>
+<figure class='code'><figcaption>
+<span></span>
+</figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>rake deploy
+</span><span class='line'>git add .
+</span><span class='line'>git commit -m <span class="s2">&quot;New Post&quot;</span>
+</span><span class='line'>git push origin <span class="nb">source</span>
+</span></code></pre></td></tr></table></div></figure>
+</notextile>
+</div>
+<p>Go for a coffee while the command line window spits out stuff that doesn’t make sense to you.</p>
+<p>Come back, visit <a href="http://theleglessllama.github.io/">http://theleglessllama.github.io/</a> and give yourself a pat on the back. You’re done.</p>
+<p>In case you’re wondering what we did in that line of text above (boy, your teacher is going to be so proud of you), here’s what actually happened.</p>
+<p>We first told Octopress to generate a production version of the post you created. This checks it for any errors, tidies up everything, and makes sure the links, images, and stuff like that all work properly.</p>
+<p>Next, it takes the new post you’ve created and adds it to our live server. This process could take a bit of time depending on how fast your connection is.</p>
+<p>Once that’s done, the next three lines tell your computer to update the source files on the back-end of the server with the raw data of the post that you created. This is done so that other people who pull from the repository can make edits to your post if they’d like to.</p>
+<h2 id="why-the-hassle">Why The Hassle?</h2>
+<p>At the back of your head there’s this nagging concern that this is possibly the most overkill way to create a blogpost ever. If you don’t think that’s the case (for some reason), here’s a quick workflow to prove our point:</p>
+<ol type="1">
+<li>Create Post</li>
+<li>Edit Preamble</li>
+<li>Write Post</li>
+<li>Preview</li>
+<li>Edit Post</li>
+<li>Generate Post</li>
+<li>Deploy Post</li>
+</ol>
+<p>This process allows us to have incredibly granular control over the posting process. With the exception of (7), everything else doesn’t require the Internet. You could be in the middle of the Nevada Desert happily writing a post - or many posts - and only push everything back onto the server once you felt like it (or you returned to civilization).</p>
+<p>In addition, multiple people can all be writing posts at the same time on their own computers, and we wouldn’t get confused at all. We’d know who wrote exactly what, who changed what, and who’s posting what. At any time if we’re not comfortable with something, we can quickly roll-back to a previous version, and it’ll all be seamless.</p>
+<h2 id="further-reading">Further Reading</h2>
+<p>If you’re still having difficulty, check out the <a href="http://octopress.org/docs/blogging/">documentation from Octopress themselves</a>.</p>
+<p>We’d like to think that we described it in a manner that’s hopefully a bit more friendly for beginners, but well, we didn’t write the book - they did. So there.</p>]]></content>
+  </entry>
+  
+</feed>

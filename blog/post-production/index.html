@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Post Production - The Cookie Jar</title>
+  <meta name="author" content="The Legless Llama LLP.">
+
+  
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://oracle.openlectures.org/blog/post-production">
+  <link href="/favicon.png" type="image/png" rel="icon">
+  <link href="/atom.xml" rel="alternate" title="The Cookie Jar" type="application/atom+xml">
+
+  <link href="/javascripts/libs/bootstrap-3.0.0/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="/javascripts/libs/bootstrap-3.0.0/dist/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+
+
+  <script src="/javascripts/libs/jquery/jquery-2.0.3.min.js"></script>
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-42985678-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+  <body   >
+    <div id="wrap">
+      <header role="banner">
+        <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">The Cookie Jar</a>
+        </div>
+
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <a href="/">Blog</a>
+                </li>
+                <li >
+                    <a href="/blog/archives">Archives</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a class="subscribe-rss" href="/atom.xml" title="subscribe via RSS">
+                        <span class="visible-xs">RSS</span>
+                        <img class="hidden-xs" src="/images/rss.png" alt="RSS">
+                    </a>
+                </li>
+                
+            </ul>
+            
+                <form class="search navbar-form navbar-right" action="http://google.com/search" method="GET">
+                    <input type="hidden" name="q" value="site:oracle.openlectures.org">
+                    <div class="form-group">
+                        <input class="form-control" type="text" name="q" placeholder="Search">
+                    </div>
+                </form>
+            
+        </div>
+    </div>
+</nav>
+
+
+      </header>
+      <div id="main" class="container">
+        <div id="content">
+          <div class="row">
+  <div class="page-content col-md-9">
+    <article class="hentry" role="article">
+      
+  <header class="page-header">
+    
+      <p class="meta text-muted text-uppercase">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-08-11T20:40:00-04:00" pubdate data-updated="true">Aug 11<span>th</span>, 2013</time>
+        
+      </p>
+    
+    
+    <h1 class="entry-title">
+        Post Production
+        
+    </h1>
+    
+  </header>
+
+
+<div class="entry-content clearfix"><h2 id="slides">Slides</h2>
+<ul>
+<li>Remove all blank slides (if any)</li>
+<li>Remove all separator/title slides (if any)</li>
+<li>Set all transition timings to 0.5s
+<ul>
+<li>Inspector &gt; Transition</li>
+<li>Start Transition: On Click</li>
+<li>Delay: 0.5s</li>
+</ul></li>
+<li>Record Slideshow
+<ul>
+<li>File &gt; Record Slideshow</li>
+</ul></li>
+<li>Export to Movie
+<ul>
+<li>File &gt; Export &gt; Quicktime</li>
+<li>Playback Uses: Recorded Timing</li>
+<li>Formats: Custom</li>
+<li>Video: Full Size</li>
+<li>Settings &gt; Compression Type &gt; Apple ProRes 422 (HQ)</li>
+<li>Frame Rate: 29.97 FPS</li>
+<li>Gamma Correction: Automatic</li>
+<li>Audio: No Audio</li>
+</ul></li>
+</ul>
+<h2 id="raw-footage">Raw Footage</h2>
+<ul>
+<li>Decompress using Rarevision 5DtoRGB
+<ul>
+<li>Program should auto-detect settings on footage import.</li>
+<li>Output Format: ProRes 422 (HQ)</li>
+<li>Decoding Matrix: ITU-R BT.709</li>
+<li>Luminance Range: Full Range</li>
+<li>Chroma Mode: Progressive</li>
+<li>Post-Processing: Technicolor Cinestyle</li>
+</ul></li>
+<li>Load into Adobe Premiere Pro. Follow these Sequence Settings
+<ul>
+<li>Editing Mode: Custom</li>
+<li>Timebase: 29.97 frames/second</li>
+<li>Video
+<ul>
+<li>Frame Size: 1920 horizontal 1080 vertical (16:9)</li>
+<li>Pixel Aspect Ratio: Square Pixels (1.0)</li>
+<li>Fields: No Fields (Progressive Scan)</li>
+<li>Display Format: 30fps Drop-Frame Timecode</li>
+</ul></li>
+<li>Audio
+<ul>
+<li>Sample Rate: 48000 Hz</li>
+<li>Display Format: Audio Samples￼￼￼￼￼￼￼￼￼￼￼</li>
+</ul></li>
+<li>Video Previews Width: 1920 Height: 1080</li>
+</ul></li>
+<li>Open Audio in Adobe Audition
+<ul>
+<li>Go to “Enhancing Audio”</li>
+<li>Right click audio track &gt; - Edit Clip in Adobe Audition</li>
+</ul></li>
+<li>Trim Footage
+<ul>
+<li>Scrub to desired start and “Mark In” (I- )</li>
+<li>Scrub to desired end and mark with “Mark Out” (O)</li>
+<li>Extract Footage (’)</li>
+<li>Select all excess footage (Ctrl/Cmd + A) and delete</li>
+<li>Move playhead to start and - paste (Ctrl/Cmd + V)</li>
+</ul></li>
+<li>Insert Exported Slide Footage (See “Slides”)</li>
+<li>Sync Both Sets of Footage Open Footage in Adobe After Effects
+<ul>
+<li>Go to “Keying Footage” Right click on - footage &gt; Replace with After Effects Composition</li>
+</ul></li>
+<li>Clean up Useless Tracks
+<ul>
+<li>Sequence &gt; Delete Tracks</li>
+<li>Video Tracks
+<ul>
+<li>Delete Video Tracks &gt; All Empty Tracks</li>
+</ul></li>
+<li>Audio Tracks
+<ul>
+<li>Delete Audio Tracks &gt; All Empty Tracks</li>
+</ul></li>
+</ul></li>
+</ul>
+<h2 id="enhancing-audio">Enhancing Audio</h2>
+<ul>
+<li>Remove Noise
+<ul>
+<li>Select region of room tone</li>
+<li>Effects &gt; Noise Reduction/Restoration &gt; Capture Noise Print</li>
+<li>Select entire track (Ctrl/Cmd + A)</li>
+<li>Effects &gt; Noise Reduction/Restoration &gt; Noise Reduction (Process)</li>
+<li>Noise Reduction: 100%</li>
+<li>Reduce by: 4db</li>
+</ul></li>
+<li>Compress and Normalize
+<ul>
+<li>Effects &gt; Amplitude and Compression &gt; Single-band Compressor</li>
+<li>Threshold: -6.0db</li>
+<li>Ratio: 12.0</li>
+<li>Attack: 0.0ms</li>
+<li>Release: 100ms</li>
+<li>Output Gain: 0.0db</li>
+<li>Effects &gt; Amplitude and Compression &gt; Normalize</li>
+<li>Normalize to -6.0db Normalize all channels equally</li>
+</ul></li>
+<li>Apply EQ
+<ul>
+<li>Effects &gt; Special &gt; Vocal Enhancer</li>
+<li>Select male or female accordingly</li>
+<li>Effects &gt; Special &gt; Mastering</li>
+<li>Peaking Enable</li>
+<li>High Shelf Enable Adjust accordingly. High shelf point should be above the axis. Peak point should be below the axis.</li>
+<li>For Guys
+<ul>
+<li>2500Hz, +2db</li>
+<li>250Hz, -2db</li>
+</ul></li>
+<li>For Girls
+<ul>
+<li>2500Hz, +2db</li>
+<li>250Hz, -5db</li>
+</ul></li>
+</ul></li>
+<li>De-Ess Sibilance
+<ul>
+<li>Effects &gt; Amplitude and Compression &gt; DeEsser</li>
+<li>Select Male or Female Preset Accordingly</li>
+</ul></li>
+</ul>
+<h2 id="keying-footage">Keying Footage</h2>
+<ul>
+<li>Add Smooth Screen to Composition</li>
+<li>Add Primatte Keyer to Composition
+<ul>
+<li>Effects and Presets &gt; Primatte &gt; Primatte Keyer</li>
+</ul></li>
+<li>Configure Primatte Keyer
+<ul>
+<li>Keying
+<ul>
+<li>Tick Adjust Light On/Off</li>
+<li>Tick Sample On/Off</li>
+<li>Set Sampling Style to “Rectangle” Tick Smart Sample On/Off</li>
+</ul></li>
+<li>Keying &gt; Correction
+<ul>
+<li>Edge Color Replace: Color</li>
+<li>Replacement Color: #FFFFFF</li>
+<li>BG Defocus Layer: None</li>
+</ul></li>
+<li>If filming against Chroma-green background Composition Controls &gt; Spill Killer
+<ul>
+<li>Tick Enable Spill Killer</li>
+<li>Color Mode: Green</li>
+<li>Range: Adjust till green cast on person is gone (40-50%)</li>
+</ul></li>
+</ul></li>
+<li>Apply Key
+<ul>
+<li>Keying &gt; Selection</li>
+<li>Base Color Sample: Eyedrop background color Keying &gt; View</li>
+<li>View: Matte (To check the accuracy of the mask. Remember to switch back to View: Comp when done so the footage shows up in Premiere Pro)</li>
+<li>Keying &gt; Selection &gt; Select</li>
+<li>Use “Clean BG” and “Clean FG” to demarcate areas to be keyed or kept</li>
+<li>Use “Spill Sponge” to mark areas inside foreground that are accidentally keyed Use “Matte Sponge” on hair edges to regain fidelity</li>
+<li>Use “Restore Detail” on underarm shadows to create natural gradients</li>
+</ul></li>
+<li>(Optional) Add Matte Feather Sharp to Composition
+<ul>
+<li>Effects and Presets &gt; Key Correct &gt; Matte Feather Sharp</li>
+<li>Useful when the edge of the key shows signs of artifacting or flickering due to the footage being out-of-focus. This tightens the mask by a couple of pixels, removing specks and giving a nice, sharp edge.</li>
+<li>Known to increase render time significantly - use sparingly or as means of salvaging footage.</li>
+</ul></li>
+<li>Magic Bullet Colorista II
+<ul>
+<li>Select Linked After Effects Composition in the Timeline</li>
+<li>Effects &gt; Magic Bullet Colorista II &gt; Colorista II</li>
+<li>Effect Controls &gt; Colorista II &gt; Secondary
+<ul>
+<li>Pop: -10</li>
+<li>Secondary Key &gt; Key &gt; Edit</li>
+</ul></li>
+<li>Move oscilloscope bar up and down till only skintone is selected (Black is not selected, white is selected. All skin areas should be white)</li>
+<li>Clip highlights and shadows by moving both ends of the horizontal slider bar in a bit.￼￼￼</li>
+<li>Softness: 5%</li>
+<li>Click ok</li>
+<li>Effect Controls &gt; Colorista II &gt; Master
+<ul>
+<li>RGB Contrast: 0.2 RGB</li>
+<li>Mid: 0.3</li>
+</ul></li>
+</ul></li>
+<li>(Optional) Enlarge Footage
+<ul>
+<li>The lecturer should fully fill the right third column of the frame.</li>
+</ul></li>
+<li>Change Composition Background
+<ul>
+<li>Composition &gt; Composition Settings &gt; Background Color</li>
+<li>Set to #FFFFFF, white</li>
+<li>Click ok</li>
+</ul></li>
+</ul>
+<h2 id="grading">Grading</h2>
+<ul>
+<li>Magic Bullet Looks
+<ul>
+<li>Select Linked After Effects Composition in the Timeline</li>
+<li>Effects &gt; Magic Bullet Looks &gt; Looks</li>
+<li>Effect Controls &gt; Looks &gt; Edit Look</li>
+<li>Mouse hover on left screen edge &gt; Skin Grading 10%</li>
+<li>Click “Finished”</li>
+</ul></li>
+<li>Convolution Kernel Sharpen More
+<ul>
+<li>Select Linked After Effects Composition in the Timeline</li>
+<li>Effects &gt; Convolution Kernel &gt; Convolution Kernel Sharpen More</li>
+</ul></li>
+</ul>
+<h2 id="exporting">Exporting</h2>
+<ul>
+<li>Queue Sequence to Media Encoder File &gt; Export &gt; Media
+<ul>
+<li>Format: H.264</li>
+<li>Preset: YouTube HD 1080p 29.97 Export Video and Export Audio</li>
+<li>Check “Use Previews”</li>
+<li>Click “Queue”</li>
+<li>Go to Media Encoder, select the job and press enter</li>
+</ul></li>
+<li>Save output as <S/N> - <Checkpoint Name>.mp4</li>
+</ul>
+<h2 id="publishing">Publishing</h2>
+<ul>
+<li>Upload to YouTube
+<ul>
+<li>Naming Format: <Checkpoint Name></li>
+<li>e.g. ‘You Demand’</li>
+<li>Update Google Drive tracking documents with YouTube URL</li>
+</ul></li>
+<li>Upload to MediaFire <Subject>⧵<Topic>⧵<Lesson>
+<ul>
+<li>Naming Format: <NN> <Checkpoint Name>.mp4</li>
+<li>e.g. ‘01 You Demand.mp4’</li>
+<li>To ensure correct sorting, do not use ‘1 You Demand.mp4’</li>
+</ul></li>
+<li>Upload to Youku (Pending)</li>
+<li>Send for Subtitling (Pending)</li>
+</ul></div>
+
+
+      <footer>
+        <p class="meta text-muted">
+          
+  
+
+<span class="glyphicon glyphicon-user"></span> <span class="byline author vcard">Posted by <span class="fn">The Legless Llama LLP.</span></span>
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-08-11T20:40:00-04:00" pubdate data-updated="true">Aug 11<span>th</span>, 2013</time>
+          
+
+<span class="glyphicon glyphicon-tags"></span>&nbsp;
+<span class="categories">
+  
+    <a class='category label label-primary' href='/blog/categories/guides/'>Guides</a> <a class='category label label-primary' href='/blog/categories/post-processing/'>Post Processing</a>
+  
+</span>
+
+
+        </p>
+        
+          <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://oracle.openlectures.org/blog/post-production/" data-via="openlecturessg" data-counturl="http://oracle.openlectures.org/blog/post-production/" >Tweet</a>
+  
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+        
+        
+          <ul class="meta text-muted pager">
+            
+            <li class="previous"><a href="/blog/creating-a-new-post/" title="Previous Post: Creating a New Post">&laquo; Creating a New Post</a></li>
+            
+            
+            <li class="next"><a href="/blog/openquestions-style-guide/" title="Next Post: openquestions Style Guide">openquestions Style Guide &raquo;</a></li>
+            
+          </ul>
+        
+      </footer>
+    </article>
+    
+      <section>
+        <h1>Comments</h1>
+        <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+      </section>
+    
+  </div>
+
+  
+  <aside class="sidebar col-md-3">
+    
+      <section class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Recent Posts</h3>
+  </div>
+  
+  <div id="recent_posts" class="list-group">
+    
+    <a class="list-group-item " href="/blog/talent-and-genius/">Talent and Genius</a>
+    
+    <a class="list-group-item " href="/blog/intern-offer-letter/">Intern Offer Letter</a>
+    
+    <a class="list-group-item " href="/blog/subtitle-outsourcing-terms/">Subtitle Outsourcing Terms</a>
+    
+    <a class="list-group-item " href="/blog/subtitles/">Subtitles</a>
+    
+    <a class="list-group-item " href="/blog/filming/">Filming</a>
+    
+  </div>
+</section>
+<section class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Categories</h3>
+  </div>
+  <div class="list-group">
+    
+    
+    <a class="list-group-item " href="/blog/categories/tech-support/index.html">
+        <span class="badge">1</span>
+        Tech Support
+      </a>
+    
+    
+    <a class="list-group-item " href="/blog/categories/guides/index.html">
+        <span class="badge">5</span>
+        Guides
+      </a>
+    
+    
+    <a class="list-group-item " href="/blog/categories/post-processing/index.html">
+        <span class="badge">1</span>
+        Post Processing
+      </a>
+    
+    
+    <a class="list-group-item " href="/blog/categories/oracle/index.html">
+        <span class="badge">1</span>
+        Oracle
+      </a>
+    
+    
+    <a class="list-group-item " href="/blog/categories/using/index.html">
+        <span class="badge">1</span>
+        Using
+      </a>
+    
+    
+    <a class="list-group-item " href="/blog/categories/filming/index.html">
+        <span class="badge">1</span>
+        Filming
+      </a>
+    
+    
+    <a class="list-group-item " href="/blog/categories/guide/index.html">
+        <span class="badge">1</span>
+        Guide
+      </a>
+    
+    
+    <a class="list-group-item " href="/blog/categories/subtitles/index.html">
+        <span class="badge">2</span>
+        Subtitles
+      </a>
+    
+    
+    <a class="list-group-item " href="/blog/categories/contract-templates/index.html">
+        <span class="badge">2</span>
+        Contract Templates
+      </a>
+    
+    
+    <a class="list-group-item " href="/blog/categories/outsourcing/index.html">
+        <span class="badge">1</span>
+        Outsourcing
+      </a>
+    
+    
+    <a class="list-group-item " href="/blog/categories/internship/index.html">
+        <span class="badge">1</span>
+        Internship
+      </a>
+    
+    
+    <a class="list-group-item " href="/blog/categories/recruitment/index.html">
+        <span class="badge">1</span>
+        Recruitment
+      </a>
+    
+    
+    <a class="list-group-item " href="/blog/categories/wise-words/index.html">
+        <span class="badge">1</span>
+        Wise Words
+      </a>
+    
+  </div>
+</section>
+
+    
+  </aside>
+  
+</div>
+
+        </div>
+      </div>
+    </div>
+    <footer role="contentinfo"><div class="container">
+    <p class="text-muted credits">
+  Copyright &copy; 2013 - The Legless Llama LLP.<br>
+  <small>
+      <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>,
+      <span class="credit">customized with <a href="https://github.com/kAworu/octostrap3">octostrap3</a></span>.
+  </small>
+</p>
+
+</div>
+</footer>
+    <script src="/javascripts/libs/bootstrap-3.0.0/dist/js/bootstrap.min.js"></script>
+<script src="/javascripts/modernizr-2.0.js"></script>
+
+
+<script type="text/javascript">
+      var disqus_shortname = 'thecookiejar';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://oracle.openlectures.org/blog/post-production/';
+        var disqus_url = 'http://oracle.openlectures.org/blog/post-production/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id; js.async = true;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+  </body>
+</html>

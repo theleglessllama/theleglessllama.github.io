@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Guides | The Cookie Jar]]></title>
+  <link href="http://oracle.openlectures.org/blog/categories/guides/atom.xml" rel="self"/>
+  <link href="http://oracle.openlectures.org/"/>
+  <updated>2013-10-07T22:46:53-04:00</updated>
+  <id>http://oracle.openlectures.org/</id>
+  <author>
+    <name><![CDATA[The Legless Llama LLP.]]></name>
+    <email><![CDATA[hello@openlectures.org]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Subtitle Outsourcing Terms]]></title>
+    <link href="http://oracle.openlectures.org/blog/subtitle-outsourcing-terms/"/>
+    <updated>2013-10-02T14:15:00-04:00</updated>
+    <id>http://oracle.openlectures.org/blog/subtitle-outsourcing-terms</id>
+    <content type="html"><![CDATA[<h2 id="expected-product">Expected Product</h2>
+<ul>
+<li><p><strong>Assignment Format</strong>: You will be given a <strong>playlist</strong>. This playlist contains videos that you will need to transcribe.</p></li>
+<li><p><strong>Submission Format</strong>: plain text, one plain text file per video</p></li>
+<li><p><strong>Filename</strong>: Number of the video in the playlist, followed by the title of the video. e.g. <em>1 Why Rebut</em> for <a href="http://www.youtube.com/watch?v=y5oW1ofFRgs">http://www.youtube.com/watch?v=y5oW1ofFRgs</a></p></li>
+<li><p><strong>Inaudibles</strong>: Should there be inaudible words in the video, type “&lt;inaudible&gt;” in the text file. The videos are of high quality and inaudible words should not appear. We do not accept transcripts with more than 1 inaudible word.</p></li>
+</ul>
+<h2 id="style-guide">Style Guide</h2>
+<ul>
+<li><p>Single space after periods. e.g. <em>Lorem ipsum sit. Dolor amet.</em> not <em>Lorem ipsum sit. Dolor amet.</em></p></li>
+<li><p>Single space after commas. e.g. <em>Lorem ipsum sit, dolor amet.</em> not <em>Lorem ipsum sit, dolor amet.</em></p></li>
+<li><p>All “I” should be capitalized. First letters of sentences should be capitalized.</p></li>
+<li><p>Capitalization for speeches should be done correctly. e.g. <em>She said, “Hello!”</em> not <em>She said, “hello!”</em>.</p></li>
+<li><p>Punctuation for speeches should be done correctly, specifically the correct use of open quotes and close quotes. e.g. <em>She said, “Hello!”</em> not <em>She said, “Hello!”</em>.</p></li>
+<li><p>Technical terms should be capitalized. e.g. <em>The Demand Curve is a representation…</em> and not <em>The demand curve is a representation…</em></p></li>
+<li><p>Double line break after every sentence. If the sentence is longer than 60 characters (whitespace included), add a double line break to separate the sentence. e.g. If a line is<br /> <em>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</em><br /> it should be type set as<br /> <em>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</em><br /> <em>sed do eiusmod tempor incididunt ut labore et dolore magna</em><br /> <em>aliqua.</em></p></li>
+<li><p>All mathematical symbols should be converted to text. e.g. <em>A times B</em> not <em>A x B</em></p></li>
+</ul>
+<h2 id="sample-transcription">Sample Transcription</h2>
+<p>Filename Format:</p>
+<p>Number of the video in the playlist, followed by the title of the video. e.g. <em>1 Why Rebut</em> for <a href="http://www.youtube.com/watch?v=y5oW1ofFRgs">http://www.youtube.com/watch?v=y5oW1ofFRgs</a></p>
+<p>For example, <code>1 Demand Curve.txt</code></p>
+<p>Text File Contents:</p>
+<pre><code>So now before I bore you with the things like
+
+demand curve, supply curve,
+
+consumer surplus and producer surplus,
+
+let’s go into something simpler.
+
+Everyone knows cookies.
+
+You know cookie I know cookie,
+
+I have a pack of cookies here.
+
+Let’s say that the pack of cookies cost five dollars.
+
+Now if it’s five dollars and you say:
+
+&quot;Hey the cookies are a little bit expensive,
+
+I can’t afford that many cookies.
+
+I’m just going to buy one pack of cookies.&quot;
+
+So great. Imagine a graph.
+
+The vertical axis being the price.
+
+The horizontal axis being the quantity.
+
+So what you do is that,
+
+I say at 5 dollars, I buy one pack of cookies.
+
+Now if I drop the price to 4 dollars,
+
+Now 4 dollars I say:
+
+&quot;Hey maybe I can buy a little bit more cookies,
+
+maybe my mom wants it,
+
+maybe I want to eat a little bit more&quot;,
+
+so you say I buy two packets.
+
+If I lower the price a little bit more,
+
+and I lower it to 3 dollars, I say:
+
+&quot;3 dollars. Right I’ll buy even more cookies&quot;,
+
+so I’ll buy three packets.
+
+I lower it to 2 dollars, you buy 4 packets.
+
+I lower it to 1 dollar, you buy 5 packets.
+
+Now, what you see happening is that on the graph,
+
+you have 5 dots.
+
+And these dots basically show the relationship
+
+between the price and the quantity.
+
+So in the next checkpoint,
+
+you will see how these points
+
+can be joined together to form the demand curve.</code></pre>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Filming]]></title>
+    <link href="http://oracle.openlectures.org/blog/filming/"/>
+    <updated>2013-09-30T00:38:00-04:00</updated>
+    <id>http://oracle.openlectures.org/blog/filming</id>
+    <content type="html"><![CDATA[<h2 id="camera-software-setup">Camera Software Setup</h2>
+<ul>
+<li>Load <a href="http://marvelsfilm.wordpress.com/marvels-cine-canon/">Marvel-Cine Picture Style</a> into the camera.</li>
+<li>(Optional) Capture using EOS Utility
+<ul>
+<li>Camera Settings/Remote Shooting &gt; Live View</li>
+<li>Focus &gt; Quick Mode &gt; Expand: AF Selection</li>
+<li>Align the nose of the lecturer to the upper-right intersection point of the grid</li>
+</ul></li>
+</ul>
+<h2 id="lighting">Lighting</h2>
+<ul>
+<li>Three point lighting (or 4 point if you have enough space)</li>
+<li>Two in front of lecturer, two diffused to illuminate the background.
+<ul>
+<li>The two in front should have 3 and 2 bulbs each.</li>
+<li>The one behind should be lower power, diffused, to even out shadows on the green screen</li>
+</ul></li>
+</ul>
+<h2 id="sound">Sound</h2>
+<p>Assuming that you’re using <strong>Sennheiser XSW 12 Presentation Set</strong>,</p>
+<ul>
+<li>Set sound level on the transmitte to -20dB or -30dB, depending on voice of the lecturer</li>
+<li>Make sure that the clip-on lapel mic is on the outside, not the inside of the lecturer’s clothing</li>
+<li>Point the microphone at the direction of the lecturer’s mouth</li>
+<li>Minmize the distance between the lecturer’s mouth and the lapel mic</li>
+<li>Make sure that no piece of clothing or hair is in contact with the lapel mic. That creates fuzzy hisses.</li>
+</ul>
+<h2 id="for-5d-mkiii">For 5D MkIII</h2>
+<h2 id="for-rebel-t4i">For Rebel T4i</h2>
+<ul>
+<li>Select the <a href="http://marvelsfilm.wordpress.com/marvels-cine-canon/">Marvel-Cine Picture Style</a> <strong>picture style</strong> you have just loaded into the camera</li>
+<li>Set (Assuming you’re using the 40mm f2.8 Pancake Lens)
+<ul>
+<li>ISO: 400</li>
+<li>Shutter Speed: 40</li>
+<li>Aperture: 5.6</li>
+</ul></li>
+<li>Set white balance to “White Fluorescent Light”</li>
+<li>Set recording format to 1080p, 30FPS</li>
+<li>Ensure that external microphone is plugged in, do a sound test to ensure that sound level hovers around the yellow level</li>
+</ul>
+<h2 id="positioning-the-lecturer">Positioning the Lecturer</h2>
+<ul>
+<li>Position lecturer at the upper right third</li>
+<li>Tilt lecturer 30 degrees towards the lecturer’s right such that he’s asymmetric and facing the animations.</li>
+<li>Ensure the Lecturer is cut off at around the diaphragm, and that he has sufficient space to move his hands</li>
+</ul>
+<h2 id="additional-tips">Additional Tips</h2>
+<ul>
+<li>Have bottles of water (or the lecturer’s favorite drink) ready</li>
+<li>Have non-choking snacks (so no biscuits)</li>
+</ul>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Script Editing Checklist]]></title>
+    <link href="http://oracle.openlectures.org/blog/script-editing-checklist/"/>
+    <updated>2013-09-29T23:01:00-04:00</updated>
+    <id>http://oracle.openlectures.org/blog/script-editing-checklist</id>
+    <content type="html"><![CDATA[<h2 id="examples">Examples</h2>
+<ul>
+<li>Funny and real life examples
+<ul>
+<li>Encourage the reader to take part in the example by putting them in a position to participate</li>
+<li>e.g. “let’s say you’re walking down the street and you slip and fall”.</li>
+</ul></li>
+<li>Return to the concept after the example
+<ul>
+<li>Link examples back to the concept always, and try to “trivialize” the concept by making it sound simple</li>
+<li>e.g. “so what we just did was calculate <this> using the Pythagoras formula”</li>
+<li>e.g. “now we’ll take that and try to do it with trigonometry. We’ll be using sin, cos, and tangent”</li>
+<li>e.g. “so what we just did was apply sin, cos and tangent to a triangle”.</li>
+</ul></li>
+</ul>
+<h2 id="talk-not-lecture-to-the-viewer">Talk, not lecture to the viewer</h2>
+<ul>
+<li>Clear signposting
+<ul>
+<li>Tell the reader before you start talking about something.</li>
+<li>e.g. announcing, “now let’s look at <this>”</li>
+</ul></li>
+<li>Use action words
+<ul>
+<li>Invite the reader to participate</li>
+<li>e.g. “let’s calculate <this> using the Pythagoras formula”</li>
+<li>Never ever use passive voice</li>
+<li>e.g. Don’t say “it is possible to calculate”</li>
+<li>e.g. “we can calculate” or “let’s calculate”</li>
+</ul></li>
+<li>Don’t use nominalization unless it’s absolutely necessary
+<ul>
+<li>Makes you sound like a boring fuck</li>
+<li>e.g. “The explanation of this theory can be made in this manner” vs. “You can explain it this way.”</li>
+<li>Then make it even simpler</li>
+<li>e.g. “This is why.”</li>
+</ul></li>
+</ul>
+<h2 id="make-fun-of-stuff">Make fun of stuff</h2>
+<ul>
+<li>Statement + Because + Sarcastic Statement
+<ul>
+<li>Difficult names: “Chebyshev Polynomials, because clearly ‘polynomials’ weren’t already difficult enough to pronounce”.</li>
+<li>“We’re going to calculate how long it would take a box to fall to the ground if it were pushed out of the plane, because we’re totally to need to know that tomorrow”.</li>
+</ul></li>
+<li>Make fun of yourself
+<ul>
+<li>Because that’s the one person whom you can be sure not to offend.</li>
+<li>e.g. “Someone who’s lazy like me will prefer this method”</li>
+</ul></li>
+<li>Make fun of examiners
+<ul>
+<li>Because that’s everyone’s common enemy</li>
+<li>e.g. “The examiner will ask you how many miles you ran. Now that’s not really his business, but they always ask you stupid things. So just answer him.”</li>
+</ul></li>
+</ul>
+<h2 id="a-script-not-lecture-notes">A script, not lecture notes</h2>
+<ul>
+<li>Add a pre.g.ant pause after every question
+<ul>
+<li>“What’s the algorithm for the Runge-Kutta method for differential equations?” <em>pause for 2 seconds</em> “Fall to your knees and pray baby, pray.”</li>
+<li>“Who’s the sexiest man on earth?” <em>pause for 2 seconds</em> “Why, Linan, of course.”</li>
+</ul></li>
+<li>Don’t sound like a textbook
+<ul>
+<li>So don’t use textbook language</li>
+<li>e.g. “Note that this theorem is…” vs “Be careful! This theorem is…”</li>
+<li>e.g. “Given these assumptions, we can proceed with our derivation.” vs “We know that these are our assumptions. So let’s proceed!”</li>
+</ul></li>
+</ul>
+<h2 id="vary-your-sentence-length">Vary your sentence length</h2>
+<ul>
+<li>If every sentence was as long as this one, reading it would be a total pain in the ass - imagine: you’d have to make it through the entire thing on one single breath, and after that you’d still have to process it. Now take that previous sentence and use your marvelous imagination to predict how it would look like if you were reading out a hundred of them in a row and someone were listening to it all the way - you’re going to sound like a balmy old professor who has not been listened to for the past three decades of his life.</li>
+<li>See that above? Give it a read through and you’ll find that it’s bad. Really bad. It’s not so much about the actual content as it is about the length and monotonicity of the sentences. The simplest way to fix it is to keep sentences short if possible, and make them long only when you need them! Easy peasy!</li>
+</ul>
+<h2 id="vary-punctuation">Vary punctuation</h2>
+<ul>
+<li>A lecturer sees “!” very differently from “.”, and will read them accordingly.</li>
+<li>e.g. “This is the end of the lecture.” vs. “This is the end of the lecture!”</li>
+</ul>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[openquestions Style Guide]]></title>
+    <link href="http://oracle.openlectures.org/blog/openquestions-style-guide/"/>
+    <updated>2013-09-05T17:57:00-04:00</updated>
+    <id>http://oracle.openlectures.org/blog/openquestions-style-guide</id>
+    <content type="html"><![CDATA[<h2 id="how-to-answer">How To Answer</h2>
+<p>Thank the person for asking us. After all, no one is asking them to use our service. It also helps us make them feel welcome! Remember, we’re trying to build a community base.</p>
+<p>Put your answer in brief in your first paragraph or first few lines. That way, people who’re lazy to click ‘Continue Reading’ can still get the gist of what’s being written without delving into a potential wall of text.</p>
+<p>Illustrate step by step how you arrive at the answer. Remember to signpost your answer – always link what you’re saying to the previous step as well as its location in the thought process so people can follow your train of thought!</p>
+<p>Be Friendly! Place yourself in the reader’s shoes. Use “I”, “You”, and “We” rather than the passive voice. Also check your tone for unintentional sarcasm - as a precaution.</p>
+<p>Use original content where you can. If you’re referring to a source, summarize it rather than just directing the person to the link - which most of us know creates some sort of nightmare.</p>
+<p>If an OL lecture is available that provides the answer, or instruction in that direction, use and prioritize that - remember to link to it!</p>
+<p>If a question skews towards asking for an outright solution, provide less content and more hints. Guide the reader’s train of thought and challenge them to think rather than providing them with the exact answer, though we still want them to get some sense of it.</p>
+<p>Try to gauge and answer at the level of the reader. If you’re going in-depth, provide a simple answer first, then clearly tell the reader that you’re getting down and dirty.</p>
+<p>Never insert non-essential information that may not aid the reader’s understanding of said concept. Knowing that a cat is furrier than other cats doesn’t necessarily tell the reader that a cat is a cute pet.</p>
+<p>Recall that in OL lectures, we checkpoint the lectures so that it becomes understandable. Same thing here – remember to checkpoint your answers, giving a brief so that readers know what you’re writing in a particular paragraph.</p>
+<h2 id="internal-triaging">Internal Triaging</h2>
+<p>Questions should be triaged internally for the standard of the questions asked in this manner:</p>
+<ol type="1">
+<li>Serious curriculum/academic work</li>
+<li>Questions that ask for pure information</li>
+<li>Crazy questions (ultra-high difficulty, think Olympiad level)</li>
+<li>General inquiries</li>
+<li>Troll questions (lowest priority)</li>
+</ol>
+<p>This allows us to determine the urgency of the question, as well as the level of response required Use the following spectrum to decide how much of an answer should be given. The more the question skews toward asking for solutions, the less content and more hints should be given.</p>
+<h2 id="quality-control">Quality Control</h2>
+<p>Remember to have these things in mind when you answer questions:</p>
+<ul>
+<li><strong>Is it correct?</strong> We need to ensure that the answer is factually accurate! Make sure you know what you are doing when you are answering the question. Wikipedia and Google can be good resources for you to double check your information.</li>
+<li><strong>Is the level suitable?</strong> People come here to look for a quick fix, do not spam them with excessive information. The guideline is A levels, however, other concepts that are slightly above A levels can be brought in if it aids the understanding. Things that are beyond A levels should be clearly labelled.</li>
+<li><strong>Follow the guidelines for equations!</strong> Right now we are still writing equations in Facebook so before we work out a more elegant way of presenting them, follow the guidelines below.</li>
+</ul>
+<h2 id="formatting">Formatting</h2>
+<ul>
+<li><strong>Basic English.</strong> If a question is poorly phrased when sent in, polish it up for the sake of clarity, and make it look presentable before posting it on the site. You don’t see aunt agony/submission columns on established sites posting up questions with broken English.</li>
+<li><strong>No Walls of Text.</strong> We’re sure you wouldn’t want to read a never-ending string of text! Keep it simple and in point form. It works the same way as in the videos - we want bite-sized info! Proper, simple, understandable should be the maxim.</li>
+<li><strong>Hash-tagging should be done appropriately.</strong> To aid the users in finding our answers, hash tag as such: #OQMath or #OQ<insert subject here>, where first letter of the subject should be capitalized.</li>
+</ul>
+<h2 id="equations">Equations</h2>
+<p>As a rule of thumb, avoid LaTeX syntax until we get the LaTeX interpreter up. While it does make everything crystal clear, not everyone is familiar with LaTeX. So for now, we do everything linearly:</p>
+<ul>
+<li><strong>Basic operations</strong>, i.e. addition, subtraction, multiplication and division, stick with the common symbols. For multiplication, use “x” only when there is NO variable x in the question. If there is, switch to the usage of brackets for multiplication (e.g. For 3 times 4x write (3)(4x) instead of 3x4x)</li>
+<li><strong>Exponential terms</strong>. “^” represents power, so a ^ b would be a to the power of b. Keep track of what is in the power term. If the exponential has more than one term use brackets, e.g. a ^ (b+c).</li>
+<li><strong>Logarithms</strong>. Any log taken to base 10, express it as lg and when it is base e, express it as ln. Simple. Now for a different base, e.g. log of b taken to base a, write log b (base a). Also, use brackets when you log more than one term.</li>
+<li><strong>Fractions</strong>. Usually, they can be represented by the simple divide sign, e.g. a/b. Do take note of what’s in the numerator and denominator when typing complicated fractions. For example, (1-x)/y is different from 1 - x/y – so remember to use brackets when the numerator and/or the denominator has more than one term.</li>
+<li><strong>Differentials</strong>. The simple dy/dx approach… should work. For specifying the differential at points, write it in this form: dy/dx(x=a) = 10</li>
+<li><strong>Integration</strong>. Similarly, the simple “int” will represent the integration sign. Now to specify boundaries, put the limits in brackets. For example, int(x)[2,3] would mean integrating from 2-3.</li>
+<li><strong>Spaces</strong>. Try not the type whole equations out without any spaces, do add the where appropriate - e.g. cos(kx) = 1 - 2sin^2(kx/2)</li>
+</ul>
+<h2 id="posting">Posting</h2>
+<ul>
+<li>Ideally, posts should be verified by at least 1 more person before being approved for publication. However, if your answer has remained unverified for more than 3 days, approach someone directly to verify it for you.</li>
+<li>Posts should be posted within 7 days of submission.</li>
+<li>Posts should be checked for:</li>
+<li>Accuracy</li>
+<li>Clarity and Coherence</li>
+<li>Formatting &amp; Language</li>
+<li>Publish status: Yes (Y), No (N), and Pending (P) are self-explanatory. When you’re done answering a question, remember to assign them in the document so everyone’s kept in the loop.</li>
+<li>Schedule posts every half hour to an hour, depending on the amount of questions we have to post for the day.</li>
+<li>Peak hour(s) are usually from around 6pm-10pm. One post may be scheduled in mid-afternoon if suitable.</li>
+<li>Check for posts already scheduled before scheduling more in the Activity Log on Facebook, or we may have overlapping posts!</li>
+<li>If the answer is inaccurate/incomplete after posting, edit the post accordingly, and comment with on the post with the page with ‘post amended’ or something of sorts.</li>
+</ul>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Post Production]]></title>
+    <link href="http://oracle.openlectures.org/blog/post-production/"/>
+    <updated>2013-08-11T20:40:00-04:00</updated>
+    <id>http://oracle.openlectures.org/blog/post-production</id>
+    <content type="html"><![CDATA[<h2 id="slides">Slides</h2>
+<ul>
+<li>Remove all blank slides (if any)</li>
+<li>Remove all separator/title slides (if any)</li>
+<li>Set all transition timings to 0.5s
+<ul>
+<li>Inspector &gt; Transition</li>
+<li>Start Transition: On Click</li>
+<li>Delay: 0.5s</li>
+</ul></li>
+<li>Record Slideshow
+<ul>
+<li>File &gt; Record Slideshow</li>
+</ul></li>
+<li>Export to Movie
+<ul>
+<li>File &gt; Export &gt; Quicktime</li>
+<li>Playback Uses: Recorded Timing</li>
+<li>Formats: Custom</li>
+<li>Video: Full Size</li>
+<li>Settings &gt; Compression Type &gt; Apple ProRes 422 (HQ)</li>
+<li>Frame Rate: 29.97 FPS</li>
+<li>Gamma Correction: Automatic</li>
+<li>Audio: No Audio</li>
+</ul></li>
+</ul>
+<h2 id="raw-footage">Raw Footage</h2>
+<ul>
+<li>Decompress using Rarevision 5DtoRGB
+<ul>
+<li>Program should auto-detect settings on footage import.</li>
+<li>Output Format: ProRes 422 (HQ)</li>
+<li>Decoding Matrix: ITU-R BT.709</li>
+<li>Luminance Range: Full Range</li>
+<li>Chroma Mode: Progressive</li>
+<li>Post-Processing: Technicolor Cinestyle</li>
+</ul></li>
+<li>Load into Adobe Premiere Pro. Follow these Sequence Settings
+<ul>
+<li>Editing Mode: Custom</li>
+<li>Timebase: 29.97 frames/second</li>
+<li>Video
+<ul>
+<li>Frame Size: 1920 horizontal 1080 vertical (16:9)</li>
+<li>Pixel Aspect Ratio: Square Pixels (1.0)</li>
+<li>Fields: No Fields (Progressive Scan)</li>
+<li>Display Format: 30fps Drop-Frame Timecode</li>
+</ul></li>
+<li>Audio
+<ul>
+<li>Sample Rate: 48000 Hz</li>
+<li>Display Format: Audio Samples￼￼￼￼￼￼￼￼￼￼￼</li>
+</ul></li>
+<li>Video Previews Width: 1920 Height: 1080</li>
+</ul></li>
+<li>Open Audio in Adobe Audition
+<ul>
+<li>Go to “Enhancing Audio”</li>
+<li>Right click audio track &gt; - Edit Clip in Adobe Audition</li>
+</ul></li>
+<li>Trim Footage
+<ul>
+<li>Scrub to desired start and “Mark In” (I- )</li>
+<li>Scrub to desired end and mark with “Mark Out” (O)</li>
+<li>Extract Footage (’)</li>
+<li>Select all excess footage (Ctrl/Cmd + A) and delete</li>
+<li>Move playhead to start and - paste (Ctrl/Cmd + V)</li>
+</ul></li>
+<li>Insert Exported Slide Footage (See “Slides”)</li>
+<li>Sync Both Sets of Footage Open Footage in Adobe After Effects
+<ul>
+<li>Go to “Keying Footage” Right click on - footage &gt; Replace with After Effects Composition</li>
+</ul></li>
+<li>Clean up Useless Tracks
+<ul>
+<li>Sequence &gt; Delete Tracks</li>
+<li>Video Tracks
+<ul>
+<li>Delete Video Tracks &gt; All Empty Tracks</li>
+</ul></li>
+<li>Audio Tracks
+<ul>
+<li>Delete Audio Tracks &gt; All Empty Tracks</li>
+</ul></li>
+</ul></li>
+</ul>
+<h2 id="enhancing-audio">Enhancing Audio</h2>
+<ul>
+<li>Remove Noise
+<ul>
+<li>Select region of room tone</li>
+<li>Effects &gt; Noise Reduction/Restoration &gt; Capture Noise Print</li>
+<li>Select entire track (Ctrl/Cmd + A)</li>
+<li>Effects &gt; Noise Reduction/Restoration &gt; Noise Reduction (Process)</li>
+<li>Noise Reduction: 100%</li>
+<li>Reduce by: 4db</li>
+</ul></li>
+<li>Compress and Normalize
+<ul>
+<li>Effects &gt; Amplitude and Compression &gt; Single-band Compressor</li>
+<li>Threshold: -6.0db</li>
+<li>Ratio: 12.0</li>
+<li>Attack: 0.0ms</li>
+<li>Release: 100ms</li>
+<li>Output Gain: 0.0db</li>
+<li>Effects &gt; Amplitude and Compression &gt; Normalize</li>
+<li>Normalize to -6.0db Normalize all channels equally</li>
+</ul></li>
+<li>Apply EQ
+<ul>
+<li>Effects &gt; Special &gt; Vocal Enhancer</li>
+<li>Select male or female accordingly</li>
+<li>Effects &gt; Special &gt; Mastering</li>
+<li>Peaking Enable</li>
+<li>High Shelf Enable Adjust accordingly. High shelf point should be above the axis. Peak point should be below the axis.</li>
+<li>For Guys
+<ul>
+<li>2500Hz, +2db</li>
+<li>250Hz, -2db</li>
+</ul></li>
+<li>For Girls
+<ul>
+<li>2500Hz, +2db</li>
+<li>250Hz, -5db</li>
+</ul></li>
+</ul></li>
+<li>De-Ess Sibilance
+<ul>
+<li>Effects &gt; Amplitude and Compression &gt; DeEsser</li>
+<li>Select Male or Female Preset Accordingly</li>
+</ul></li>
+</ul>
+<h2 id="keying-footage">Keying Footage</h2>
+<ul>
+<li>Add Smooth Screen to Composition</li>
+<li>Add Primatte Keyer to Composition
+<ul>
+<li>Effects and Presets &gt; Primatte &gt; Primatte Keyer</li>
+</ul></li>
+<li>Configure Primatte Keyer
+<ul>
+<li>Keying
+<ul>
+<li>Tick Adjust Light On/Off</li>
+<li>Tick Sample On/Off</li>
+<li>Set Sampling Style to “Rectangle” Tick Smart Sample On/Off</li>
+</ul></li>
+<li>Keying &gt; Correction
+<ul>
+<li>Edge Color Replace: Color</li>
+<li>Replacement Color: #FFFFFF</li>
+<li>BG Defocus Layer: None</li>
+</ul></li>
+<li>If filming against Chroma-green background Composition Controls &gt; Spill Killer
+<ul>
+<li>Tick Enable Spill Killer</li>
+<li>Color Mode: Green</li>
+<li>Range: Adjust till green cast on person is gone (40-50%)</li>
+</ul></li>
+</ul></li>
+<li>Apply Key
+<ul>
+<li>Keying &gt; Selection</li>
+<li>Base Color Sample: Eyedrop background color Keying &gt; View</li>
+<li>View: Matte (To check the accuracy of the mask. Remember to switch back to View: Comp when done so the footage shows up in Premiere Pro)</li>
+<li>Keying &gt; Selection &gt; Select</li>
+<li>Use “Clean BG” and “Clean FG” to demarcate areas to be keyed or kept</li>
+<li>Use “Spill Sponge” to mark areas inside foreground that are accidentally keyed Use “Matte Sponge” on hair edges to regain fidelity</li>
+<li>Use “Restore Detail” on underarm shadows to create natural gradients</li>
+</ul></li>
+<li>(Optional) Add Matte Feather Sharp to Composition
+<ul>
+<li>Effects and Presets &gt; Key Correct &gt; Matte Feather Sharp</li>
+<li>Useful when the edge of the key shows signs of artifacting or flickering due to the footage being out-of-focus. This tightens the mask by a couple of pixels, removing specks and giving a nice, sharp edge.</li>
+<li>Known to increase render time significantly - use sparingly or as means of salvaging footage.</li>
+</ul></li>
+<li>Magic Bullet Colorista II
+<ul>
+<li>Select Linked After Effects Composition in the Timeline</li>
+<li>Effects &gt; Magic Bullet Colorista II &gt; Colorista II</li>
+<li>Effect Controls &gt; Colorista II &gt; Secondary
+<ul>
+<li>Pop: -10</li>
+<li>Secondary Key &gt; Key &gt; Edit</li>
+</ul></li>
+<li>Move oscilloscope bar up and down till only skintone is selected (Black is not selected, white is selected. All skin areas should be white)</li>
+<li>Clip highlights and shadows by moving both ends of the horizontal slider bar in a bit.￼￼￼</li>
+<li>Softness: 5%</li>
+<li>Click ok</li>
+<li>Effect Controls &gt; Colorista II &gt; Master
+<ul>
+<li>RGB Contrast: 0.2 RGB</li>
+<li>Mid: 0.3</li>
+</ul></li>
+</ul></li>
+<li>(Optional) Enlarge Footage
+<ul>
+<li>The lecturer should fully fill the right third column of the frame.</li>
+</ul></li>
+<li>Change Composition Background
+<ul>
+<li>Composition &gt; Composition Settings &gt; Background Color</li>
+<li>Set to #FFFFFF, white</li>
+<li>Click ok</li>
+</ul></li>
+</ul>
+<h2 id="grading">Grading</h2>
+<ul>
+<li>Magic Bullet Looks
+<ul>
+<li>Select Linked After Effects Composition in the Timeline</li>
+<li>Effects &gt; Magic Bullet Looks &gt; Looks</li>
+<li>Effect Controls &gt; Looks &gt; Edit Look</li>
+<li>Mouse hover on left screen edge &gt; Skin Grading 10%</li>
+<li>Click “Finished”</li>
+</ul></li>
+<li>Convolution Kernel Sharpen More
+<ul>
+<li>Select Linked After Effects Composition in the Timeline</li>
+<li>Effects &gt; Convolution Kernel &gt; Convolution Kernel Sharpen More</li>
+</ul></li>
+</ul>
+<h2 id="exporting">Exporting</h2>
+<ul>
+<li>Queue Sequence to Media Encoder File &gt; Export &gt; Media
+<ul>
+<li>Format: H.264</li>
+<li>Preset: YouTube HD 1080p 29.97 Export Video and Export Audio</li>
+<li>Check “Use Previews”</li>
+<li>Click “Queue”</li>
+<li>Go to Media Encoder, select the job and press enter</li>
+</ul></li>
+<li>Save output as <S/N> - <Checkpoint Name>.mp4</li>
+</ul>
+<h2 id="publishing">Publishing</h2>
+<ul>
+<li>Upload to YouTube
+<ul>
+<li>Naming Format: <Checkpoint Name></li>
+<li>e.g. ‘You Demand’</li>
+<li>Update Google Drive tracking documents with YouTube URL</li>
+</ul></li>
+<li>Upload to MediaFire <Subject>⧵<Topic>⧵<Lesson>
+<ul>
+<li>Naming Format: <NN> <Checkpoint Name>.mp4</li>
+<li>e.g. ‘01 You Demand.mp4’</li>
+<li>To ensure correct sorting, do not use ‘1 You Demand.mp4’</li>
+</ul></li>
+<li>Upload to Youku (Pending)</li>
+<li>Send for Subtitling (Pending)</li>
+</ul>]]></content>
+  </entry>
+  
+</feed>

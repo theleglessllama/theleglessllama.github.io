@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Post Processing | The Cookie Jar]]></title>
+  <link href="http://oracle.openlectures.org/blog/categories/post-processing/atom.xml" rel="self"/>
+  <link href="http://oracle.openlectures.org/"/>
+  <updated>2013-10-07T22:46:53-04:00</updated>
+  <id>http://oracle.openlectures.org/</id>
+  <author>
+    <name><![CDATA[The Legless Llama LLP.]]></name>
+    <email><![CDATA[hello@openlectures.org]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Post Production]]></title>
+    <link href="http://oracle.openlectures.org/blog/post-production/"/>
+    <updated>2013-08-11T20:40:00-04:00</updated>
+    <id>http://oracle.openlectures.org/blog/post-production</id>
+    <content type="html"><![CDATA[<h2 id="slides">Slides</h2>
+<ul>
+<li>Remove all blank slides (if any)</li>
+<li>Remove all separator/title slides (if any)</li>
+<li>Set all transition timings to 0.5s
+<ul>
+<li>Inspector &gt; Transition</li>
+<li>Start Transition: On Click</li>
+<li>Delay: 0.5s</li>
+</ul></li>
+<li>Record Slideshow
+<ul>
+<li>File &gt; Record Slideshow</li>
+</ul></li>
+<li>Export to Movie
+<ul>
+<li>File &gt; Export &gt; Quicktime</li>
+<li>Playback Uses: Recorded Timing</li>
+<li>Formats: Custom</li>
+<li>Video: Full Size</li>
+<li>Settings &gt; Compression Type &gt; Apple ProRes 422 (HQ)</li>
+<li>Frame Rate: 29.97 FPS</li>
+<li>Gamma Correction: Automatic</li>
+<li>Audio: No Audio</li>
+</ul></li>
+</ul>
+<h2 id="raw-footage">Raw Footage</h2>
+<ul>
+<li>Decompress using Rarevision 5DtoRGB
+<ul>
+<li>Program should auto-detect settings on footage import.</li>
+<li>Output Format: ProRes 422 (HQ)</li>
+<li>Decoding Matrix: ITU-R BT.709</li>
+<li>Luminance Range: Full Range</li>
+<li>Chroma Mode: Progressive</li>
+<li>Post-Processing: Technicolor Cinestyle</li>
+</ul></li>
+<li>Load into Adobe Premiere Pro. Follow these Sequence Settings
+<ul>
+<li>Editing Mode: Custom</li>
+<li>Timebase: 29.97 frames/second</li>
+<li>Video
+<ul>
+<li>Frame Size: 1920 horizontal 1080 vertical (16:9)</li>
+<li>Pixel Aspect Ratio: Square Pixels (1.0)</li>
+<li>Fields: No Fields (Progressive Scan)</li>
+<li>Display Format: 30fps Drop-Frame Timecode</li>
+</ul></li>
+<li>Audio
+<ul>
+<li>Sample Rate: 48000 Hz</li>
+<li>Display Format: Audio Samples￼￼￼￼￼￼￼￼￼￼￼</li>
+</ul></li>
+<li>Video Previews Width: 1920 Height: 1080</li>
+</ul></li>
+<li>Open Audio in Adobe Audition
+<ul>
+<li>Go to “Enhancing Audio”</li>
+<li>Right click audio track &gt; - Edit Clip in Adobe Audition</li>
+</ul></li>
+<li>Trim Footage
+<ul>
+<li>Scrub to desired start and “Mark In” (I- )</li>
+<li>Scrub to desired end and mark with “Mark Out” (O)</li>
+<li>Extract Footage (’)</li>
+<li>Select all excess footage (Ctrl/Cmd + A) and delete</li>
+<li>Move playhead to start and - paste (Ctrl/Cmd + V)</li>
+</ul></li>
+<li>Insert Exported Slide Footage (See “Slides”)</li>
+<li>Sync Both Sets of Footage Open Footage in Adobe After Effects
+<ul>
+<li>Go to “Keying Footage” Right click on - footage &gt; Replace with After Effects Composition</li>
+</ul></li>
+<li>Clean up Useless Tracks
+<ul>
+<li>Sequence &gt; Delete Tracks</li>
+<li>Video Tracks
+<ul>
+<li>Delete Video Tracks &gt; All Empty Tracks</li>
+</ul></li>
+<li>Audio Tracks
+<ul>
+<li>Delete Audio Tracks &gt; All Empty Tracks</li>
+</ul></li>
+</ul></li>
+</ul>
+<h2 id="enhancing-audio">Enhancing Audio</h2>
+<ul>
+<li>Remove Noise
+<ul>
+<li>Select region of room tone</li>
+<li>Effects &gt; Noise Reduction/Restoration &gt; Capture Noise Print</li>
+<li>Select entire track (Ctrl/Cmd + A)</li>
+<li>Effects &gt; Noise Reduction/Restoration &gt; Noise Reduction (Process)</li>
+<li>Noise Reduction: 100%</li>
+<li>Reduce by: 4db</li>
+</ul></li>
+<li>Compress and Normalize
+<ul>
+<li>Effects &gt; Amplitude and Compression &gt; Single-band Compressor</li>
+<li>Threshold: -6.0db</li>
+<li>Ratio: 12.0</li>
+<li>Attack: 0.0ms</li>
+<li>Release: 100ms</li>
+<li>Output Gain: 0.0db</li>
+<li>Effects &gt; Amplitude and Compression &gt; Normalize</li>
+<li>Normalize to -6.0db Normalize all channels equally</li>
+</ul></li>
+<li>Apply EQ
+<ul>
+<li>Effects &gt; Special &gt; Vocal Enhancer</li>
+<li>Select male or female accordingly</li>
+<li>Effects &gt; Special &gt; Mastering</li>
+<li>Peaking Enable</li>
+<li>High Shelf Enable Adjust accordingly. High shelf point should be above the axis. Peak point should be below the axis.</li>
+<li>For Guys
+<ul>
+<li>2500Hz, +2db</li>
+<li>250Hz, -2db</li>
+</ul></li>
+<li>For Girls
+<ul>
+<li>2500Hz, +2db</li>
+<li>250Hz, -5db</li>
+</ul></li>
+</ul></li>
+<li>De-Ess Sibilance
+<ul>
+<li>Effects &gt; Amplitude and Compression &gt; DeEsser</li>
+<li>Select Male or Female Preset Accordingly</li>
+</ul></li>
+</ul>
+<h2 id="keying-footage">Keying Footage</h2>
+<ul>
+<li>Add Smooth Screen to Composition</li>
+<li>Add Primatte Keyer to Composition
+<ul>
+<li>Effects and Presets &gt; Primatte &gt; Primatte Keyer</li>
+</ul></li>
+<li>Configure Primatte Keyer
+<ul>
+<li>Keying
+<ul>
+<li>Tick Adjust Light On/Off</li>
+<li>Tick Sample On/Off</li>
+<li>Set Sampling Style to “Rectangle” Tick Smart Sample On/Off</li>
+</ul></li>
+<li>Keying &gt; Correction
+<ul>
+<li>Edge Color Replace: Color</li>
+<li>Replacement Color: #FFFFFF</li>
+<li>BG Defocus Layer: None</li>
+</ul></li>
+<li>If filming against Chroma-green background Composition Controls &gt; Spill Killer
+<ul>
+<li>Tick Enable Spill Killer</li>
+<li>Color Mode: Green</li>
+<li>Range: Adjust till green cast on person is gone (40-50%)</li>
+</ul></li>
+</ul></li>
+<li>Apply Key
+<ul>
+<li>Keying &gt; Selection</li>
+<li>Base Color Sample: Eyedrop background color Keying &gt; View</li>
+<li>View: Matte (To check the accuracy of the mask. Remember to switch back to View: Comp when done so the footage shows up in Premiere Pro)</li>
+<li>Keying &gt; Selection &gt; Select</li>
+<li>Use “Clean BG” and “Clean FG” to demarcate areas to be keyed or kept</li>
+<li>Use “Spill Sponge” to mark areas inside foreground that are accidentally keyed Use “Matte Sponge” on hair edges to regain fidelity</li>
+<li>Use “Restore Detail” on underarm shadows to create natural gradients</li>
+</ul></li>
+<li>(Optional) Add Matte Feather Sharp to Composition
+<ul>
+<li>Effects and Presets &gt; Key Correct &gt; Matte Feather Sharp</li>
+<li>Useful when the edge of the key shows signs of artifacting or flickering due to the footage being out-of-focus. This tightens the mask by a couple of pixels, removing specks and giving a nice, sharp edge.</li>
+<li>Known to increase render time significantly - use sparingly or as means of salvaging footage.</li>
+</ul></li>
+<li>Magic Bullet Colorista II
+<ul>
+<li>Select Linked After Effects Composition in the Timeline</li>
+<li>Effects &gt; Magic Bullet Colorista II &gt; Colorista II</li>
+<li>Effect Controls &gt; Colorista II &gt; Secondary
+<ul>
+<li>Pop: -10</li>
+<li>Secondary Key &gt; Key &gt; Edit</li>
+</ul></li>
+<li>Move oscilloscope bar up and down till only skintone is selected (Black is not selected, white is selected. All skin areas should be white)</li>
+<li>Clip highlights and shadows by moving both ends of the horizontal slider bar in a bit.￼￼￼</li>
+<li>Softness: 5%</li>
+<li>Click ok</li>
+<li>Effect Controls &gt; Colorista II &gt; Master
+<ul>
+<li>RGB Contrast: 0.2 RGB</li>
+<li>Mid: 0.3</li>
+</ul></li>
+</ul></li>
+<li>(Optional) Enlarge Footage
+<ul>
+<li>The lecturer should fully fill the right third column of the frame.</li>
+</ul></li>
+<li>Change Composition Background
+<ul>
+<li>Composition &gt; Composition Settings &gt; Background Color</li>
+<li>Set to #FFFFFF, white</li>
+<li>Click ok</li>
+</ul></li>
+</ul>
+<h2 id="grading">Grading</h2>
+<ul>
+<li>Magic Bullet Looks
+<ul>
+<li>Select Linked After Effects Composition in the Timeline</li>
+<li>Effects &gt; Magic Bullet Looks &gt; Looks</li>
+<li>Effect Controls &gt; Looks &gt; Edit Look</li>
+<li>Mouse hover on left screen edge &gt; Skin Grading 10%</li>
+<li>Click “Finished”</li>
+</ul></li>
+<li>Convolution Kernel Sharpen More
+<ul>
+<li>Select Linked After Effects Composition in the Timeline</li>
+<li>Effects &gt; Convolution Kernel &gt; Convolution Kernel Sharpen More</li>
+</ul></li>
+</ul>
+<h2 id="exporting">Exporting</h2>
+<ul>
+<li>Queue Sequence to Media Encoder File &gt; Export &gt; Media
+<ul>
+<li>Format: H.264</li>
+<li>Preset: YouTube HD 1080p 29.97 Export Video and Export Audio</li>
+<li>Check “Use Previews”</li>
+<li>Click “Queue”</li>
+<li>Go to Media Encoder, select the job and press enter</li>
+</ul></li>
+<li>Save output as <S/N> - <Checkpoint Name>.mp4</li>
+</ul>
+<h2 id="publishing">Publishing</h2>
+<ul>
+<li>Upload to YouTube
+<ul>
+<li>Naming Format: <Checkpoint Name></li>
+<li>e.g. ‘You Demand’</li>
+<li>Update Google Drive tracking documents with YouTube URL</li>
+</ul></li>
+<li>Upload to MediaFire <Subject>⧵<Topic>⧵<Lesson>
+<ul>
+<li>Naming Format: <NN> <Checkpoint Name>.mp4</li>
+<li>e.g. ‘01 You Demand.mp4’</li>
+<li>To ensure correct sorting, do not use ‘1 You Demand.mp4’</li>
+</ul></li>
+<li>Upload to Youku (Pending)</li>
+<li>Send for Subtitling (Pending)</li>
+</ul>]]></content>
+  </entry>
+  
+</feed>
