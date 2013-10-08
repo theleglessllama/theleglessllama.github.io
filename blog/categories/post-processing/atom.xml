@@ -2,10 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Post Processing | The Cookie Jar]]></title>
+<<<<<<< HEAD
   <link href="http://theleglessllama.github.io/blog/categories/post-processing/atom.xml" rel="self"/>
   <link href="http://theleglessllama.github.io/"/>
   <updated>2013-10-02T15:46:43-04:00</updated>
   <id>http://theleglessllama.github.io/</id>
+=======
+  <link href="http://oracle.openlectures.org/blog/categories/post-processing/atom.xml" rel="self"/>
+  <link href="http://oracle.openlectures.org/"/>
+  <updated>2013-10-05T20:43:44-04:00</updated>
+  <id>http://oracle.openlectures.org/</id>
+>>>>>>> 585a10281d5b8ee88412c3ec57583bcd056ad925
   <author>
     <name><![CDATA[The Legless Llama LLP.]]></name>
     <email><![CDATA[hello@openlectures.org]]></email>
@@ -15,9 +22,15 @@
   
   <entry>
     <title type="html"><![CDATA[Post Production]]></title>
+<<<<<<< HEAD
     <link href="http://theleglessllama.github.io/blog/post-production/"/>
     <updated>2013-08-11T20:40:00-04:00</updated>
     <id>http://theleglessllama.github.io/blog/post-production</id>
+=======
+    <link href="http://oracle.openlectures.org/blog/post-production/"/>
+    <updated>2013-08-11T20:40:00-04:00</updated>
+    <id>http://oracle.openlectures.org/blog/post-production</id>
+>>>>>>> 585a10281d5b8ee88412c3ec57583bcd056ad925
     <content type="html"><![CDATA[<h2 id="slides">Slides</h2>
 <ul>
 <li>Remove all blank slides (if any)</li>
