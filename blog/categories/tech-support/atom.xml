@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Tech Support | The Cookie Jar]]></title>
   <link href="http://oracle.openlectures.org/blog/categories/tech-support/atom.xml" rel="self"/>
   <link href="http://oracle.openlectures.org/"/>
-  <updated>2013-10-07T22:50:47-04:00</updated>
+  <updated>2013-10-09T03:40:36-04:00</updated>
   <id>http://oracle.openlectures.org/</id>
   <author>
     <name><![CDATA[The Legless Llama LLP.]]></name>
@@ -12,6 +12,73 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Contacts Setup]]></title>
+    <link href="http://oracle.openlectures.org/blog/contacts-setup/"/>
+    <updated>2013-10-09T03:32:00-04:00</updated>
+    <id>http://oracle.openlectures.org/blog/contacts-setup</id>
+    <content type="html"><![CDATA[<h2 id="overview">Overview</h2>
+<p>openlectures uses Google Contacts as a staff contact database in lieu of the way more complex and bloated LDAP system.</p>
+<p>Contact your friendly admin for credentials.</p>
+<h2 id="note">Note</h2>
+<p>Whatever changes you make to this address book will be synced for everyone. Yes, the tech guys can revert the changes within 30 days, but still you don’t want to incur their wrath. So change contact details carefully.</p>
+<h2 id="setup-for-mac">Setup for Mac</h2>
+<ol type="1">
+<li>On your Mac, open the Contacts application.</li>
+<li>Click Contacts at the top of the screen and then Preferences.</li>
+<li>Open the Accounts tab and click +.</li>
+<li>Fill out your account information in the following fields:
+<ul>
+<li>Account type: CardDAV</li>
+<li>User name: Enter your full Google Account email address</li>
+<li>Password: Your Google Account password</li>
+<li>Server address: google.com</li>
+</ul></li>
+</ol>
+<h2 id="setup-for-windows">Setup for Windows</h2>
+<ol type="1">
+<li>Get a Mac</li>
+<li>Follow the instructions above</li>
+</ol>
+<h2 id="setup-for-ios">Setup for iOS</h2>
+<h3 id="ios-7">iOS 7+</h3>
+<ol type="1">
+<li>Open the Settings app on your device.</li>
+<li>Select Mail, Contacts, Calendars.</li>
+<li>Select Add Account.</li>
+<li>Select Google.</li>
+<li>Fill out your account information in the following fields:
+<ul>
+<li>Name: Enter your name</li>
+<li>User Name: Enter your full Google Account email address</li>
+<li>Password: Your Google Acccount password</li>
+<li>Description: Enter a description of the account (e.g. openlectures).</li>
+</ul></li>
+<li>Select Next at the top of your screen.</li>
+<li>Make sure that the “Contacts” option is turned ON. The switch should be green.</li>
+<li>Select Save at the top of your screen.</li>
+<li>After you’ve completed setup, open the Contacts app on your device, and syncing will automatically begin.</li>
+</ol>
+<h3 id="ios-5-and-6">iOS 5 and 6</h3>
+<ol type="1">
+<li>Open the Settings app on your device.</li>
+<li>Select Mail, Contacts, Calendars.</li>
+<li>Select Add Account….</li>
+<li>Select Other.</li>
+<li>Select Add CardDAV Account.</li>
+<li>Fill out your account information in the following fields:
+<ul>
+<li>Name: Enter your name</li>
+<li>User Name: Enter your full Google Account email address</li>
+<li>Password: Your Google Acccount password</li>
+<li>Description: Enter a description of the account (e.g. openlectures).</li>
+</ul></li>
+<li>Select Next at the top of your screen.</li>
+<li>Make sure that the “Contacts” option is turned ON.</li>
+<li>After you’ve completed setup, open the Contacts app on your device, and syncing will automatically begin.</li>
+</ol>]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Creating a New Post]]></title>
