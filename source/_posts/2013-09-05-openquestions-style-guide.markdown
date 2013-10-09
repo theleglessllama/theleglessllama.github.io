@@ -2,7 +2,7 @@
 layout: post
 title: "openquestions Style Guide"
 date: 2013-09-05 17:57
-comments: true
+comments: false
 categories: [Guides]
 ---
 ## How To Answer

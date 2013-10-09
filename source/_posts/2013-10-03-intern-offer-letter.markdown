@@ -2,7 +2,7 @@
 layout: post
 title: "Intern Offer Letter"
 date: 2013-10-03 10:35
-comments: true
+comments: false
 categories: ["Internship", "Contract Templates", "Recruitment"]
 ---
 

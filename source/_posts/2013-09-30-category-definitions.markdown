@@ -2,7 +2,7 @@
 layout: post
 title: "Category Definitions"
 date: 2013-09-30 00:28
-comments: true
+comments: false
 categories: Using Oracle
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Subtitles"
 date: 2013-10-02 14:10
-comments: true
+comments: false
 categories: ["Subtitles", "Guide"]
 ---
 

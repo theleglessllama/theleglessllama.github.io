@@ -2,7 +2,7 @@
 layout: post
 title: "Creating a New Post"
 date: 2013-07-29 11:37
-comments: true
+comments: false
 categories: [Tech Support]
 ---
 

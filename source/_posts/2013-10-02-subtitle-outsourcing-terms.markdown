@@ -2,7 +2,7 @@
 layout: post
 title: "Subtitle Outsourcing Terms"
 date: 2013-10-02 14:15
-comments: true
+comments: false
 categories: ["Subtitles", "Guides", "Contract Templates", "Outsourcing"]
 ---
 

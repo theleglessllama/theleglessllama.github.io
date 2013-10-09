@@ -2,7 +2,7 @@
 layout: post
 title: "Script Editing Checklist"
 date: 2013-09-29 23:01
-comments: true
+comments: false
 categories: Guides
 ---
 ## Examples
