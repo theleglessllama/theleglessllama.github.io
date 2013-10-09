@@ -4,7 +4,7 @@
   <title><![CDATA[The Cookie Jar]]></title>
   <link href="http://oracle.openlectures.org/atom.xml" rel="self"/>
   <link href="http://oracle.openlectures.org/"/>
-  <updated>2013-10-09T03:49:19-04:00</updated>
+  <updated>2013-10-09T14:48:48-04:00</updated>
   <id>http://oracle.openlectures.org/</id>
   <author>
     <name><![CDATA[The Legless Llama LLP.]]></name>
@@ -34,6 +34,10 @@
 <li>User name: Enter your full Google Account email address</li>
 <li>Password: Your Google Account password</li>
 <li>Server address: google.com</li>
+</ul></li>
+<li>Uncheck all of the options in “Also Setup”
+<ul>
+<li>That means uncheck Mail, Reminders etc.</li>
 </ul></li>
 </ol>
 <h2 id="setup-for-windows">Setup for Windows</h2>
