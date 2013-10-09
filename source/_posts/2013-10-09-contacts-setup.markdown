@@ -26,6 +26,8 @@ Whatever changes you make to this address book will be synced for everyone. Yes,
 	- User name: Enter your full Google Account email address
 	- Password: Your Google Account password
 	- Server address: google.com
+6. Uncheck all of the options in "Also Setup"
+	- That means uncheck Mail, Reminders etc.
 
 ## Setup for Windows
 
