@@ -6,4 +6,4 @@ comments: true
 categories: ["Guides", "Filming", "Design"]
 ---
 
-http://photo.tutsplus.com/tutorials/shooting/7-posing-techniques-for-non-models/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Phototuts+%28Phototuts%2B%29
+[Portrait Tutorial](http://photo.tutsplus.com/tutorials/shooting/7-posing-techniques-for-non-models/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Phototuts+%28Phototuts%2B%29)
