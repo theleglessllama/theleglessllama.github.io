@@ -9,6 +9,10 @@ MathJax.Hub.Config({
     },
   TeX:
     {
+
+
+      extensions: ["mhchem.js"]
+
       equationNumbers: { autoNumber: "AMS" },
       TagSide: "left",
       Macros:
@@ -33,7 +37,7 @@ MathJax.Hub.Config({
         prob: ['\\mathbf{P}'],
         pset: ['\\mathcal{P}'],
         rationals: ['\\mathbf{Q}'],
-        reals: ['\\mathbf{R}'],
+        reals: ['\\athbf{R}'],
         ereals: ['\\overline{\\mathbf{R}}'],
         risk: ['\\mathcal{R}'],
         integers: ['\\mathbf{Z}'],
