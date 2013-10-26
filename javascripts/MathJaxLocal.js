@@ -9,8 +9,6 @@ MathJax.Hub.Config({
     },
   TeX:
     {
-
-
       extensions: ["mhchem.js"]
 
       equationNumbers: { autoNumber: "AMS" },
