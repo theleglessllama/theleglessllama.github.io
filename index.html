@@ -114,6 +114,264 @@
 
 
 
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-10-26T03:01:00-04:00" pubdate data-updated="true">Oct 26<span>th</span>, 2013</time>
+        
+      </p>
+    
+    
+      <h1 class="entry-title"><a href="/blog/script-typesetting-guide/">Script Typesetting Guide</a></h1>
+    
+  </header>
+
+
+  <div class="entry-content clearfix"><p>We are using <strong>Markdown</strong> for the overall script, and <span class="math">\(LaTeX\)</span> for typesetting equations, chemicals and those technical shebang.</p>
+<p>What for? Well,</p>
+<ul>
+<li>We won’t be dependent on a certain system (be it Microsoft Word, Google Docs, Pages etc). They all have different formats, and conversion is painful as hell.</li>
+<li>This means that you can <strong>write on anything</strong>. Be it Notepad, TextEdit, Sublime, EMacs or your favorite word processor, they’re all the same to us since all we care about is the word, not formatting</li>
+<li>This also helps you to <strong>focus</strong>, since you only need to be concerned with the <em>text</em>, and not the <em>formatting</em></li>
+</ul>
+<p>But what does this trouble translate into?</p>
+<ul>
+<li>Render the script into <strong>transcripts</strong> for filming easily</li>
+<li><strong>Displaying</strong> the scripts online</li>
+<li>Process these scripts into <strong>notes</strong> beautifully</li>
+<li><strong>Archive</strong> the scripts conveniently</li>
+</ul>
+<p>With that, let’s begin!</p>
+<h2 id="editor-choice">Editor Choice</h2>
+<p>Markdown and <span class="math">\(LaTeX\)</span> can be written anywhere. So long as you have any basic text editor, it should work. We recommend Sublime Text.</p>
+<p>However, you’d only see the “source code” of the file. You won’t see the finished product. If you’re the kind that likes to see that side by side, then here’s what you do.</p>
+<ol type="1">
+<li>Go to Google Drive</li>
+<li>Click on “Create” as if you were going to create a new document</li>
+<li>If you see a button titled “Stackedit”, click on it. If you don’t, here’s how you get it.
+<ul>
+<li>Click on “Connect more apps”</li>
+<li>Search for “Stackedit”</li>
+<li>Click on “Connect”</li>
+<li>Check “Make StackEdit the default app for files it can open”</li>
+<li>Click on “OK”</li>
+<li>Now go back and click on “Create” again. You should see “Stackedit”</li>
+</ul></li>
+<li>This is basically a side by side editing tool that allows you to see the code you type on the left, and the finished product on the right.</li>
+</ol>
+<p>Cool right?</p>
+<h2 id="format">Format</h2>
+<h3 id="sample-script">Sample Script</h3>
+<p>This is a redacted version of a chemistry script.</p>
+<div class='bogus-wrapper'>
+<notextile>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>---
+</span><span class='line'>subject: Chemistry
+</span><span class='line'>topic: Atoms and Molecules
+</span><span class='line'>lesson: Moles, Mass, and Number of Particles
+</span><span class='line'>---
+</span><span class='line'>
+</span><span class='line'>## Moles and Avogadro’s Number
+</span><span class='line'>
+</span><span class='line'>&lt;1&gt; Whenever you get some eggs from the supermarket, you usually get half a dozen, a dozen, or if you’re really hungry, two dozen instead of asking for 4 eggs or 3 eggs or 9 eggs. A dozen eggs is 12 eggs, and we use this special unit out of habit.
+</span><span class='line'>
+</span><span class='line'>In chemistry, we use another special unit to describe how many atoms of an element that we have. It is called a &lt;2&gt; mole, which represents &lt;3&gt; $6.022 \times 10^{23}$ atoms. A mole of hydrogen for example, contains 6.022 times ten raised to the 23 hydrogen atoms. &lt;4&gt; $6.022 \times 10^{23}$ is known as Avogadro’s number. Moles and the number of particles in a mole are important when it comes to controlling reactions. If I had to react sodium and water to make an explosion, I would control &lt;5&gt; how big the explosion would be by controlling the moles of sodium, aka the number of sodium atoms, to add to the water. 
+</span><span class='line'>
+</span><span class='line'>## Molecular Weight aka Molar Mass
+</span><span class='line'>
+</span><span class='line'>&lt;1&gt; Let’s say you have a donut made of two things: &lt;2&gt; cream and flour. We can find the donut mass by adding the mass of the flour in the donut to the mass of of the cream on the donut. Let’s say the flour has a mass of 20 g and creme has a mass of 10 g. Then, one donut has a mass of 30 g. 
+</span><span class='line'>
+</span><span class='line'>In a similar way, we can find the mass of molecules. Let’s look at the water molecule. &lt;3&gt; We know that it is composed of two hydrogen atoms and a single oxygen atom, or $\ce{H2O}$. To find the molecular weight of water, we take the atomic mass of each element making up the molecule, and add them all together.</span></code></pre></td></tr></table></div></figure>
+</notextile>
+</div>
+
+<h3 id="header">Header</h3>
+<p>First, you’ll see the Subject, Topic, and Lesson of the checkpoint at the top sandwiched by dashed lines <code>---</code>.</p>
+<div class='bogus-wrapper'>
+<notextile>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>---
+</span><span class='line'>subject: Chemistry
+</span><span class='line'>topic: Atoms and Molecules
+</span><span class='line'>lesson: Moles, Mass, and Number of Particles
+</span><span class='line'>---</span></code></pre></td></tr></table></div></figure>
+</notextile>
+</div>
+
+<p>This is really self explanatory. Just type it in as it is.</p>
+<h3 id="checkpoint-title">Checkpoint Title</h3>
+<p>Each checkpoint title should have <strong>two hashes</strong> in front like this <code>## Checkpoint Title</code> followed by a <strong>line break</strong>. This tells Markdown that this should be a Heading.</p>
+<p>Hence, for the checkpoint titled <strong>Moles and Avogadro’s Number</strong>, it begins with this line.</p>
+<div class='bogus-wrapper'>
+<notextile>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>### Moles and Avogadro’s Number
+</span></code></pre></td></tr></table></div></figure>
+</notextile>
+</div>
+
+<h3 id="checkpoint-content">Checkpoint Content</h3>
+<p>Then comes the content of the checkpoint. Just type them in, with a double paragraph break separating paragraphs.</p>
+<p>So this is <strong>good</strong>.</p>
+<div class='bogus-wrapper'>
+<notextile>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+</span><span class='line'>
+</span><span class='line'>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</span></code></pre></td></tr></table></div></figure>
+</notextile>
+</div>
+
+<p>This is <strong>bad</strong> and a whole lot harder to read.</p>
+<div class='bogus-wrapper'>
+<notextile>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+</span><span class='line'>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</span></code></pre></td></tr></table></div></figure>
+</notextile>
+</div>
+
+<p>Save your eyes.</p>
+<h3 id="slide-markers">Slide Markers</h3>
+<p>You’ll find stuff like this <code>&lt;1&gt;</code> and <code>&lt;2&gt;</code> in the scripts. Fret not. They are simply markers for the slide maker. In other words, after you write a script, you’ll be drawing the animations on a storyboard. These tell the slide maker to match the slide numbers drawn with the script position. This helps the animators to time the slides.</p>
+<p>If you see them added already, simply ignore them.</p>
+<p><strong>With this, you should be able to draft a set of slides on English Literature</strong>.</p>
+<p>However, we are working with subjects like Mathematics and Chemistry. They require strange notation like <span class="math">\(\frac{3}{4}\)</span> that you don’t want to just leave as 3/4. Why not? Ugly. And ugly stuff belong in hell, not in our documents.</p>
+<p>Enter <span class="math">\(LaTeX\)</span> (pronounced Laa-Tech)</p>
+<h2 id="cross-subject">Cross Subject</h2>
+<h3 id="basics">Basics</h3>
+<p>There are two types of equations you are going to write. Stuff that appears within a paragraph like <span class="math">\(3x = 9 + 7y\)</span> here. These are called <strong>inline equations</strong>, since they appear <em>in the line</em> with the paragraph text.</p>
+<p>To do that, simply insert the equation between two dollar signs. Like so <code>$3x = 9 + 7y$</code>. This will give the exact same thing as above. Make sure that there are no spaces to the right of the first <code>$</code>, or to the left of the second <code>$</code>. So <code>$ 3x = 9 + 7y $</code> won’t work. When it’s being rendered, Markdown will throw you all sorts of errors.</p>
+<p>There’s another type here. We want to prove that no three positive integers <span class="math">\(a\)</span>, <span class="math">\(b\)</span>, and <span class="math">\(c\)</span> (<span class="math">\(a\)</span>, <span class="math">\(b\)</span>, and <span class="math">\(c\)</span>, were typed using <strong>inline equations</strong> by the way) can satisfy this equation</p>
+<p><span class="math">\[a^n + b^n = c^n\]</span></p>
+<p>for any integer value of <span class="math">\(n&gt;2\)</span>.</p>
+<p>Now this equation appears right smack in the middle right? That’s what we call <strong>display</strong> equations. They’re typed using two <code>$</code>s instead of one. So, to produce that, I simply typed <code>$$a^n + b^n = c^n$$</code></p>
+<p>So to type that entire paragraph, I will type</p>
+<div class='bogus-wrapper'>
+<notextile>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>There's another type here. We want to prove that no three positive integers $a$, $b$, and $c$ ($a$, $b$, and $c$, were typed using **inline equations** by the way) can satisfy this equation 
+</span><span class='line'>
+</span><span class='line'>$$a^n + b^n = c^n$$
+</span><span class='line'>
+</span><span class='line'>for any integer value of $n&gt;2$.</span></code></pre></td></tr></table></div></figure>
+</notextile>
+</div>
+
+<p>Cool right?</p>
+<h2 id="mathematics">Mathematics</h2>
+<p>Feel free to replace the <strong>inline</strong> with <strong>display</strong> notation.</p>
+<ul>
+<li>Superscript and subscript are done using <code>^</code> and <code>_</code> characters. Note that if you want multiple characters in the super/subscript then you need to surround them with curly braces: <code>$e^i\pi = -1$</code> gives <span class="math">\(e^i\pi = -1\)</span> whereas <code>$e^{i\pi} = -1$</code> gives <span class="math">\(e^{i\pi} = -1\)</span>.</li>
+<li>Fractions are done using <code>$\frac{1}{2}$</code> which gives <span class="math">\(\frac{1}{2}\)</span>.</li>
+<li>To do a binomial coefficient, use <code>$\binom{n}{k}$</code> which gives <span class="math">\(\binom{n}{k}\)</span>.</li>
+<li><span class="math">\(\forall\)</span> and <span class="math">\(\exists\)</span> are written as <code>$\forall$</code> and <code>$\exists$</code>.</li>
+<li><span class="math">\(\neq\)</span>, <span class="math">\(\geq\)</span>, and <span class="math">\(\leq\)</span> are <code>$\neq$</code>, <code>$\geq$</code>, and <code>$\leq$</code>.</li>
+<li><span class="math">\(\cdot\)</span> (e.g. for multiplication) is <code>$\cdot$</code>.</li>
+<li><span class="math">\(\circ\)</span> is <code>$\circ$</code>.</li>
+<li><span class="math">\(\cup\)</span> and <span class="math">\(\cap\)</span> are <code>$\cup$</code> and <code>$\cap$</code>.</li>
+<li><span class="math">\(\oplus\)</span> is written with <code>$\oplus$</code>.</li>
+<li>Large <span class="math">\(\cup\)</span>, <span class="math">\(\cap\)</span>, <span class="math">\(\oplus\)</span> signs that behave like summations (see below for summations) are written as <code>$\bigcup$</code>, <code>$\bigcap$</code>, <code>$\bigoplus$</code>.</li>
+<li><span class="math">\(\{\}\)</span> are done with <code>\{</code> and <code>\}</code>.</li>
+<li><span class="math">\(\approx\)</span> is produced with <code>$\approx$</code>.</li>
+<li><span class="math">\(\hat{x}\)</span> and <span class="math">\(\bar{x}\)</span> are done with <code>\hat{x}</code> and <code>\bar{x}</code>. A longer bar may be written using <code>\overline{abcd}</code>, which produces <span class="math">\(\overline{defg}\)</span>.</li>
+<li>Greek characters are simply what they are. For example, capital Delta <span class="math">\(\Delta\)</span> is simply <code>$\Delta$</code> while lower case delta <span class="math">\(\delta\)</span> is simply <code>$\delta$</code>.</li>
+<li>The probability sign is defined as <code>$\Pr$</code>, i.e. <span class="math">\(\Pr\)</span>.</li>
+<li>To draw parentheses that grow to match the contents, use <code>$\left$</code> to precede the left parenthesis and <code>$\right$</code> to precede the right:<br />Source:
+<div class='bogus-wrapper'>
+<notextile>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$$\Pr\left[\sum_{i=1}^k X_i &gt; c \right] \leq 2^{-\Omega(c^2 k)}$$</span></code></pre></td></tr></table></div></figure>
+</notextile>
+</div>
+Output:</li>
+</ul>
+<p><span class="math">\[\Pr\left[\sum_{i=1}^k X_i &gt; c \right] \leq 2^{-\Omega(c^2 k)}\]</span></p>
+<ul>
+<li>Summations and products are done using <code>$\sum$</code> and <code>$\prod$</code> respectively. Parameters can be given for the summation/product as well: Source:
+<div class='bogus-wrapper'>
+<notextile>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$$\sum_{i=1}^\infty \frac{1}{2^i} = 1$$</span></code></pre></td></tr></table></div></figure>
+</notextile>
+</div>
+</li>
+</ul>
+<p>Output:</p>
+<p><span class="math">\[\sum_{i=1}^\infty \frac{1}{2^i} = 1\]</span></p>
+<h2 id="chemistry">Chemistry</h2>
+<ul>
+<li>Chemical equations can be done using the command <code>$\ce{whatever chemical}$</code>. For example, to show the chemical <span class="math">\(\ce{NaCl}\)</span>, just type <code>$\ce{NaCl}$</code>.
+<ul>
+<li>In short, <span class="math">\(\ce{NaCl}\)</span> can be typed using <code>$\ce{NaCl}$</code></li>
+<li>Ions like <span class="math">\(\ce{Na^+}\)</span> or <span class="math">\(\ce{Cl^-}\)</span> can be typed with a simple <strong>superscript</strong> like <code>$\ce{Na^+}$</code> or <code>$\ce{Cl^-}$</code></li>
+<li>Reaction equations can be typed by literally drawing out the right arrow <code>-&gt;</code>. Hence <span class="math">\(\ce{Ag^+ + Cl^- -&gt; AgCl}\)</span> can be typeset using <code>$\ce{Ag^+ + Cl^- -&gt; AgCl}$</code></li>
+<li>State symbols can be typed using <code>(s)</code> or <code>(aq)</code>. So <span class="math">\(\ce{Ag^+(aq) + Cl^-(aq) -&gt; AgCl (s)}\)</span> is typed using <code>$\ce{Ag^+(aq) + Cl^-(aq) -&gt; AgCl (s)}$</code></li>
+<li>Reversible reactions like <span class="math">\(\ce{2NaCl + CaCO3 &lt;=&gt; Na2CO3 + CaCl2}\)</span> is produced from <code>$\ce{2NaCl + CaCO3 &lt;=&gt; Na2CO3 + CaCl2}$</code></li>
+<li>If you’re the fancy type that likes to add little things on top of reaction arrows like this <span class="math">\(\ce{-&gt;C[I-]}\)</span> then do it like this <code>$\ce{-&gt;C[I-]}$</code>. This works too <span class="math">\(\ce{&lt;=&gt;C[+e]}\)</span> from <code>$\ce{&lt;=&gt;C[+e]}$</code></li>
+</ul></li>
+<li>Typing units can be a pain in the ass. I mean who wants to type <span class="math">\(ms^{-1}\)</span> all the time like <code>$ms^{-1}$</code>. Don’t you wish you could just type <strong>SI Units</strong>? Besides, the <em>italics</em> makes it kind of ugly. Fortunately, there’s a way.
+<ul>
+<li><span class="math">\(5 \si{\metre\per\second}\)</span> can be typeset using <code>$5 \si{\metre\per\second}$</code></li>
+<li>The rest of the SI units work as well. Experiment, or look up the guide here <a href="http://mirror.utexas.edu/ctan/macros/latex/contrib/siunitx/siunitx.pdf">http://mirror.utexas.edu/ctan/macros/latex/contrib/siunitx/siunitx.pdf</a></li>
+</ul></li>
+</ul>
+<h2 id="final-tips">Final Tips</h2>
+<ul>
+<li>Do not leave any equations in plain text. That is plain ugly.</li>
+<li>If the Stackedit preview fails to render, or produces weird shit, you’re probably making a mistake somewhere (most likely a missing or additional <code>$</code> sign).</li>
+<li>Once you get used to this, you’ll never go back.</li>
+</ul></div>
+  
+  
+
+
+        </article>
+      
+      
+        <article class="post">
+          
+  <header class="page-header">
+    
+      <p class="meta text-muted text-uppercase">
+        
+
+
+
+
+
+
+
+
+
+
+
+
 <span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-10-11T15:06:00-04:00" pubdate data-updated="true">Oct 11<span>th</span>, 2013</time>
         
       </p>
@@ -1108,7 +1366,7 @@
       </p>
     
     
-      <h1 class="entry-title"><a href="/blog/script-editing-checklist/">Script Editing Checklist</a></h1>
+      <h1 class="entry-title"><a href="/blog/script-style-checklist/">Script Style Checklist</a></h1>
     
   </header>
 
@@ -1199,100 +1457,6 @@
 
         </article>
       
-      
-        <article class="post">
-          
-  <header class="page-header">
-    
-      <p class="meta text-muted text-uppercase">
-        
-
-
-
-
-
-
-
-
-
-
-
-
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-09-05T17:57:00-04:00" pubdate data-updated="true">Sep 5<span>th</span>, 2013</time>
-        
-      </p>
-    
-    
-      <h1 class="entry-title"><a href="/blog/openquestions-style-guide/">Openquestions Style Guide</a></h1>
-    
-  </header>
-
-
-  <div class="entry-content clearfix"><h2 id="how-to-answer">How To Answer</h2>
-<p>Thank the person for asking us. After all, no one is asking them to use our service. It also helps us make them feel welcome! Remember, we’re trying to build a community base.</p>
-<p>Put your answer in brief in your first paragraph or first few lines. That way, people who’re lazy to click ‘Continue Reading’ can still get the gist of what’s being written without delving into a potential wall of text.</p>
-<p>Illustrate step by step how you arrive at the answer. Remember to signpost your answer – always link what you’re saying to the previous step as well as its location in the thought process so people can follow your train of thought!</p>
-<p>Be Friendly! Place yourself in the reader’s shoes. Use “I”, “You”, and “We” rather than the passive voice. Also check your tone for unintentional sarcasm - as a precaution.</p>
-<p>Use original content where you can. If you’re referring to a source, summarize it rather than just directing the person to the link - which most of us know creates some sort of nightmare.</p>
-<p>If an OL lecture is available that provides the answer, or instruction in that direction, use and prioritize that - remember to link to it!</p>
-<p>If a question skews towards asking for an outright solution, provide less content and more hints. Guide the reader’s train of thought and challenge them to think rather than providing them with the exact answer, though we still want them to get some sense of it.</p>
-<p>Try to gauge and answer at the level of the reader. If you’re going in-depth, provide a simple answer first, then clearly tell the reader that you’re getting down and dirty.</p>
-<p>Never insert non-essential information that may not aid the reader’s understanding of said concept. Knowing that a cat is furrier than other cats doesn’t necessarily tell the reader that a cat is a cute pet.</p>
-<p>Recall that in OL lectures, we checkpoint the lectures so that it becomes understandable. Same thing here – remember to checkpoint your answers, giving a brief so that readers know what you’re writing in a particular paragraph.</p>
-<h2 id="internal-triaging">Internal Triaging</h2>
-<p>Questions should be triaged internally for the standard of the questions asked in this manner:</p>
-<ol type="1">
-<li>Serious curriculum/academic work</li>
-<li>Questions that ask for pure information</li>
-<li>Crazy questions (ultra-high difficulty, think Olympiad level)</li>
-<li>General inquiries</li>
-<li>Troll questions (lowest priority)</li>
-</ol>
-<p>This allows us to determine the urgency of the question, as well as the level of response required Use the following spectrum to decide how much of an answer should be given. The more the question skews toward asking for solutions, the less content and more hints should be given.</p>
-<h2 id="quality-control">Quality Control</h2>
-<p>Remember to have these things in mind when you answer questions:</p>
-<ul>
-<li><strong>Is it correct?</strong> We need to ensure that the answer is factually accurate! Make sure you know what you are doing when you are answering the question. Wikipedia and Google can be good resources for you to double check your information.</li>
-<li><strong>Is the level suitable?</strong> People come here to look for a quick fix, do not spam them with excessive information. The guideline is A levels, however, other concepts that are slightly above A levels can be brought in if it aids the understanding. Things that are beyond A levels should be clearly labelled.</li>
-<li><strong>Follow the guidelines for equations!</strong> Right now we are still writing equations in Facebook so before we work out a more elegant way of presenting them, follow the guidelines below.</li>
-</ul>
-<h2 id="formatting">Formatting</h2>
-<ul>
-<li><strong>Basic English.</strong> If a question is poorly phrased when sent in, polish it up for the sake of clarity, and make it look presentable before posting it on the site. You don’t see aunt agony/submission columns on established sites posting up questions with broken English.</li>
-<li><strong>No Walls of Text.</strong> We’re sure you wouldn’t want to read a never-ending string of text! Keep it simple and in point form. It works the same way as in the videos - we want bite-sized info! Proper, simple, understandable should be the maxim.</li>
-<li><strong>Hash-tagging should be done appropriately.</strong> To aid the users in finding our answers, hash tag as such: #OQMath or #OQ<insert subject here>, where first letter of the subject should be capitalized.</li>
-</ul>
-<h2 id="equations">Equations</h2>
-<p>As a rule of thumb, avoid LaTeX syntax until we get the LaTeX interpreter up. While it does make everything crystal clear, not everyone is familiar with LaTeX. So for now, we do everything linearly:</p>
-<ul>
-<li><strong>Basic operations</strong>, i.e. addition, subtraction, multiplication and division, stick with the common symbols. For multiplication, use “x” only when there is NO variable x in the question. If there is, switch to the usage of brackets for multiplication (e.g. For 3 times 4x write (3)(4x) instead of 3x4x)</li>
-<li><strong>Exponential terms</strong>. “^” represents power, so a ^ b would be a to the power of b. Keep track of what is in the power term. If the exponential has more than one term use brackets, e.g. a ^ (b+c).</li>
-<li><strong>Logarithms</strong>. Any log taken to base 10, express it as lg and when it is base e, express it as ln. Simple. Now for a different base, e.g. log of b taken to base a, write log b (base a). Also, use brackets when you log more than one term.</li>
-<li><strong>Fractions</strong>. Usually, they can be represented by the simple divide sign, e.g. a/b. Do take note of what’s in the numerator and denominator when typing complicated fractions. For example, (1-x)/y is different from 1 - x/y – so remember to use brackets when the numerator and/or the denominator has more than one term.</li>
-<li><strong>Differentials</strong>. The simple dy/dx approach… should work. For specifying the differential at points, write it in this form: dy/dx(x=a) = 10</li>
-<li><strong>Integration</strong>. Similarly, the simple “int” will represent the integration sign. Now to specify boundaries, put the limits in brackets. For example, int(x)[2,3] would mean integrating from 2-3.</li>
-<li><strong>Spaces</strong>. Try not the type whole equations out without any spaces, do add the where appropriate - e.g. cos(kx) = 1 - 2sin^2(kx/2)</li>
-</ul>
-<h2 id="posting">Posting</h2>
-<ul>
-<li>Ideally, posts should be verified by at least 1 more person before being approved for publication. However, if your answer has remained unverified for more than 3 days, approach someone directly to verify it for you.</li>
-<li>Posts should be posted within 7 days of submission.</li>
-<li>Posts should be checked for:</li>
-<li>Accuracy</li>
-<li>Clarity and Coherence</li>
-<li>Formatting &amp; Language</li>
-<li>Publish status: Yes (Y), No (N), and Pending (P) are self-explanatory. When you’re done answering a question, remember to assign them in the document so everyone’s kept in the loop.</li>
-<li>Schedule posts every half hour to an hour, depending on the amount of questions we have to post for the day.</li>
-<li>Peak hour(s) are usually from around 6pm-10pm. One post may be scheduled in mid-afternoon if suitable.</li>
-<li>Check for posts already scheduled before scheduling more in the Activity Log on Facebook, or we may have overlapping posts!</li>
-<li>If the answer is inaccurate/incomplete after posting, edit the post accordingly, and comment with on the post with the page with ‘post amended’ or something of sorts.</li>
-</ul></div>
-  
-  
-
-
-        </article>
-      
     </div>
 
     <ul class="pager">
@@ -1316,6 +1480,8 @@
   
   <div id="recent_posts" class="list-group">
     
+    <a class="list-group-item " href="/blog/script-typesetting-guide/">Script Typesetting Guide</a>
+    
     <a class="list-group-item " href="/blog/portrait-tutorial/">Portrait Tutorial</a>
     
     <a class="list-group-item " href="/blog/contacts-setup/">Contacts Setup</a>
@@ -1323,8 +1489,6 @@
     <a class="list-group-item " href="/blog/talent-and-genius/">Talent and Genius</a>
     
     <a class="list-group-item " href="/blog/intern-offer-letter/">Intern Offer Letter</a>
-    
-    <a class="list-group-item " href="/blog/subtitle-outsourcing-terms/">Subtitle Outsourcing Terms</a>
     
   </div>
 </section>
@@ -1342,7 +1506,7 @@
     
     
     <a class="list-group-item " href="/blog/categories/guides/index.html">
-        <span class="badge">6</span>
+        <span class="badge">7</span>
         Guides
       </a>
     
@@ -1416,6 +1580,12 @@
     <a class="list-group-item " href="/blog/categories/design/index.html">
         <span class="badge">1</span>
         Design
+      </a>
+    
+    
+    <a class="list-group-item " href="/blog/categories/writing/index.html">
+        <span class="badge">1</span>
+        Writing
       </a>
     
   </div>
