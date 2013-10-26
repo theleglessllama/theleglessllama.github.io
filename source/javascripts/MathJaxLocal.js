@@ -1,6 +1,6 @@
 MathJax.Hub.Config({
   jax: ["input/TeX","output/HTML-CSS"],
-  extensions: ["tex2jax.js","MathMenu.js","MathZoom.js"],
+  extensions: ["tex2jax.js","MathMenu.js","MathZoom.js","mhchem.js"],
   tex2jax:
     {
       inlineMath: [ ['$','$'], ['\\(','\\)'] ],
@@ -9,8 +9,6 @@ MathJax.Hub.Config({
     },
   TeX:
     {
-      extensions: ["mhchem.js"]
-
       equationNumbers: { autoNumber: "AMS" },
       TagSide: "left",
       Macros:
