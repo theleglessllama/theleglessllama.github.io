@@ -15,7 +15,7 @@ Put your answer in brief in your first paragraph or first few lines. That way, p
 
 Illustrate step by step how you arrive at the answer. Remember to signpost your answer - always link what you're saying to the previous step as well as its location in the thought process
 
-Be Friendly! Place yourself in the reader's shoes. Use ``I'', ``You'', and ``We'' rather than the passive voice. Also check your tone for unintentional sarcasm - as a precaution.
+Be Friendly! Place yourself in the reader's shoes. Use "I", "You", and "We" rather than the passive voice. Also check your tone for unintentional sarcasm - as a precaution.
 
 Use original content where you can. If you're referring to a source, summarize it rather than just directing the person to the link.
 
