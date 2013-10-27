@@ -72,7 +72,7 @@ As a rule of thumb, avoid LaTeX syntax until we get the LaTeX interpreter up. Wh
 ### Chemical Formulae
 
 - Do use the **IUPAC** naming for compounds to avoid confusion. However, trade names which are way more convenient for understanding are encouraged. (for example, `2,4,6-trinitromethylbenzene` is less preferable to `2,4,6-trinitrotoluene`)
-- Write chemical formulae as if subscripts would be ignored - `C2H6` would be representative of $\ce{C2H6}$`, etc.
+- Write chemical formulae as if subscripts would be ignored - `C2H6` would be representative of $\ce{C2H6}$, etc.
 - `Ph` can be used to represent a Phenyl group (though do specify beforehand).
 - Brackets should be used when describing appropriate substituent groups, like `CH3(Ph(NO2)3)` for trinitrotoluene $\ce{CH3(Ph(NO2)3)}$.
 
